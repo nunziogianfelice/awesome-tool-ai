@@ -5,7 +5,9 @@
 
 ## Quick search
 
-Clone the repo and open `index.html` for interactive fuzzy search (works from `file://` too), or browse the tables below.
+**[🔍 Search online →](https://nunziogianfelice.github.io/awesome-tool-ai/)**
+
+Or clone the repo and open `index.html` locally (works from `file://` too):
 
 ```bash
 git clone https://github.com/nunziogianfelice/awesome-tool-ai
