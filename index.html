@@ -1,0 +1,434 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>GenAI Tools KB</title>
+    <meta
+      name="description"
+      content="Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentivo."
+    />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='52' font-size='52'%3E%F0%9F%A4%96%3C/text%3E%3C/svg%3E" />
+    <style>
+      :root {
+        --bg: #0b1020;
+        --bg-elev: #131a30;
+        --bg-card: #161e36;
+        --border: #243056;
+        --text: #e8ecf7;
+        --text-dim: #9aa3bd;
+        --accent: #7c9cff;
+        --accent-soft: rgba(124, 156, 255, 0.15);
+        --chip-bg: #1d2747;
+        --chip-text: #b9c5ee;
+        --badge-bg: #2a356a;
+        --badge-text: #d6deff;
+        --shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+      }
+
+      * {
+        box-sizing: border-box;
+      }
+
+      html,
+      body {
+        margin: 0;
+        padding: 0;
+        background: var(--bg);
+        color: var(--text);
+        font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto,
+          "Helvetica Neue", Arial, sans-serif;
+        line-height: 1.5;
+        -webkit-font-smoothing: antialiased;
+      }
+
+      a {
+        color: var(--accent);
+        text-decoration: none;
+      }
+      a:hover {
+        text-decoration: underline;
+      }
+
+      header {
+        padding: 32px 24px 16px;
+        max-width: 1100px;
+        margin: 0 auto;
+      }
+      header h1 {
+        margin: 0 0 6px;
+        font-size: 28px;
+        letter-spacing: -0.01em;
+      }
+      header p {
+        margin: 0;
+        color: var(--text-dim);
+        font-size: 15px;
+      }
+
+      .controls {
+        position: sticky;
+        top: 0;
+        z-index: 5;
+        background: linear-gradient(
+          180deg,
+          var(--bg) 0%,
+          var(--bg) 70%,
+          rgba(11, 16, 32, 0)
+        );
+        padding: 16px 24px 12px;
+      }
+      .controls-inner {
+        max-width: 1100px;
+        margin: 0 auto;
+        display: flex;
+        flex-direction: column;
+        gap: 12px;
+      }
+
+      #search {
+        width: 100%;
+        padding: 14px 16px;
+        font-size: 16px;
+        background: var(--bg-elev);
+        color: var(--text);
+        border: 1px solid var(--border);
+        border-radius: 10px;
+        outline: none;
+        transition: border-color 0.15s ease, box-shadow 0.15s ease;
+      }
+      #search:focus {
+        border-color: var(--accent);
+        box-shadow: 0 0 0 3px var(--accent-soft);
+      }
+
+      .filters {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 8px;
+      }
+      .chip {
+        padding: 6px 12px;
+        font-size: 13px;
+        border-radius: 999px;
+        border: 1px solid var(--border);
+        background: var(--bg-elev);
+        color: var(--text-dim);
+        cursor: pointer;
+        transition: all 0.12s ease;
+        user-select: none;
+      }
+      .chip:hover {
+        color: var(--text);
+        border-color: var(--accent);
+      }
+      .chip.active {
+        background: var(--accent-soft);
+        color: var(--text);
+        border-color: var(--accent);
+      }
+
+      main {
+        max-width: 1100px;
+        margin: 0 auto;
+        padding: 8px 24px 64px;
+      }
+
+      .stats {
+        color: var(--text-dim);
+        font-size: 13px;
+        margin: 4px 0 16px;
+      }
+
+      .grid {
+        display: grid;
+        grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+        gap: 16px;
+      }
+
+      .card {
+        background: var(--bg-card);
+        border: 1px solid var(--border);
+        border-radius: 12px;
+        padding: 16px 18px;
+        display: flex;
+        flex-direction: column;
+        gap: 10px;
+        transition: transform 0.12s ease, border-color 0.12s ease,
+          box-shadow 0.12s ease;
+      }
+      .card:hover {
+        transform: translateY(-1px);
+        border-color: var(--accent);
+        box-shadow: var(--shadow);
+      }
+
+      .card-head {
+        display: flex;
+        align-items: flex-start;
+        justify-content: space-between;
+        gap: 10px;
+      }
+      .card-title {
+        font-size: 16px;
+        font-weight: 600;
+        margin: 0;
+      }
+      .card-title a {
+        color: var(--text);
+      }
+      .card-title a:hover {
+        color: var(--accent);
+      }
+      .badge {
+        flex-shrink: 0;
+        font-size: 11px;
+        padding: 4px 8px;
+        border-radius: 6px;
+        background: var(--badge-bg);
+        color: var(--badge-text);
+        white-space: nowrap;
+      }
+      .badge.resource {
+        background: #3a2a5a;
+        color: #d8c8ff;
+      }
+
+      .card-desc {
+        margin: 0;
+        font-size: 14px;
+        color: var(--text-dim);
+      }
+
+      .tags {
+        display: flex;
+        flex-wrap: wrap;
+        gap: 6px;
+      }
+      .tag {
+        font-size: 11px;
+        padding: 3px 8px;
+        border-radius: 999px;
+        background: var(--chip-bg);
+        color: var(--chip-text);
+      }
+
+      .pricing {
+        font-size: 11px;
+        color: var(--text-dim);
+        margin-left: auto;
+      }
+
+      .empty {
+        text-align: center;
+        padding: 48px 16px;
+        color: var(--text-dim);
+      }
+
+      footer {
+        max-width: 1100px;
+        margin: 24px auto 0;
+        padding: 16px 24px 32px;
+        color: var(--text-dim);
+        font-size: 13px;
+        border-top: 1px solid var(--border);
+      }
+
+      @media (max-width: 600px) {
+        header {
+          padding: 20px 16px 8px;
+        }
+        .controls {
+          padding: 12px 16px 8px;
+        }
+        main {
+          padding: 8px 16px 48px;
+        }
+        .grid {
+          grid-template-columns: 1fr;
+        }
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <h1>GenAI Tools KB</h1>
+      <p>
+        Knowledge base di tool, framework e risorse per il mondo AI agentivo.
+        Cerca, filtra, scopri.
+      </p>
+    </header>
+
+    <div class="controls">
+      <div class="controls-inner">
+        <input
+          id="search"
+          type="search"
+          placeholder="Cerca per nome, descrizione, tag..."
+          autocomplete="off"
+          autofocus
+        />
+        <div class="filters" id="filters"></div>
+      </div>
+    </div>
+
+    <main>
+      <div class="stats" id="stats"></div>
+      <div class="grid" id="results"></div>
+      <div class="empty" id="empty" style="display: none">
+        Nessun risultato. Prova a cambiare query o filtro.
+      </div>
+    </main>
+
+    <footer>
+      Aggiornata continuamente. Contribuisci aprendo una PR su
+      <code>tools.json</code>.
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/fuse.js@7.0.0/dist/fuse.min.js"></script>
+    <script src="tools.js"></script>
+    <script>
+      (function () {
+        "use strict";
+
+        const CATEGORY_LABELS = {
+          "agent-framework": "Agent Frameworks",
+          mcp: "MCP",
+          "coding-assistant": "Coding Assistants",
+          "llm-infrastructure": "LLM Infrastructure",
+          "data-ai": "Data & AI",
+          "browser-agent": "Browser Agents",
+          "vector-db": "Vector DB",
+          scraping: "Scraping",
+          platform: "Platform",
+          model: "Models",
+          "tool-utility": "Tool & Utility",
+          resource: "Resources"
+        };
+
+        const data = Array.isArray(window.TOOLS_DATA) ? window.TOOLS_DATA : [];
+        const searchEl = document.getElementById("search");
+        const filtersEl = document.getElementById("filters");
+        const resultsEl = document.getElementById("results");
+        const emptyEl = document.getElementById("empty");
+        const statsEl = document.getElementById("stats");
+
+        const fuse = new Fuse(data, {
+          keys: [
+            { name: "name", weight: 0.5 },
+            { name: "description", weight: 0.3 },
+            { name: "tags", weight: 0.15 },
+            { name: "category", weight: 0.05 }
+          ],
+          threshold: 0.4,
+          ignoreLocation: true,
+          includeScore: false
+        });
+
+        let activeCategory = "all";
+
+        function buildFilters() {
+          const counts = data.reduce((acc, item) => {
+            acc[item.category] = (acc[item.category] || 0) + 1;
+            return acc;
+          }, {});
+
+          const cats = ["all", ...Object.keys(counts).sort()];
+          filtersEl.innerHTML = "";
+          cats.forEach((cat) => {
+            const chip = document.createElement("button");
+            chip.className = "chip" + (cat === "all" ? " active" : "");
+            chip.dataset.cat = cat;
+            const label =
+              cat === "all" ? "Tutti" : CATEGORY_LABELS[cat] || cat;
+            const count = cat === "all" ? data.length : counts[cat];
+            chip.textContent = `${label} (${count})`;
+            chip.addEventListener("click", () => {
+              activeCategory = cat;
+              document
+                .querySelectorAll(".chip")
+                .forEach((c) => c.classList.toggle("active", c === chip));
+              render();
+            });
+            filtersEl.appendChild(chip);
+          });
+        }
+
+        function escapeHtml(s) {
+          return String(s).replace(/[&<>"']/g, (c) => ({
+            "&": "&amp;",
+            "<": "&lt;",
+            ">": "&gt;",
+            '"': "&quot;",
+            "'": "&#39;"
+          })[c]);
+        }
+
+        function renderCard(item) {
+          const title = escapeHtml(item.name);
+          const titleHtml = item.url
+            ? `<a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${title}</a>`
+            : title;
+          const catLabel = CATEGORY_LABELS[item.category] || item.category;
+          const badgeClass =
+            item.type === "resource" ? "badge resource" : "badge";
+          const tags = (item.tags || [])
+            .map((t) => `<span class="tag">${escapeHtml(t)}</span>`)
+            .join("");
+          const pricing = item.pricing
+            ? `<span class="pricing">${escapeHtml(item.pricing)}</span>`
+            : "";
+
+          return `
+            <article class="card">
+              <div class="card-head">
+                <h3 class="card-title">${titleHtml}</h3>
+                <span class="${badgeClass}">${escapeHtml(catLabel)}</span>
+              </div>
+              <p class="card-desc">${escapeHtml(item.description || "")}</p>
+              <div class="tags">${tags}${pricing}</div>
+            </article>
+          `;
+        }
+
+        function getResults() {
+          const q = searchEl.value.trim();
+          let items = q ? fuse.search(q).map((r) => r.item) : data.slice();
+          if (activeCategory !== "all") {
+            items = items.filter((i) => i.category === activeCategory);
+          }
+          return items;
+        }
+
+        function render() {
+          const items = getResults();
+          if (items.length === 0) {
+            resultsEl.innerHTML = "";
+            emptyEl.style.display = "block";
+            statsEl.textContent = "0 risultati";
+            return;
+          }
+          emptyEl.style.display = "none";
+          resultsEl.innerHTML = items.map(renderCard).join("");
+          statsEl.textContent = `${items.length} risultat${
+            items.length === 1 ? "o" : "i"
+          } su ${data.length}`;
+        }
+
+        let debounce;
+        searchEl.addEventListener("input", () => {
+          clearTimeout(debounce);
+          debounce = setTimeout(render, 80);
+        });
+
+        if (data.length === 0) {
+          statsEl.textContent =
+            "Nessun dato caricato. Verifica che tools.js sia presente.";
+        } else {
+          buildFilters();
+          render();
+        }
+      })();
+    </script>
+  </body>
+</html>

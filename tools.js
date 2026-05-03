@@ -1,0 +1,1197 @@
+// Auto-generated from tools.json. Do not edit by hand.
+window.TOOLS_DATA = [
+  {
+    "id": "apidog-mcp-server",
+    "name": "Apidog MCP Server",
+    "description": "Server MCP che espone le specifiche OpenAPI/Apidog come contesto consultabile dagli agenti AI. Permette a Claude, Cursor e altri client MCP di leggere documentazione API in tempo reale per generare codice e test allineati al contratto.",
+    "url": "https://www.npmjs.com/package/apidog-mcp-server",
+    "category": "mcp",
+    "tags": [
+      "open-source",
+      "api",
+      "typescript",
+      "developer-tools"
+    ],
+    "pricing": "free",
+    "type": "tool"
+  },
+  {
+    "id": "kong",
+    "name": "Kong",
+    "description": "API gateway cloud-native con funzionalita AI Gateway integrate per il routing, la sicurezza e il rate-limiting di traffico LLM. Utile per centralizzare il consumo di provider AI eterogenei in ambienti enterprise.",
+    "url": "https://konghq.com/",
+    "category": "llm-infrastructure",
+    "tags": [
+      "enterprise",
+      "api",
+      "gateway",
+      "open-source"
+    ],
+    "pricing": "freemium",
+    "type": "tool"
+  },
+  {
+    "id": "easy-function-call",
+    "name": "EasyFunctionCall",
+    "description": "Tool che semplifica la definizione e l'invocazione di function calling lato LLM, generando schemi JSON pronti all'uso. Pensato per chi vuole prototipare agenti tool-using senza scrivere boilerplate.",
+    "url": "https://easyfunctioncall.com/tool",
+    "category": "tool-utility",
+    "tags": [
+      "function-calling",
+      "developer-tools"
+    ],
+    "pricing": "free",
+    "type": "tool"
+  },
+  {
+    "id": "huggingface-spaces",
+    "name": "HuggingFace Spaces",
+    "description": "Piattaforma per deployare demo e applicazioni ML basate su Gradio, Streamlit o Docker direttamente da un repository Hugging Face. Standard de facto per pubblicare prototipi e showcase di modelli AI.",
+    "url": "https://huggingface.co/docs/hub/spaces",
+    "category": "platform",
+    "tags": [
+      "huggingface",
+      "deployment",
+      "free",
+      "python"
+    ],
+    "pricing": "freemium",
+    "type": "tool"
+  },
+  {
+    "id": "manus",
+    "name": "Manus",
+    "description": "Agente AI generale autonomo cinese capace di pianificare ed eseguire task complessi end-to-end (ricerca, scraping, scrittura, automazione). Si presenta come alternativa cloud agli agent framework self-hosted.",
+    "url": null,
+    "category": "platform",
+    "tags": [
+      "agent",
+      "autonomous",
+      "cloud"
+    ],
+    "pricing": "paid",
+    "type": "tool"
+  },
+  {
+    "id": "genspark",
+    "name": "Genspark",
+    "description": "Motore di ricerca agentico che combina LLM e tool d'azione per produrre risposte sintetiche con citazioni e mini-app interattive (Sparkpages). Si posiziona come alternativa a Perplexity con focus su workflow.",
+    "url": null,
+    "category": "platform",
+    "tags": [
+      "search",
+      "agent",
+      "consumer"
+    ],
+    "pricing": "freemium",
+    "type": "tool"
+  },
+  {
+    "id": "agno-sql-agent",
+    "name": "Agno SQL Agent Example",
+    "description": "Esempio di agente SQL costruito con il framework Agno: dato un database, l'agente genera query, le esegue e spiega i risultati in linguaggio naturale. Utile come reference per chi costruisce text-to-SQL.",
+    "url": "https://github.com/agno-agi/agno/tree/main/cookbook/examples/apps/sql_agent",
+    "category": "data-ai",
+    "tags": [
+      "open-source",
+      "python",
+      "sql",
+      "agent",
+      "example"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "atomic-agents",
+    "name": "Atomic Agents",
+    "description": "Framework Python modulare e leggero per costruire agenti AI con componenti riusabili e schema-driven (Pydantic). Punta su prevedibilita e composizione invece che sulla magia di abstraction layer pesanti.",
+    "url": "https://github.com/BrainBlend-AI/atomic-agents",
+    "category": "agent-framework",
+    "tags": [
+      "open-source",
+      "python",
+      "modular",
+      "pydantic"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "scrapegraph-ai",
+    "name": "ScrapeGraphAI",
+    "description": "Libreria Python per web scraping basata su LLM: descrivi cosa estrarre in linguaggio naturale e il tool costruisce la pipeline (fetch, parse, estrazione). Ottima per scraping low-code di siti dinamici.",
+    "url": "https://scrapegraphai.com/",
+    "category": "scraping",
+    "tags": [
+      "open-source",
+      "python",
+      "llm",
+      "rag"
+    ],
+    "pricing": "freemium",
+    "type": "tool"
+  },
+  {
+    "id": "markitdown",
+    "name": "MarkItDown",
+    "description": "Utility open-source di Microsoft che converte file di vario formato (PDF, DOCX, XLSX, immagini, audio) in Markdown ottimizzato per l'ingestion in LLM. Comodo come pre-processore per pipeline RAG.",
+    "url": "https://github.com/microsoft/markitdown",
+    "category": "tool-utility",
+    "tags": [
+      "open-source",
+      "python",
+      "microsoft",
+      "rag",
+      "document"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "ematching-blog",
+    "name": "Ematching - Sinon's Blog",
+    "description": "Articolo tecnico che esplora tecniche di embedding matching e retrieval semantico, con esempi pratici e considerazioni sulla qualita del recupero. Lettura utile per chi progetta sistemi RAG.",
+    "url": "https://blog.vortan.dev/ematching/",
+    "category": "resource",
+    "tags": [
+      "article",
+      "rag",
+      "embeddings"
+    ],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
+    "id": "plexe",
+    "name": "Plexe",
+    "description": "Framework che genera modelli ML custom partendo da una descrizione in linguaggio naturale del problema e dei dati. Automatizza feature engineering, training e packaging del modello.",
+    "url": "https://github.com/plexe-ai/plexe",
+    "category": "data-ai",
+    "tags": [
+      "open-source",
+      "python",
+      "automl",
+      "no-code"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "awesome-llm-apps",
+    "name": "Awesome LLM Apps",
+    "description": "Repository curata con decine di esempi di app LLM e agenti, dai chatbot RAG ai sistemi multi-agent. Ottimo punto di partenza per imparare pattern e architetture comuni.",
+    "url": "https://github.com/Shubhamsaboo/awesome-llm-apps",
+    "category": "resource",
+    "tags": [
+      "awesome-list",
+      "examples",
+      "open-source",
+      "rag",
+      "agent"
+    ],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
+    "id": "anthropic-prompt-caching",
+    "name": "Prompt Caching - Anthropic Docs",
+    "description": "Documentazione ufficiale Anthropic sul prompt caching per Claude: come riutilizzare grandi prefissi di contesto riducendo costi e latenza fino al 90%. Riferimento per ottimizzare app LLM in produzione.",
+    "url": "https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching",
+    "category": "resource",
+    "tags": [
+      "anthropic",
+      "documentation",
+      "optimization",
+      "claude"
+    ],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
+    "id": "vizro",
+    "name": "Vizro",
+    "description": "Toolkit Python di McKinsey per costruire dashboard di data visualization basati su Plotly Dash, con configurazione dichiarativa e supporto a Vizro-AI per la generazione di grafici da prompt. Indicato per analisti e team di BI.",
+    "url": "https://github.com/mckinsey/vizro",
+    "category": "data-ai",
+    "tags": [
+      "open-source",
+      "python",
+      "visualization",
+      "dashboard",
+      "low-code"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "simular-ai",
+    "name": "Simular AI",
+    "description": "Agente desktop che automatizza task sul tuo Mac osservando lo schermo e simulando interazioni utente. Pensato per workflow ripetitivi che attraversano piu applicazioni.",
+    "url": "https://www.simular.ai/",
+    "category": "browser-agent",
+    "tags": [
+      "macos",
+      "automation",
+      "agent",
+      "desktop"
+    ],
+    "pricing": "freemium",
+    "type": "tool"
+  },
+  {
+    "id": "cosine-genie",
+    "name": "Cosine Genie",
+    "description": "Agente di coding autonomo che si autoaddestra sul codice del tuo team e affronta task software complessi (bug fix, feature, refactor) con risultati allo stato dell'arte sui benchmark SWE-bench. Pensato per team di ingegneria.",
+    "url": "https://trygenie.now/",
+    "category": "coding-assistant",
+    "tags": [
+      "agent",
+      "enterprise",
+      "autonomous"
+    ],
+    "pricing": "paid",
+    "type": "tool"
+  },
+  {
+    "id": "google-vids",
+    "name": "Google Vids",
+    "description": "Editor video AI di Google Workspace che genera video da prompt, script o documenti combinando stock, voiceover e template. Pensato per training, comunicazioni interne e marketing rapido.",
+    "url": "https://workspace.google.com/products/vids/",
+    "category": "platform",
+    "tags": [
+      "google",
+      "video",
+      "workspace",
+      "no-code"
+    ],
+    "pricing": "paid",
+    "type": "tool"
+  },
+  {
+    "id": "stitch-google",
+    "name": "Stitch by Google",
+    "description": "Tool sperimentale di Google Labs che genera UI design e codice frontend a partire da una descrizione testuale o da uno sketch. Output esportabile verso Figma o codice HTML/CSS.",
+    "url": "https://stitch.withgoogle.com/",
+    "category": "tool-utility",
+    "tags": [
+      "google",
+      "design",
+      "ui",
+      "code-generation"
+    ],
+    "pricing": "free",
+    "type": "tool"
+  },
+  {
+    "id": "mindsdb",
+    "name": "MindsDB",
+    "description": "Piattaforma open-source che porta AI e ML dentro al database, esponendo modelli come tabelle SQL interrogabili. Permette di costruire feature predictive, agenti e RAG su dati eterogenei senza spostarli.",
+    "url": "https://github.com/mindsdb/mindsdb",
+    "category": "data-ai",
+    "tags": [
+      "open-source",
+      "python",
+      "sql",
+      "rag",
+      "self-hostable"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "bigquery-continuous-queries",
+    "name": "BigQuery Continuous Queries",
+    "description": "Funzionalita di Google BigQuery che esegue query SQL in modo continuo su dati in streaming, ideale per pipeline real-time che combinano analytics e modelli AI (Gemini, Vertex). Documentazione e introduzione ufficiale.",
+    "url": "https://cloud.google.com/bigquery/docs/continuous-queries-introduction",
+    "category": "resource",
+    "tags": [
+      "google",
+      "documentation",
+      "data-streaming",
+      "sql"
+    ],
+    "pricing": "paid",
+    "type": "resource"
+  },
+  {
+    "id": "agenticseek",
+    "name": "AgenticSeek",
+    "description": "Alternativa open-source a Manus completamente locale: agente che pianifica, naviga il web ed esegue codice usando LLM in locale. Privacy-first, gira interamente sulla macchina dell'utente.",
+    "url": "https://github.com/Fosowl/agenticSeek",
+    "category": "agent-framework",
+    "tags": [
+      "open-source",
+      "local-llm",
+      "self-hostable",
+      "privacy",
+      "python"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "mcp-inspector-mcpjam",
+    "name": "MCP Inspector (MCPJam)",
+    "description": "Strumento di debugging e testing per server MCP: permette di ispezionare tool, risorse e prompt esposti, simulare chiamate e validare il protocollo. Utile durante lo sviluppo di server MCP custom.",
+    "url": "https://github.com/MCPJam/inspector",
+    "category": "mcp",
+    "tags": [
+      "open-source",
+      "developer-tools",
+      "debugging"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "mcp-linker",
+    "name": "MCP Linker",
+    "description": "Utility che semplifica installazione, configurazione e gestione di server MCP all'interno di client come Claude Desktop, Cursor, Windsurf. Risolve il fastidio della configurazione manuale del file JSON.",
+    "url": "https://github.com/milisp/mcp-linker",
+    "category": "mcp",
+    "tags": [
+      "open-source",
+      "developer-tools",
+      "cli"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "mcp-introduction",
+    "name": "MCP Introduction",
+    "description": "Documentazione ufficiale del Model Context Protocol di Anthropic: spiega architettura, primitive (tools, resources, prompts) e modalita di integrazione. Punto di partenza obbligato per chiunque voglia adottare MCP.",
+    "url": "https://modelcontextprotocol.io/introduction",
+    "category": "resource",
+    "tags": [
+      "anthropic",
+      "documentation",
+      "mcp",
+      "specification"
+    ],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
+    "id": "unwind-ai",
+    "name": "Unwind AI",
+    "description": "Newsletter e portale che curano le novita su LLM apps, agenti e infrastruttura AI con tutorial pratici. Gestiscono anche il repo awesome-llm-apps.",
+    "url": "https://www.theunwindai.com/",
+    "category": "resource",
+    "tags": [
+      "newsletter",
+      "tutorial",
+      "free"
+    ],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
+    "id": "mcp-servers-repo",
+    "name": "MCP Servers Repository",
+    "description": "Repository ufficiale che raccoglie implementazioni di server MCP di riferimento (filesystem, git, Slack, Postgres e molti altri) e contributi community. Riferimento canonico per scoprire integrazioni MCP.",
+    "url": "https://github.com/modelcontextprotocol/servers",
+    "category": "resource",
+    "tags": [
+      "anthropic",
+      "open-source",
+      "awesome-list",
+      "mcp"
+    ],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
+    "id": "mcp-deeplearning-course",
+    "name": "MCP - DeepLearning.AI Short Course",
+    "description": "Corso breve gratuito di DeepLearning.AI in collaborazione con Anthropic su come costruire app context-rich con MCP. Copre client, server, tool e workflow di integrazione.",
+    "url": "https://www.deeplearning.ai/short-courses/mcp-build-rich-context-ai-apps-with-anthropic/",
+    "category": "resource",
+    "tags": [
+      "course",
+      "anthropic",
+      "free",
+      "mcp"
+    ],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
+    "id": "apple-foundation-models",
+    "name": "Apple Foundation Models",
+    "description": "Framework Swift di Apple per usare i modelli on-device di Apple Intelligence direttamente nelle app iOS/macOS. Espone API per generazione testo, tool calling e guided generation con privacy locale.",
+    "url": "https://developer.apple.com/documentation/foundationmodels",
+    "category": "llm-infrastructure",
+    "tags": [
+      "apple",
+      "on-device",
+      "ios",
+      "macos",
+      "swift",
+      "privacy"
+    ],
+    "pricing": "free",
+    "type": "tool"
+  },
+  {
+    "id": "huggingface-agents-course",
+    "name": "Hugging Face AI Agents Course",
+    "description": "Corso gratuito di Hugging Face che insegna a costruire AI agent dal livello base fino a sistemi multi-agent, con esercizi pratici, certificazione e community Discord.",
+    "url": "https://huggingface.co/learn/agents-course/en/unit0/introduction",
+    "category": "resource",
+    "tags": [
+      "course",
+      "huggingface",
+      "free",
+      "agent"
+    ],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
+    "id": "gemini-cli",
+    "name": "Gemini CLI",
+    "description": "CLI open-source di Google che porta Gemini nel terminale come coding agent: interagisce con il filesystem, esegue comandi e supporta MCP. Concorrente diretto di Claude Code e Codex CLI.",
+    "url": null,
+    "category": "coding-assistant",
+    "tags": [
+      "google",
+      "cli",
+      "agent",
+      "open-source"
+    ],
+    "pricing": "freemium",
+    "type": "tool"
+  },
+  {
+    "id": "google-adk",
+    "name": "Google ADK (Agent Development Kit)",
+    "description": "Toolkit open-source di Google per costruire, valutare e deployare agenti AI multi-step e multi-agente, integrato con Vertex AI e Gemini. Disponibile in Python e Java.",
+    "url": null,
+    "category": "agent-framework",
+    "tags": [
+      "google",
+      "open-source",
+      "python",
+      "java",
+      "multi-agent"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "opendia",
+    "name": "OpenDIA",
+    "description": "Estensione Chromium open-source che trasforma il browser in un agente operativo controllabile via MCP, permettendo a un LLM di leggere e agire su qualsiasi pagina. Alternativa libera a Browser-Use e Comet.",
+    "url": null,
+    "category": "browser-agent",
+    "tags": [
+      "open-source",
+      "browser-use",
+      "mcp",
+      "extension"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "raspberry-pi-agents-article",
+    "name": "Run AI Agents on Raspberry Pi",
+    "description": "Articolo/tutorial che mostra come far girare agenti AI con LLM locali su Raspberry Pi, ottimizzando memoria e latenza per edge deployment.",
+    "url": null,
+    "category": "resource",
+    "tags": [
+      "article",
+      "edge",
+      "local-llm",
+      "raspberry-pi"
+    ],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
+    "id": "qwen3-coder",
+    "name": "Qwen3-Coder",
+    "description": "Famiglia di modelli LLM open-weight di Alibaba specializzati per il coding e l'agentic coding, con varianti fino a 480B parametri MoE e supporto a contesti molto lunghi. Tra i migliori open per task di programmazione.",
+    "url": "https://github.com/QwenLM/Qwen3-Coder",
+    "category": "model",
+    "tags": [
+      "open-source",
+      "alibaba",
+      "coding",
+      "open-weights"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "langchain-deep-agents",
+    "name": "Deep Agents by LangChain",
+    "description": "Libreria di LangChain che implementa pattern di agenti deep (planning, sub-agent, file system virtuale) ispirati a Manus e Claude Code. Pensata per task autonomi a lungo orizzonte.",
+    "url": "https://github.com/langchain-ai/deepagents",
+    "category": "agent-framework",
+    "tags": [
+      "open-source",
+      "langchain",
+      "python",
+      "agent",
+      "multi-agent"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "google-genai-toolbox",
+    "name": "MCP Toolbox for Databases",
+    "description": "Server MCP open-source di Google che espone connessioni sicure a database (Postgres, MySQL, BigQuery, Spanner...) con auth, observability e templating delle query. Pensato per agenti enterprise data-aware.",
+    "url": "https://github.com/googleapis/genai-toolbox",
+    "category": "mcp",
+    "tags": [
+      "open-source",
+      "google",
+      "database",
+      "enterprise",
+      "sql"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "smart-multi-agent-workflows-blog",
+    "name": "Designing Smart Multi-Agent Workflows",
+    "description": "Articolo che analizza pattern e trade-off nel design di workflow multi-agente: orchestrator vs swarm, gestione dello stato, handoff. Lettura di riferimento per chi progetta sistemi agentivi.",
+    "url": null,
+    "category": "resource",
+    "tags": [
+      "article",
+      "multi-agent",
+      "design-patterns"
+    ],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
+    "id": "cursor-vs-claude-code-article",
+    "name": "Why I Switched from Cursor to Claude Code",
+    "description": "Articolo opinione che confronta Cursor e Claude Code dal punto di vista di un dev, analizzando workflow agentivo, autonomia e UX. Lettura utile per chi sta valutando un coding assistant.",
+    "url": null,
+    "category": "resource",
+    "tags": [
+      "article",
+      "coding-assistant",
+      "comparison"
+    ],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
+    "id": "aider",
+    "name": "Aider",
+    "description": "AI pair programmer da terminale open-source che lavora direttamente sul tuo repo Git, con commit automatici e supporto a decine di modelli (GPT, Claude, locali). Tra i piu maturi nella categoria CLI coding agents.",
+    "url": "https://aider.chat/",
+    "category": "coding-assistant",
+    "tags": [
+      "open-source",
+      "cli",
+      "python",
+      "git"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "mcp-ui",
+    "name": "mcp-ui",
+    "description": "Libreria open-source che permette ai server MCP di esporre componenti UI ricchi (HTML, React) renderizzabili dai client compatibili. Abilita esperienze interattive oltre il testo nei tool MCP.",
+    "url": "https://github.com/idosal/mcp-ui",
+    "category": "mcp",
+    "tags": [
+      "open-source",
+      "ui",
+      "typescript",
+      "react"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "agentic-design-patterns-doc",
+    "name": "Agentic Design Patterns",
+    "description": "Documento Google Docs collaborativo che raccoglie pattern ricorrenti nello sviluppo di agenti AI (planner, reflection, tool-use, multi-agent collaboration). Riferimento didattico molto citato.",
+    "url": null,
+    "category": "resource",
+    "tags": [
+      "document",
+      "design-patterns",
+      "agent",
+      "free"
+    ],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
+    "id": "rube-app",
+    "name": "Rube.app",
+    "description": "Server MCP universale di Composio che da accesso a oltre 500 app SaaS (Gmail, Slack, Notion, GitHub...) tramite un unico endpoint, con OAuth gestito. Pensato per agenti multi-tool senza configurare ogni integrazione.",
+    "url": null,
+    "category": "mcp",
+    "tags": [
+      "saas",
+      "integrations",
+      "composio"
+    ],
+    "pricing": "freemium",
+    "type": "tool"
+  },
+  {
+    "id": "pipedream-mcp-chat",
+    "name": "Pipedream MCP Chat",
+    "description": "Chat client open-source di Pipedream che dimostra come usare MCP per orchestrare migliaia di integrazioni Pipedream da un LLM. Buon esempio di reference implementation.",
+    "url": "https://github.com/PipedreamHQ/mcp-chat",
+    "category": "mcp",
+    "tags": [
+      "open-source",
+      "typescript",
+      "pipedream",
+      "integrations"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "ag-ui-protocol",
+    "name": "Agent-User Interaction Protocol (AG-UI)",
+    "description": "Protocollo aperto che standardizza la comunicazione tra agenti AI backend e interfacce utente frontend, definendo eventi, streaming e human-in-the-loop. Complementare a MCP ma orientato al lato UI.",
+    "url": null,
+    "category": "agent-framework",
+    "tags": [
+      "open-source",
+      "protocol",
+      "ui"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "vibekit",
+    "name": "VibeKit",
+    "description": "Sandbox open-source per eseguire in sicurezza coding agents (Codex, Claude, Gemini) in container isolati con scoped permissions, audit log e telemetry. Pensato per produzionalizzare agenti che scrivono codice.",
+    "url": null,
+    "category": "coding-assistant",
+    "tags": [
+      "open-source",
+      "sandbox",
+      "security",
+      "agent"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "wren-ai",
+    "name": "WrenAI",
+    "description": "Agente text-to-SQL open-source di Canner che traduce domande in linguaggio naturale in query SQL su data warehouse, con generazione di chart e insight. Alternativa self-hostable a soluzioni BI proprietarie.",
+    "url": "https://github.com/Canner/WrenAI",
+    "category": "data-ai",
+    "tags": [
+      "open-source",
+      "self-hostable",
+      "sql",
+      "bi",
+      "rag"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "google-ai-studio",
+    "name": "Google AI Studio",
+    "description": "Web IDE gratuito di Google per prototipare con i modelli Gemini: prompt design, function calling, multimodal e generazione di chiavi API. Punto di ingresso per sviluppatori che vogliono usare Gemini.",
+    "url": "https://aistudio.google.com/",
+    "category": "platform",
+    "tags": [
+      "google",
+      "free",
+      "gemini",
+      "ide"
+    ],
+    "pricing": "freemium",
+    "type": "tool"
+  },
+  {
+    "id": "vibevoice",
+    "name": "VibeVoice",
+    "description": "Modello TTS open-source di Microsoft Research per la generazione di parlato lungo, espressivo e multi-speaker. Pensato per audiobook, podcast e dialoghi sintetici di alta qualita.",
+    "url": "https://microsoft.github.io/VibeVoice/",
+    "category": "model",
+    "tags": [
+      "open-source",
+      "microsoft",
+      "voice",
+      "tts"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "agentmail",
+    "name": "AgentMail",
+    "description": "Infrastruttura email pensata per agenti AI: API per creare caselle al volo, ricevere e inviare email programmaticamente con webhook strutturati. Risolve il problema di dare un indirizzo email a ogni agente.",
+    "url": "https://agentmail.to/",
+    "category": "llm-infrastructure",
+    "tags": [
+      "api",
+      "email",
+      "agent"
+    ],
+    "pricing": "freemium",
+    "type": "tool"
+  },
+  {
+    "id": "runner-h",
+    "name": "Runner H",
+    "description": "Agente AI di H Company che controlla GUI desktop e web autonomamente per portare a termine task complessi (form, ricerche, automazioni multi-app). Pensato per use case enterprise di automazione.",
+    "url": null,
+    "category": "browser-agent",
+    "tags": [
+      "agent",
+      "automation",
+      "enterprise",
+      "browser-use"
+    ],
+    "pricing": "paid",
+    "type": "tool"
+  },
+  {
+    "id": "vy-vercept",
+    "name": "Vy by Vercept",
+    "description": "Collaboratore AI proattivo per macOS che osserva il contesto dell'utente, suggerisce azioni e completa task automaticamente. Si pone a meta strada tra Copilot di sistema e agente personale.",
+    "url": null,
+    "category": "browser-agent",
+    "tags": [
+      "macos",
+      "agent",
+      "personal-assistant"
+    ],
+    "pricing": "paid",
+    "type": "tool"
+  },
+  {
+    "id": "suna-ai",
+    "name": "Suna AI",
+    "description": "Agente AI generale autonomo open-source che esegue task di ricerca, scraping, scrittura e automazione browser. Alternativa libera e self-hostable a Manus.",
+    "url": null,
+    "category": "agent-framework",
+    "tags": [
+      "open-source",
+      "self-hostable",
+      "agent",
+      "autonomous"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "agent-zero",
+    "name": "Agent Zero",
+    "description": "Framework multi-agent open-source con memoria persistente, capacita di self-improvement e scrittura/esecuzione di tool dinamici. Progettato come sistema agentivo generalista hackable.",
+    "url": null,
+    "category": "agent-framework",
+    "tags": [
+      "open-source",
+      "multi-agent",
+      "memory",
+      "self-hostable"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "deepagent-abacus",
+    "name": "DeepAgent by Abacus.AI",
+    "description": "Piattaforma AI enterprise di Abacus.AI che combina agent, RAG, fine-tuning e data science in un'unica suite gestita. Target: aziende che vogliono unificare i workload AI/ML.",
+    "url": null,
+    "category": "platform",
+    "tags": [
+      "enterprise",
+      "platform",
+      "rag",
+      "agent"
+    ],
+    "pricing": "paid",
+    "type": "tool"
+  },
+  {
+    "id": "openrouter",
+    "name": "OpenRouter",
+    "description": "Aggregatore di LLM che espone via un'unica API OpenAI-compatible centinaia di modelli (GPT, Claude, Gemini, Llama, ecc.) con routing automatico, fallback e prezzi competitivi. Standard de facto per multi-model app.",
+    "url": "https://openrouter.ai/",
+    "category": "llm-infrastructure",
+    "tags": [
+      "api",
+      "multi-model",
+      "routing",
+      "openai-compatible"
+    ],
+    "pricing": "paid",
+    "type": "tool"
+  },
+  {
+    "id": "parlant",
+    "name": "Parlant",
+    "description": "Framework open-source per costruire agenti conversazionali governati da regole e guideline esplicite invece che solo da prompt. Pensato per use case enterprise dove serve controllo e auditabilita.",
+    "url": "https://www.parlant.io/",
+    "category": "agent-framework",
+    "tags": [
+      "open-source",
+      "python",
+      "enterprise",
+      "guardrails"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "webllm",
+    "name": "WebLLM",
+    "description": "Runtime per eseguire LLM direttamente nel browser via WebGPU, senza server. Permette inferenza completamente locale e offline di modelli come Llama, Mistral o Phi.",
+    "url": "https://webllm.mlc.ai/",
+    "category": "llm-infrastructure",
+    "tags": [
+      "open-source",
+      "browser",
+      "local-llm",
+      "webgpu",
+      "privacy"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "dash-data-agent-article",
+    "name": "Dash: Self-Learning Data Agent",
+    "description": "Articolo che presenta Dash, agente AI che apprende continuamente dai dati e dai feedback dell'utente per fare query analytics in linguaggio naturale.",
+    "url": null,
+    "category": "resource",
+    "tags": [
+      "article",
+      "data-ai",
+      "agent"
+    ],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
+    "id": "chess-fine-tuning-tutorial",
+    "name": "Chess Game Fine-Tuning Example",
+    "description": "Tutorial/articolo che mostra come fine-tunare un LLM su partite di scacchi per insegnargli regole, aperture e strategie. Esempio didattico per capire il fine-tuning task-specific.",
+    "url": null,
+    "category": "resource",
+    "tags": [
+      "article",
+      "tutorial",
+      "fine-tuning"
+    ],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
+    "id": "redamon",
+    "name": "Redamon",
+    "description": "Tool open-source di AI red teaming per testare la sicurezza di applicazioni LLM con attacchi automatizzati (prompt injection, jailbreak, data exfiltration). Utile per security team.",
+    "url": "https://github.com/samugit83/redamon",
+    "category": "tool-utility",
+    "tags": [
+      "open-source",
+      "security",
+      "red-team",
+      "evaluation"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "zvec-alibaba",
+    "name": "zvec by Alibaba",
+    "description": "Engine di vector search ad alte prestazioni open-source di Alibaba, ottimizzato per scalare retrieval semantico su miliardi di vettori. Alternativa enterprise a Faiss/Milvus.",
+    "url": "https://github.com/alibaba/zvec",
+    "category": "vector-db",
+    "tags": [
+      "open-source",
+      "alibaba",
+      "performance",
+      "rag"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "redis-for-ai",
+    "name": "Redis for AI",
+    "description": "Bundle di Redis con vector search, semantic cache e LLM memory pensato per workload AI/RAG. Permette di usare l'infrastruttura Redis esistente come vector DB e short-term memory per agenti.",
+    "url": "https://redis.io/redis-for-ai/",
+    "category": "vector-db",
+    "tags": [
+      "redis",
+      "rag",
+      "memory",
+      "cache",
+      "enterprise"
+    ],
+    "pricing": "freemium",
+    "type": "tool"
+  },
+  {
+    "id": "agentskills-ref",
+    "name": "AgentSkills - Skills Reference",
+    "description": "Repository di reference per Claude Skills e pattern di skill engineering, con esempi pronti all'uso per estendere agenti AI con capacita modulari.",
+    "url": "https://github.com/agentskills/agentskills/tree/main/skills-ref",
+    "category": "resource",
+    "tags": [
+      "open-source",
+      "skills",
+      "claude",
+      "examples"
+    ],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
+    "id": "page-index",
+    "name": "PageIndex by VectifyAI",
+    "description": "Sistema di document retrieval reasoning-based che organizza documenti come alberi gerarchici per migliorare il recall su documenti lunghi e complessi (paper, contratti, manuali). Alternativa al chunk-based RAG classico.",
+    "url": "https://github.com/VectifyAI/PageIndex",
+    "category": "tool-utility",
+    "tags": [
+      "open-source",
+      "rag",
+      "document",
+      "python"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "apitap",
+    "name": "ApiTap",
+    "description": "Tool open-source che intercetta richieste API e le trasforma in tool MCP riusabili dagli agenti AI. Utile per esporre velocemente API esistenti come capabilities agentive.",
+    "url": "https://github.com/n1byn1kt/apitap",
+    "category": "mcp",
+    "tags": [
+      "open-source",
+      "api",
+      "developer-tools"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "notebooklm-py",
+    "name": "NotebookLM Python API (unofficial)",
+    "description": "Wrapper Python non ufficiale per interagire programmaticamente con Google NotebookLM, permettendo di creare notebook, caricare fonti e generare audio overview da script.",
+    "url": "https://github.com/teng-lin/notebooklm-py",
+    "category": "tool-utility",
+    "tags": [
+      "open-source",
+      "python",
+      "google",
+      "notebooklm",
+      "unofficial"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "google-always-on-memory-agent",
+    "name": "Google Always-On Memory Agent",
+    "description": "Esempio ufficiale di Google Cloud che mostra come costruire un agente con memoria sempre attiva basato su Gemini e Vertex AI. Reference per pattern di long-term memory.",
+    "url": "https://github.com/GoogleCloudPlatform/generative-ai/tree/main/gemini/agents/always-on-memory-agent",
+    "category": "resource",
+    "tags": [
+      "google",
+      "example",
+      "memory",
+      "agent",
+      "gemini"
+    ],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
+    "id": "personal-skills-nodejs-article",
+    "name": "My Personal Skills for AI-assisted Node.js Development",
+    "description": "Articolo che condivide un set di Claude Skills personali per lo sviluppo Node.js assistito da AI, con esempi concreti di organizzazione e workflow.",
+    "url": null,
+    "category": "resource",
+    "tags": [
+      "article",
+      "skills",
+      "nodejs",
+      "claude"
+    ],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
+    "id": "mirofish",
+    "name": "MiroFish",
+    "description": "Tool open-source che integra Miro con LLM per generare e manipolare board Miro tramite prompt: utile per brainstorming, mappe mentali e diagrammi assistiti da AI.",
+    "url": "https://github.com/666ghj/MiroFish",
+    "category": "tool-utility",
+    "tags": [
+      "open-source",
+      "miro",
+      "collaboration"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "coding-agents-enea",
+    "name": "Coding Agents by Enea Scaccabarozzi",
+    "description": "Repository didattica con implementazioni di coding agents da zero, pensata come materiale di studio per capire come funzionano internamente strumenti come Claude Code o Aider.",
+    "url": "https://github.com/enea-scaccabarozzi/coding-agents",
+    "category": "coding-assistant",
+    "tags": [
+      "open-source",
+      "educational",
+      "python"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "openagents",
+    "name": "OpenAgents",
+    "description": "Piattaforma open-source per costruire e condividere agenti AI generali, con focus su data agents, plugin agents e web agents. Originariamente nato come progetto accademico aperto.",
+    "url": "https://github.com/openagents-org/openagents",
+    "category": "agent-framework",
+    "tags": [
+      "open-source",
+      "self-hostable",
+      "python",
+      "multi-agent"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "litellm",
+    "name": "LiteLLM",
+    "description": "Proxy e SDK Python open-source che unifica le API di oltre 100 provider LLM in un'unica interfaccia OpenAI-compatible, con retry, fallback, budget e logging. Standard per ambienti multi-modello.",
+    "url": "https://www.litellm.ai/",
+    "category": "llm-infrastructure",
+    "tags": [
+      "open-source",
+      "python",
+      "proxy",
+      "openai-compatible",
+      "self-hostable"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "google-agents-cli",
+    "name": "agents-cli by Google",
+    "description": "CLI di Google per scaffolding, esecuzione e deploy di agenti basati su ADK, con template e tooling integrato per Vertex AI. Acceleratore per sviluppatori che usano l'Agent Development Kit.",
+    "url": "https://github.com/google/agents-cli",
+    "category": "agent-framework",
+    "tags": [
+      "open-source",
+      "google",
+      "cli",
+      "developer-tools"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "stagehand",
+    "name": "Stagehand by Browserbase",
+    "description": "Framework TypeScript di Browserbase per browser automation AI-driven: combina Playwright con primitive LLM (act, extract, observe) per scrivere agenti web robusti e debuggabili.",
+    "url": "https://github.com/browserbase/stagehand",
+    "category": "browser-agent",
+    "tags": [
+      "open-source",
+      "typescript",
+      "browser-use",
+      "playwright"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "open-design-nexu",
+    "name": "open-design by Nexu.io",
+    "description": "Tool open-source che genera design system e componenti UI a partire da prompt o brief, con focus su consistenza e tokens. Pensato come alternativa libera a tool come Stitch o v0.",
+    "url": "https://github.com/nexu-io/open-design",
+    "category": "tool-utility",
+    "tags": [
+      "open-source",
+      "design",
+      "ui"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "awesome-agentic-patterns",
+    "name": "Awesome Agentic Patterns",
+    "description": "Lista curata di pattern, best practice e paper sui sistemi agentici, mantenuta dalla community. Riferimento per studiare l'evoluzione dei design pattern degli agenti AI.",
+    "url": "https://github.com/nibzard/awesome-agentic-patterns",
+    "category": "resource",
+    "tags": [
+      "awesome-list",
+      "design-patterns",
+      "agent",
+      "free"
+    ],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
+    "id": "reasoning-agents-blog",
+    "name": "Reasoning Agents",
+    "description": "Articolo che approfondisce gli agenti basati su reasoning models (o1, R1, ecc.), discutendo come cambiano architettura e prompting rispetto agli agenti tradizionali.",
+    "url": null,
+    "category": "resource",
+    "tags": [
+      "article",
+      "reasoning",
+      "agent"
+    ],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
+    "id": "learning-machines-blog",
+    "name": "Learning Machines: Technical Design",
+    "description": "Articolo tecnico sul design di sistemi che apprendono continuamente dall'uso (learning machines), con focus su architettura, feedback loop e valutazione.",
+    "url": null,
+    "category": "resource",
+    "tags": [
+      "article",
+      "design",
+      "continual-learning"
+    ],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
+    "id": "andrej-karpathy-skills",
+    "name": "Andrej Karpathy Skills",
+    "description": "Raccolta di Claude Skills ispirate allo stile e ai workflow di Andrej Karpathy, con focus su scrittura tecnica, codice ML e analisi di paper.",
+    "url": "https://github.com/forrestchang/andrej-karpathy-skills",
+    "category": "resource",
+    "tags": [
+      "open-source",
+      "skills",
+      "claude",
+      "examples"
+    ],
+    "pricing": "free",
+    "type": "resource"
+  }
+];

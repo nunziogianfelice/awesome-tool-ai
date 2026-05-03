@@ -1,0 +1,24 @@
+name: Validate
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Validate tools.json
+        run: |
+          python3 -c "import json; data=json.load(open('tools.json')); print(f'tools.json valid - {len(data)} items')"
+      - name: Check tools.js is in sync
+        run: |
+          python3 scripts/build_tools_js.py
+          if ! git diff --quiet tools.js; then
+            echo "tools.js is out of sync with tools.json. Run scripts/build_tools_js.py and commit." >&2
+            git diff --stat tools.js
+            exit 1
+          fi
+          echo "tools.js is in sync."
