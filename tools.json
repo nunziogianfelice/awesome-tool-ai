@@ -798,5 +798,25 @@
     "tags": ["open-source", "skills", "claude", "examples"],
     "pricing": "free",
     "type": "resource"
+  },
+  {
+    "id": "agentskill",
+    "name": "agentskill",
+    "description": "Tool di analisi forense dei repository che genera file AGENTS.md con specifiche comportamentali: naming convention, indentazione, strategie git, grafi di import e mapping dei test. Supporta 15+ linguaggi con sette analizzatori paralleli, producendo spec machine-readable che permettono agli agenti AI di generare codice indistinguibile da quello esistente.",
+    "url": "https://github.com/airscripts/agentskill",
+    "category": "developer-tools",
+    "tags": ["agent", "code", "tools", "open-source"],
+    "pricing": "free",
+    "type": "tool"
+  },
+  {
+    "id": "openui",
+    "name": "OpenUI",
+    "description": "Standard aperto e framework full-stack per applicazioni di generative UI, con un linguaggio streaming-first che usa fino al 67% meno token rispetto a JSON equivalente. Separa la generazione LLM dall'esecuzione: il modello genera l'interfaccia una volta sola, poi la UI gestisce autonomamente stato, data fetching e interazioni utente. Ideale per app AI che devono rispondere con componenti UI dinamici e interattivi.",
+    "url": "https://www.openui.com/",
+    "category": "ui-framework",
+    "tags": ["ui", "framework", "llm", "open-source"],
+    "pricing": "free",
+    "type": "tool"
   }
 ]
