@@ -810,6 +810,16 @@
     "type": "tool"
   },
   {
+    "id": "awesome-italian-pa-opensource",
+    "name": "Awesome Italian PA Open Source",
+    "description": "Lista curata di librerie e tool open-source per integrare i servizi della Pubblica Amministrazione italiana in applicazioni software. Copre autenticazione SPID, fatturazione elettronica, PEC, firma digitale, sanità e molto altro — centinaia di progetti organizzati per categoria, pensati per sviluppatori italiani che devono interfacciarsi con sistemi governativi.",
+    "url": "https://github.com/stefanosalvucci/awesome-italian-pa-opensource",
+    "category": "resource",
+    "tags": ["open-source", "italia", "developer-tools", "api"],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
     "id": "openui",
     "name": "OpenUI",
     "description": "Standard aperto e framework full-stack per applicazioni di generative UI, con un linguaggio streaming-first che usa fino al 67% meno token rispetto a JSON equivalente. Separa la generazione LLM dall'esecuzione: il modello genera l'interfaccia una volta sola, poi la UI gestisce autonomamente stato, data fetching e interazioni utente. Ideale per app AI che devono rispondere con componenti UI dinamici e interattivi.",
