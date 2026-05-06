@@ -1210,6 +1210,21 @@ window.TOOLS_DATA = [
     "type": "tool"
   },
   {
+    "id": "symphony",
+    "name": "Symphony",
+    "description": "Tool di orchestrazione di OpenAI che automatizza il lavoro di sviluppo spawning agenti di coding autonomi che gestiscono i task in modo indipendente. Permette ai team di operare a un livello più alto senza supervisionare ogni agente: i task vengono assegnati e gli agenti restituiscono proof of work al completamento. Disponibile come spec aperta con implementazione di riferimento in Elixir.",
+    "url": "https://github.com/openai/symphony",
+    "category": "agent-framework",
+    "tags": [
+      "agent",
+      "workflow",
+      "open-source",
+      "framework"
+    ],
+    "pricing": "free",
+    "type": "tool"
+  },
+  {
     "id": "awesome-italian-pa-opensource",
     "name": "Awesome Italian PA Open Source",
     "description": "Lista curata di librerie e tool open-source per integrare i servizi della Pubblica Amministrazione italiana in applicazioni software. Copre autenticazione SPID, fatturazione elettronica, PEC, firma digitale, sanità e molto altro — centinaia di progetti organizzati per categoria, pensati per sviluppatori italiani che devono interfacciarsi con sistemi governativi.",
