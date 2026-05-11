@@ -810,6 +810,16 @@
     "type": "tool"
   },
   {
+    "id": "multica",
+    "name": "Multica",
+    "description": "Piattaforma open-source che integra agenti AI come membri del team: si assegnano task agli agenti come a un collega su Linear o Jira, e loro eseguono autonomamente, aggiornano lo stato e segnalano i blocchi. Un daemon locale rileva automaticamente gli agenti installati (Claude Code, Copilot CLI, Codex, ecc.) e li connette al server centrale via WebSocket. Supporta workspace multi-utente e riuso delle skill tra agenti diversi.",
+    "url": "https://github.com/multica-ai/multica",
+    "category": "agent-framework",
+    "tags": ["agent", "workflow", "open-source", "tools"],
+    "pricing": "free",
+    "type": "tool"
+  },
+  {
     "id": "symphony",
     "name": "Symphony",
     "description": "Tool di orchestrazione di OpenAI che automatizza il lavoro di sviluppo spawning agenti di coding autonomi che gestiscono i task in modo indipendente. Permette ai team di operare a un livello più alto senza supervisionare ogni agente: i task vengono assegnati e gli agenti restituiscono proof of work al completamento. Disponibile come spec aperta con implementazione di riferimento in Elixir.",
