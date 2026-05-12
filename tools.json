@@ -810,6 +810,16 @@
     "type": "tool"
   },
   {
+    "id": "superpowers",
+    "name": "Superpowers",
+    "description": "Plugin per Claude Code con 640.000+ installazioni che introduce metodologie strutturate di sviluppo software: TDD guidato (ciclo red-green-refactor), debugging sistematico in quattro fasi, brainstorming socratico pre-codice e code review automatica con checkpoint. Trasforma Claude da assistente reattivo a collaboratore che segue gate di qualità predefiniti. Disponibile tramite slash commands (/brainstorming, /execute-plan).",
+    "url": "https://claude.com/plugins/superpowers",
+    "category": "developer-tools",
+    "tags": ["agent", "code", "tools", "framework"],
+    "pricing": "free",
+    "type": "tool"
+  },
+  {
     "id": "multica",
     "name": "Multica",
     "description": "Piattaforma open-source che integra agenti AI come membri del team: si assegnano task agli agenti come a un collega su Linear o Jira, e loro eseguono autonomamente, aggiornano lo stato e segnalano i blocchi. Un daemon locale rileva automaticamente gli agenti installati (Claude Code, Copilot CLI, Codex, ecc.) e li connette al server centrale via WebSocket. Supporta workspace multi-utente e riuso delle skill tra agenti diversi.",
