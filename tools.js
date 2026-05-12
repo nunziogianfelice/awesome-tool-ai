@@ -1210,6 +1210,21 @@ window.TOOLS_DATA = [
     "type": "tool"
   },
   {
+    "id": "peekaboo",
+    "name": "Peekaboo",
+    "description": "Tool macOS che combina screen capture e analisi AI per abilitare automazione intelligente della GUI. Permette agli agenti AI di catturare screenshot di applicazioni o dell'intero schermo con visual question answering integrato, e di automatizzare click, digitazione e interazioni tramite comandi in linguaggio naturale. Risolve il problema di automatizzare workflow macOS complessi dando agli agenti la capacità di vedere lo schermo e agire su di esso.",
+    "url": "https://github.com/openclaw/Peekaboo",
+    "category": "developer-tools",
+    "tags": [
+      "agent",
+      "tools",
+      "open-source",
+      "multimodal"
+    ],
+    "pricing": "free",
+    "type": "tool"
+  },
+  {
     "id": "superpowers",
     "name": "Superpowers",
     "description": "Plugin per Claude Code con 640.000+ installazioni che introduce metodologie strutturate di sviluppo software: TDD guidato (ciclo red-green-refactor), debugging sistematico in quattro fasi, brainstorming socratico pre-codice e code review automatica con checkpoint. Trasforma Claude da assistente reattivo a collaboratore che segue gate di qualità predefiniti. Disponibile tramite slash commands (/brainstorming, /execute-plan).",
