@@ -1298,5 +1298,21 @@ window.TOOLS_DATA = [
     ],
     "pricing": "free",
     "type": "tool"
+  },
+  {
+    "id": "trs",
+    "name": "trs (Token-Reducing Shell)",
+    "description": "CLI che comprime l'output del terminale per agenti AI, riducendo l'uso di token del 76-99%. Si usa come prefisso ai comandi (es. `trs npm install`) e integra hook per 9 agenti AI (Claude Code, Cursor, Gemini, ecc.). Include parser dedicati per 50+ tipi di comandi, uno strumento di digestione del repository per creare riassunti context-aware, e una dashboard con le statistiche di risparmio cumulativo.",
+    "url": "https://github.com/dPeluChe/trs",
+    "category": "developer-tools",
+    "tags": [
+      "cli",
+      "open-source",
+      "developer-tools",
+      "token-optimization",
+      "ai-agents"
+    ],
+    "pricing": "free",
+    "type": "tool"
   }
 ];
