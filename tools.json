@@ -870,6 +870,106 @@
     "type": "tool"
   },
   {
+    "id": "anthropic-skills-repo",
+    "name": "Anthropic Skills Repository",
+    "description": "Repository ufficiale di Anthropic con skill pronte all'uso per Claude Code: workflow strutturati, integrazioni e utility che estendono le capacita dell'agente. Punto di partenza canonico per esplorare o creare skill.",
+    "url": "https://github.com/anthropics/skills",
+    "category": "resource",
+    "tags": ["anthropic", "open-source", "skills", "claude"],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
+    "id": "awesome-claude-code",
+    "name": "Awesome Claude Code",
+    "description": "Lista curata dalla community con le migliori risorse per Claude Code: skill, plugin, configurazioni, articoli e workflow. Riferimento principale per chi vuole massimizzare Claude come coding agent.",
+    "url": "https://github.com/hesreallyhim/awesome-claude-code",
+    "category": "resource",
+    "tags": ["awesome-list", "claude", "skills", "coding-assistant"],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
+    "id": "prompt-engineering-guide",
+    "name": "Prompt Engineering Guide (DAIR.AI)",
+    "description": "Guida completa al prompt engineering di DAIR.AI: tecniche (zero-shot, few-shot, CoT, RAG, agents), best practice e paper di riferimento. La risorsa educativa piu citata sull'argomento, aggiornata continuamente.",
+    "url": "https://github.com/dair-ai/Prompt-Engineering-Guide",
+    "category": "resource",
+    "tags": ["free", "prompting", "reference", "agent", "rag"],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
+    "id": "repomix",
+    "name": "Repomix",
+    "description": "Tool open-source che impacchetta l'intero repository in un unico file ottimizzato per LLM, con output XML, Markdown o testo, esclusione via .gitignore e conteggio token. Standard di fatto per preparare codebase come contesto per agenti AI.",
+    "url": "https://github.com/yamadashy/repomix",
+    "category": "tool-utility",
+    "tags": ["open-source", "cli", "rag", "context-management", "developer-tools"],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "awesome-claude-code-subagents",
+    "name": "Awesome Claude Code Subagents (VoltAgent)",
+    "description": "Raccolta curata di subagenti specializzati per Claude Code, organizzati per dominio d'uso. Ogni subagente ha profilo, tool set e CLAUDE.md che ne definisce il comportamento. Ottimo per estendere Claude con agenti verticali pronti all'uso.",
+    "url": "https://github.com/VoltAgent/awesome-claude-code-subagents",
+    "category": "resource",
+    "tags": ["open-source", "skills", "claude", "subagents", "awesome-list"],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
+    "id": "claude-marketplaces",
+    "name": "ClaudeMarketPlaces",
+    "description": "Marketplace community con centinaia di skill per Claude Code, navigabili per categoria con sistema di votazione. Piattaforma principale per scoprire e condividere skill Claude pronte all'uso.",
+    "url": "https://claudemarketplaces.com/skills",
+    "category": "resource",
+    "tags": ["skills", "claude", "marketplace", "community"],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
+    "id": "agensi-io",
+    "name": "Agensi.io",
+    "description": "Marketplace di skill AI con revisione di sicurezza obbligatoria prima dell'approvazione, suddivise per categoria d'uso. Include skill gratuite e a pagamento, utile quando l'agente deve accedere a file o account sensibili.",
+    "url": "https://www.agensi.io/skills",
+    "category": "resource",
+    "tags": ["skills", "marketplace", "security", "community"],
+    "pricing": "freemium",
+    "type": "resource"
+  },
+  {
+    "id": "mcp-market",
+    "name": "MCP Market",
+    "description": "Portale che aggrega oltre 30.000 MCP tool per connettere LLM a database, Google Drive, Slack e altri SaaS. Utile per trovare server MCP pronti all'uso senza sviluppo custom.",
+    "url": "https://mcpmarket.com/",
+    "category": "resource",
+    "tags": ["mcp", "marketplace", "integrations", "saas"],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
+    "id": "agentskill-sh",
+    "name": "AgentSkill.sh",
+    "description": "Marketplace di skill per Claude Code che assegna un security score a ogni skill, fondamentale quando l'AI deve accedere a file o account. Buon filtro qualitativo rispetto alle liste non moderate.",
+    "url": "https://agentskill.sh/",
+    "category": "resource",
+    "tags": ["skills", "claude", "marketplace", "security"],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
+    "id": "skills-sh",
+    "name": "Skills.sh",
+    "description": "Marketplace di skill Claude Code con focus su sviluppo web e programmazione. Raccolta curata di skill per workflow frontend, backend e tooling per sviluppatori.",
+    "url": "https://skills.sh/",
+    "category": "resource",
+    "tags": ["skills", "claude", "marketplace", "web-development"],
+    "pricing": "free",
+    "type": "resource"
+  },
+  {
     "id": "trs",
     "name": "trs (Token-Reducing Shell)",
     "description": "CLI che comprime l'output del terminale per agenti AI, riducendo l'uso di token del 76-99%. Si usa come prefisso ai comandi (es. `trs npm install`) e integra hook per 9 agenti AI (Claude Code, Cursor, Gemini, ecc.). Include parser dedicati per 50+ tipi di comandi, uno strumento di digestione del repository per creare riassunti context-aware, e una dashboard con le statistiche di risparmio cumulativo.",
