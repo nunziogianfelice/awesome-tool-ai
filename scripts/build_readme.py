@@ -22,19 +22,20 @@ CATEGORY_ORDER = [
     ("tool-utility", "Tools & Utilities"),
 ]
 
-HEADER = """# 🤖 GenAI Tools KB
+HEADER = """# 🤖 awesome-tool-ai
 
-> Knowledge base di tool, framework e risorse per il mondo AI agentivo.
-> Aggiornata continuamente.
+> A curated collection of GenAI tools & resources for the agentic AI world.
+> Continuously updated.
 
-## Ricerca rapida
+## Quick search
 
-Clona il repo e apri `index.html` per la ricerca interattiva (funziona anche
-da `file://`), oppure consulta direttamente le tabelle qui sotto.
+**[🔍 Search online →](https://nunziogianfelice.github.io/awesome-tool-ai/)**
+
+Or clone the repo and open `index.html` locally (works from `file://` too):
 
 ```bash
-git clone <repo>
-cd genai-tools-kb
+git clone https://github.com/nunziogianfelice/awesome-tool-ai
+cd awesome-tool-ai
 open index.html  # macOS
 ```
 
