@@ -1003,6 +1003,23 @@ window.TOOLS_DATA = [
     "type": "tool"
   },
   {
+    "id": "open-notebook",
+    "name": "Open Notebook",
+    "description": "Alternativa open-source e self-hostable a Google NotebookLM per la ricerca AI-assistita: ingestione di fonti eterogenee (PDF, web, audio, video), chat contestuale, note strutturate e generazione di podcast. Privacy-first, supporta modelli locali e cloud.",
+    "url": "https://github.com/lfnovo/open-notebook",
+    "category": "tool-utility",
+    "tags": [
+      "open-source",
+      "self-hostable",
+      "python",
+      "notebooklm",
+      "rag",
+      "privacy"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
     "id": "google-always-on-memory-agent",
     "name": "Google Always-On Memory Agent",
     "description": "Esempio ufficiale di Google Cloud che mostra come costruire un agente con memoria sempre attiva basato su Gemini e Vertex AI. Reference per pattern di long-term memory.",

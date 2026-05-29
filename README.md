@@ -1,17 +1,16 @@
-# 🤖 awesome-tool-ai
+# 🤖 GenAI Tools KB
 
-> A curated collection of GenAI tools & resources for the agentic AI world.
-> Continuously updated.
+> Knowledge base di tool, framework e risorse per il mondo AI agentivo.
+> Aggiornata continuamente.
 
-## Quick search
+## Ricerca rapida
 
-**[🔍 Search online →](https://nunziogianfelice.github.io/awesome-tool-ai/)**
-
-Or clone the repo and open `index.html` locally (works from `file://` too):
+Clona il repo e apri `index.html` per la ricerca interattiva (funziona anche
+da `file://`), oppure consulta direttamente le tabelle qui sotto.
 
 ```bash
-git clone https://github.com/nunziogianfelice/awesome-tool-ai
-cd awesome-tool-ai
+git clone <repo>
+cd genai-tools-kb
 open index.html  # macOS
 ```
 
@@ -38,9 +37,11 @@ python3 scripts/build_tools_js.py
 | [Atomic Agents](https://github.com/BrainBlend-AI/atomic-agents) | Framework Python modulare e leggero per costruire agenti AI con componenti riusabili e schema-driven (Pydantic). Punta su prevedibilita e composizione invece che sulla magia di abstraction layer pesanti. | `open-source` `python` `modular` `pydantic` |
 | [Deep Agents by LangChain](https://github.com/langchain-ai/deepagents) | Libreria di LangChain che implementa pattern di agenti deep (planning, sub-agent, file system virtuale) ispirati a Manus e Claude Code. Pensata per task autonomi a lungo orizzonte. | `open-source` `langchain` `python` `agent` `multi-agent` |
 | Google ADK (Agent Development Kit) | Toolkit open-source di Google per costruire, valutare e deployare agenti AI multi-step e multi-agente, integrato con Vertex AI e Gemini. Disponibile in Python e Java. | `google` `open-source` `python` `java` `multi-agent` |
+| [Multica](https://github.com/multica-ai/multica) | Piattaforma open-source che integra agenti AI come membri del team: si assegnano task agli agenti come a un collega su Linear o Jira, e loro eseguono autonomamente, aggiornano lo stato e segnalano i blocchi. Un daemon locale rileva automaticamente gli agenti installati (Claude Code, Copilot CLI, Codex, ecc.) e li connette al server centrale via WebSocket. Supporta workspace multi-utente e riuso delle skill tra agenti diversi. | `agent` `workflow` `open-source` `tools` |
 | [OpenAgents](https://github.com/openagents-org/openagents) | Piattaforma open-source per costruire e condividere agenti AI generali, con focus su data agents, plugin agents e web agents. Originariamente nato come progetto accademico aperto. | `open-source` `self-hostable` `python` `multi-agent` |
 | [Parlant](https://www.parlant.io/) | Framework open-source per costruire agenti conversazionali governati da regole e guideline esplicite invece che solo da prompt. Pensato per use case enterprise dove serve controllo e auditabilita. | `open-source` `python` `enterprise` `guardrails` |
 | Suna AI | Agente AI generale autonomo open-source che esegue task di ricerca, scraping, scrittura e automazione browser. Alternativa libera e self-hostable a Manus. | `open-source` `self-hostable` `agent` `autonomous` |
+| [Symphony](https://github.com/openai/symphony) | Tool di orchestrazione di OpenAI che automatizza il lavoro di sviluppo spawning agenti di coding autonomi che gestiscono i task in modo indipendente. Permette ai team di operare a un livello più alto senza supervisionare ogni agente: i task vengono assegnati e gli agenti restituiscono proof of work al completamento. Disponibile come spec aperta con implementazione di riferimento in Elixir. | `agent` `workflow` `open-source` `framework` |
 
 ### MCP (Model Context Protocol)
 
@@ -135,20 +136,29 @@ python3 scripts/build_tools_js.py
 | [MarkItDown](https://github.com/microsoft/markitdown) | Utility open-source di Microsoft che converte file di vario formato (PDF, DOCX, XLSX, immagini, audio) in Markdown ottimizzato per l'ingestion in LLM. Comodo come pre-processore per pipeline RAG. | `open-source` `python` `microsoft` `rag` `document` |
 | [MiroFish](https://github.com/666ghj/MiroFish) | Tool open-source che integra Miro con LLM per generare e manipolare board Miro tramite prompt: utile per brainstorming, mappe mentali e diagrammi assistiti da AI. | `open-source` `miro` `collaboration` |
 | [NotebookLM Python API (unofficial)](https://github.com/teng-lin/notebooklm-py) | Wrapper Python non ufficiale per interagire programmaticamente con Google NotebookLM, permettendo di creare notebook, caricare fonti e generare audio overview da script. | `open-source` `python` `google` `notebooklm` `unofficial` |
+| [Open Notebook](https://github.com/lfnovo/open-notebook) | Alternativa open-source e self-hostable a Google NotebookLM per la ricerca AI-assistita: ingestione di fonti eterogenee (PDF, web, audio, video), chat contestuale, note strutturate e generazione di podcast. Privacy-first, supporta modelli locali e cloud. | `open-source` `self-hostable` `python` `notebooklm` `rag` `privacy` |
 | [open-design by Nexu.io](https://github.com/nexu-io/open-design) | Tool open-source che genera design system e componenti UI a partire da prompt o brief, con focus su consistenza e tokens. Pensato come alternativa libera a tool come Stitch o v0. | `open-source` `design` `ui` |
 | [PageIndex by VectifyAI](https://github.com/VectifyAI/PageIndex) | Sistema di document retrieval reasoning-based che organizza documenti come alberi gerarchici per migliorare il recall su documenti lunghi e complessi (paper, contratti, manuali). Alternativa al chunk-based RAG classico. | `open-source` `rag` `document` `python` |
 | [Redamon](https://github.com/samugit83/redamon) | Tool open-source di AI red teaming per testare la sicurezza di applicazioni LLM con attacchi automatizzati (prompt injection, jailbreak, data exfiltration). Utile per security team. | `open-source` `security` `red-team` `evaluation` |
+| [Repomix](https://github.com/yamadashy/repomix) | Tool open-source che impacchetta l'intero repository in un unico file ottimizzato per LLM, con output XML, Markdown o testo, esclusione via .gitignore e conteggio token. Standard di fatto per preparare codebase come contesto per agenti AI. | `open-source` `cli` `rag` `context-management` `developer-tools` |
 | [Stitch by Google](https://stitch.withgoogle.com/) | Tool sperimentale di Google Labs che genera UI design e codice frontend a partire da una descrizione testuale o da uno sketch. Output esportabile verso Figma o codice HTML/CSS. | `google` `design` `ui` `code-generation` |
 
 ## Risorse
 
+- [Agensi.io](https://www.agensi.io/skills) — Marketplace di skill AI con revisione di sicurezza obbligatoria prima dell'approvazione, suddivise per categoria d'uso. Include skill gratuite e a pagamento, utile quando l'agente deve accedere a file o account sensibili.
 - Agentic Design Patterns — Documento Google Docs collaborativo che raccoglie pattern ricorrenti nello sviluppo di agenti AI (planner, reflection, tool-use, multi-agent collaboration). Riferimento didattico molto citato.
+- [AgentSkill.sh](https://agentskill.sh/) — Marketplace di skill per Claude Code che assegna un security score a ogni skill, fondamentale quando l'AI deve accedere a file o account. Buon filtro qualitativo rispetto alle liste non moderate.
 - [AgentSkills - Skills Reference](https://github.com/agentskills/agentskills/tree/main/skills-ref) — Repository di reference per Claude Skills e pattern di skill engineering, con esempi pronti all'uso per estendere agenti AI con capacita modulari.
 - [Andrej Karpathy Skills](https://github.com/forrestchang/andrej-karpathy-skills) — Raccolta di Claude Skills ispirate allo stile e ai workflow di Andrej Karpathy, con focus su scrittura tecnica, codice ML e analisi di paper.
+- [Anthropic Skills Repository](https://github.com/anthropics/skills) — Repository ufficiale di Anthropic con skill pronte all'uso per Claude Code: workflow strutturati, integrazioni e utility che estendono le capacita dell'agente. Punto di partenza canonico per esplorare o creare skill.
 - [Awesome Agentic Patterns](https://github.com/nibzard/awesome-agentic-patterns) — Lista curata di pattern, best practice e paper sui sistemi agentici, mantenuta dalla community. Riferimento per studiare l'evoluzione dei design pattern degli agenti AI.
+- [Awesome Claude Code](https://github.com/hesreallyhim/awesome-claude-code) — Lista curata dalla community con le migliori risorse per Claude Code: skill, plugin, configurazioni, articoli e workflow. Riferimento principale per chi vuole massimizzare Claude come coding agent.
+- [Awesome Claude Code Subagents (VoltAgent)](https://github.com/VoltAgent/awesome-claude-code-subagents) — Raccolta curata di subagenti specializzati per Claude Code, organizzati per dominio d'uso. Ogni subagente ha profilo, tool set e CLAUDE.md che ne definisce il comportamento. Ottimo per estendere Claude con agenti verticali pronti all'uso.
+- [Awesome Italian PA Open Source](https://github.com/stefanosalvucci/awesome-italian-pa-opensource) — Lista curata di librerie e tool open-source per integrare i servizi della Pubblica Amministrazione italiana in applicazioni software. Copre autenticazione SPID, fatturazione elettronica, PEC, firma digitale, sanità e molto altro — centinaia di progetti organizzati per categoria, pensati per sviluppatori italiani che devono interfacciarsi con sistemi governativi.
 - [Awesome LLM Apps](https://github.com/Shubhamsaboo/awesome-llm-apps) — Repository curata con decine di esempi di app LLM e agenti, dai chatbot RAG ai sistemi multi-agent. Ottimo punto di partenza per imparare pattern e architetture comuni.
 - [BigQuery Continuous Queries](https://cloud.google.com/bigquery/docs/continuous-queries-introduction) — Funzionalita di Google BigQuery che esegue query SQL in modo continuo su dati in streaming, ideale per pipeline real-time che combinano analytics e modelli AI (Gemini, Vertex). Documentazione e introduzione ufficiale.
 - Chess Game Fine-Tuning Example — Tutorial/articolo che mostra come fine-tunare un LLM su partite di scacchi per insegnargli regole, aperture e strategie. Esempio didattico per capire il fine-tuning task-specific.
+- [ClaudeMarketPlaces](https://claudemarketplaces.com/skills) — Marketplace community con centinaia di skill per Claude Code, navigabili per categoria con sistema di votazione. Piattaforma principale per scoprire e condividere skill Claude pronte all'uso.
 - Dash: Self-Learning Data Agent — Articolo che presenta Dash, agente AI che apprende continuamente dai dati e dai feedback dell'utente per fare query analytics in linguaggio naturale.
 - Designing Smart Multi-Agent Workflows — Articolo che analizza pattern e trade-off nel design di workflow multi-agente: orchestrator vs swarm, gestione dello stato, handoff. Lettura di riferimento per chi progetta sistemi agentivi.
 - [Ematching - Sinon's Blog](https://blog.vortan.dev/ematching/) — Articolo tecnico che esplora tecniche di embedding matching e retrieval semantico, con esempi pratici e considerazioni sulla qualita del recupero. Lettura utile per chi progetta sistemi RAG.
@@ -157,28 +167,29 @@ python3 scripts/build_tools_js.py
 - Learning Machines: Technical Design — Articolo tecnico sul design di sistemi che apprendono continuamente dall'uso (learning machines), con focus su architettura, feedback loop e valutazione.
 - [MCP - DeepLearning.AI Short Course](https://www.deeplearning.ai/short-courses/mcp-build-rich-context-ai-apps-with-anthropic/) — Corso breve gratuito di DeepLearning.AI in collaborazione con Anthropic su come costruire app context-rich con MCP. Copre client, server, tool e workflow di integrazione.
 - [MCP Introduction](https://modelcontextprotocol.io/introduction) — Documentazione ufficiale del Model Context Protocol di Anthropic: spiega architettura, primitive (tools, resources, prompts) e modalita di integrazione. Punto di partenza obbligato per chiunque voglia adottare MCP.
+- [MCP Market](https://mcpmarket.com/) — Portale che aggrega oltre 30.000 MCP tool per connettere LLM a database, Google Drive, Slack e altri SaaS. Utile per trovare server MCP pronti all'uso senza sviluppo custom.
 - [MCP Servers Repository](https://github.com/modelcontextprotocol/servers) — Repository ufficiale che raccoglie implementazioni di server MCP di riferimento (filesystem, git, Slack, Postgres e molti altri) e contributi community. Riferimento canonico per scoprire integrazioni MCP.
 - My Personal Skills for AI-assisted Node.js Development — Articolo che condivide un set di Claude Skills personali per lo sviluppo Node.js assistito da AI, con esempi concreti di organizzazione e workflow.
 - [Prompt Caching - Anthropic Docs](https://docs.anthropic.com/en/docs/build-with-claude/prompt-caching) — Documentazione ufficiale Anthropic sul prompt caching per Claude: come riutilizzare grandi prefissi di contesto riducendo costi e latenza fino al 90%. Riferimento per ottimizzare app LLM in produzione.
+- [Prompt Engineering Guide (DAIR.AI)](https://github.com/dair-ai/Prompt-Engineering-Guide) — Guida completa al prompt engineering di DAIR.AI: tecniche (zero-shot, few-shot, CoT, RAG, agents), best practice e paper di riferimento. La risorsa educativa piu citata sull'argomento, aggiornata continuamente.
 - Reasoning Agents — Articolo che approfondisce gli agenti basati su reasoning models (o1, R1, ecc.), discutendo come cambiano architettura e prompting rispetto agli agenti tradizionali.
 - Run AI Agents on Raspberry Pi — Articolo/tutorial che mostra come far girare agenti AI con LLM locali su Raspberry Pi, ottimizzando memoria e latenza per edge deployment.
+- [Skills.sh](https://skills.sh/) — Marketplace di skill Claude Code con focus su sviluppo web e programmazione. Raccolta curata di skill per workflow frontend, backend e tooling per sviluppatori.
 - [Unwind AI](https://www.theunwindai.com/) — Newsletter e portale che curano le novita su LLM apps, agenti e infrastruttura AI con tutorial pratici. Gestiscono anche il repo awesome-llm-apps.
 - Why I Switched from Cursor to Claude Code — Articolo opinione che confronta Cursor e Claude Code dal punto di vista di un dev, analizzando workflow agentivo, autonomia e UX. Lettura utile per chi sta valutando un coding assistant.
 
 ## Statistiche
 
-- **80** item totali
-- **58** tool/prodotti
-- **22** risorse (articoli, corsi, doc, awesome list)
-- **12** categorie utilizzate
+- **99** item totali
+- **67** tool/prodotti
+- **32** risorse (articoli, corsi, doc, awesome list)
+- **14** categorie utilizzate
 
 
 
 ---
 
-*Contribute by opening a PR that updates [`tools.json`](tools.json). The GitHub Actions workflow in `.github/workflows/validate.yml` validates the JSON automatically on every push.*
-
----
-
-Built together with Saul, AI assistant
+*Contribuisci aprendo una PR che aggiorna [`tools.json`](tools.json). Il
+workflow GitHub Actions in `.github/workflows/validate.yml` valida
+automaticamente il JSON a ogni push.*
 
