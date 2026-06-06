@@ -988,5 +988,35 @@
     "tags": ["cli", "open-source", "developer-tools", "token-optimization", "ai-agents"],
     "pricing": "free",
     "type": "tool"
+  },
+  {
+    "id": "graphify",
+    "name": "Graphify",
+    "description": "Skill open-source (MIT, YC S26) per AI coding assistant che con un solo comando `/graphify .` trasforma qualsiasi cartella (codice, SQL, docs, PDF, immagini, video, MCP config, Terraform) in un knowledge graph navigabile. Usa tree-sitter per l'AST locale + LLM per le entita' nei docs + Leiden community detection (stile Microsoft GraphRAG). Output: HTML interattivo, report markdown con god-node e surprising connections, JSON queryable, server MCP opzionale. Supporta 20+ assistant (Claude Code, Codex, Cursor, Gemini CLI, ecc.) e include PR triage, callflow Mermaid auto-rigenerati a ogni commit, hook git.",
+    "url": "https://github.com/safishamsi/graphify",
+    "category": "vector-db",
+    "tags": ["open-source", "graphrag", "knowledge-graph", "claude-code", "mcp", "python", "yc"],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
+    "id": "promptfoo",
+    "name": "Promptfoo",
+    "description": "Piattaforma open-source per LLM evaluation, red-teaming e security testing di applicazioni AI. Definisci test in YAML, simula attacchi (prompt injection, jailbreak, data leak), integri in CI/CD e fai code scanning su agenti e RAG pipeline. Usata da 156 Fortune 500 con tier enterprise per compliance (FINRA, finance, healthcare, telco).",
+    "url": "https://www.promptfoo.dev/",
+    "category": "developer-tools",
+    "tags": ["open-source", "evaluation", "red-team", "security", "ci-cd", "rag"],
+    "pricing": "freemium",
+    "type": "tool"
+  },
+  {
+    "id": "promptfoo-guardrails",
+    "name": "Promptfoo Guardrails",
+    "description": "Layer di protezione runtime di Promptfoo contro jailbreak, prompt injection e attacchi adversarial sugli LLM in produzione. Si integra con minime modifiche di codice (cloud o on-prem) e si autoaddestra continuamente sui findings del modulo red-team della stessa piattaforma, alzando l'efficacia nel tempo. Pensato come complemento runtime alle attivita' di eval+red-team di Promptfoo.",
+    "url": "https://www.promptfoo.dev/guardrails/",
+    "category": "developer-tools",
+    "tags": ["security", "guardrails", "runtime", "prompt-injection", "jailbreak", "enterprise"],
+    "pricing": "paid",
+    "type": "tool"
   }
 ]

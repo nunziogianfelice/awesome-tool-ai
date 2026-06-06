@@ -102,6 +102,7 @@ python3 scripts/build_tools_js.py
 
 | Tool | Descrizione | Tag |
 |------|-------------|-----|
+| [Graphify](https://github.com/safishamsi/graphify) | Skill open-source (MIT, YC S26) per AI coding assistant che con un solo comando `/graphify .` trasforma qualsiasi cartella (codice, SQL, docs, PDF, immagini, video, MCP config, Terraform) in un knowledge graph navigabile. Usa tree-sitter per l'AST locale + LLM per le entita' nei docs + Leiden community detection (stile Microsoft GraphRAG). Output: HTML interattivo, report markdown con god-node e surprising connections, JSON queryable, server MCP opzionale. Supporta 20+ assistant (Claude Code, Codex, Cursor, Gemini CLI, ecc.) e include PR triage, callflow Mermaid auto-rigenerati a ogni commit, hook git. | `open-source` `graphrag` `knowledge-graph` `claude-code` `mcp` `python` `yc` |
 | [Redis for AI](https://redis.io/redis-for-ai/) | Bundle di Redis con vector search, semantic cache e LLM memory pensato per workload AI/RAG. Permette di usare l'infrastruttura Redis esistente come vector DB e short-term memory per agenti. | `redis` `rag` `memory` `cache` `enterprise` |
 | [zvec by Alibaba](https://github.com/alibaba/zvec) | Engine di vector search ad alte prestazioni open-source di Alibaba, ottimizzato per scalare retrieval semantico su miliardi di vettori. Alternativa enterprise a Faiss/Milvus. | `open-source` `alibaba` `performance` `rag` |
 
@@ -181,8 +182,8 @@ python3 scripts/build_tools_js.py
 
 ## Statistiche
 
-- **99** item totali
-- **67** tool/prodotti
+- **102** item totali
+- **70** tool/prodotti
 - **32** risorse (articoli, corsi, doc, awesome list)
 - **14** categorie utilizzate
 
