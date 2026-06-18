@@ -37,13 +37,13 @@ python3 scripts/build_tools_js.py
 | [agents-cli by Google](https://github.com/google/agents-cli) | CLI di Google per scaffolding, esecuzione e deploy di agenti basati su ADK, con template e tooling integrato per Vertex AI. Acceleratore per sviluppatori che usano l'Agent Development Kit. | `open-source` `google` `cli` `developer-tools` |
 | [Atomic Agents](https://github.com/BrainBlend-AI/atomic-agents) | Framework Python modulare e leggero per costruire agenti AI con componenti riusabili e schema-driven (Pydantic). Punta su prevedibilita e composizione invece che sulla magia di abstraction layer pesanti. | `open-source` `python` `modular` `pydantic` |
 | [Deep Agents by LangChain](https://github.com/langchain-ai/deepagents) | Libreria di LangChain che implementa pattern di agenti deep (planning, sub-agent, file system virtuale) ispirati a Manus e Claude Code. Pensata per task autonomi a lungo orizzonte. | `open-source` `langchain` `python` `agent` `multi-agent` |
+| [Eve by Vercel](https://vercel.com/eve) | Framework per costruire agenti AI production-ready con approccio directory-based (un agente = una cartella): istruzioni in Markdown, tool in TypeScript, skills come playbook riutilizzabili, channels multi-piattaforma (Slack, Discord, Teams). Include durable execution, subagents, cron schedules, sandboxing su VM on-demand e human-in-the-loop con approval gates. Integrazione nativa con l'infrastruttura Vercel. | `typescript` `vercel` `durable-execution` `multi-channel` `production` `developer-tools` |
 | Google ADK (Agent Development Kit) | Toolkit open-source di Google per costruire, valutare e deployare agenti AI multi-step e multi-agente, integrato con Vertex AI e Gemini. Disponibile in Python e Java. | `google` `open-source` `python` `java` `multi-agent` |
 | [Multica](https://github.com/multica-ai/multica) | Piattaforma open-source che integra agenti AI come membri del team: si assegnano task agli agenti come a un collega su Linear o Jira, e loro eseguono autonomamente, aggiornano lo stato e segnalano i blocchi. Un daemon locale rileva automaticamente gli agenti installati (Claude Code, Copilot CLI, Codex, ecc.) e li connette al server centrale via WebSocket. Supporta workspace multi-utente e riuso delle skill tra agenti diversi. | `agent` `workflow` `open-source` `tools` |
 | [OpenAgents](https://github.com/openagents-org/openagents) | Piattaforma open-source per costruire e condividere agenti AI generali, con focus su data agents, plugin agents e web agents. Originariamente nato come progetto accademico aperto. | `open-source` `self-hostable` `python` `multi-agent` |
 | [Parlant](https://www.parlant.io/) | Framework open-source per costruire agenti conversazionali governati da regole e guideline esplicite invece che solo da prompt. Pensato per use case enterprise dove serve controllo e auditabilita. | `open-source` `python` `enterprise` `guardrails` |
 | Suna AI | Agente AI generale autonomo open-source che esegue task di ricerca, scraping, scrittura e automazione browser. Alternativa libera e self-hostable a Manus. | `open-source` `self-hostable` `agent` `autonomous` |
 | [Symphony](https://github.com/openai/symphony) | Tool di orchestrazione di OpenAI che automatizza il lavoro di sviluppo spawning agenti di coding autonomi che gestiscono i task in modo indipendente. Permette ai team di operare a un livello più alto senza supervisionare ogni agente: i task vengono assegnati e gli agenti restituiscono proof of work al completamento. Disponibile come spec aperta con implementazione di riferimento in Elixir. | `agent` `workflow` `open-source` `framework` |
-| [Eve by Vercel](https://vercel.com/eve) | Framework per costruire agenti AI production-ready con approccio directory-based: istruzioni in Markdown, tool in TypeScript, skills come playbook riutilizzabili e channels multi-piattaforma (Slack, Discord, Teams). Include durable execution, subagents, cron schedules, sandboxing su VM on-demand e human-in-the-loop con approval gates. Integrazione nativa con l'infrastruttura Vercel. | `typescript` `vercel` `durable-execution` `multi-channel` `production` |
 
 ### MCP (Model Context Protocol)
 
@@ -183,8 +183,8 @@ python3 scripts/build_tools_js.py
 
 ## Statistiche
 
-- **102** item totali
-- **70** tool/prodotti
+- **103** item totali
+- **71** tool/prodotti
 - **32** risorse (articoli, corsi, doc, awesome list)
 - **14** categorie utilizzate
 

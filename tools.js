@@ -1536,5 +1536,22 @@ window.TOOLS_DATA = [
     ],
     "pricing": "paid",
     "type": "tool"
+  },
+  {
+    "id": "vercel-eve",
+    "name": "Eve by Vercel",
+    "description": "Framework per costruire agenti AI production-ready con approccio directory-based (un agente = una cartella): istruzioni in Markdown, tool in TypeScript, skills come playbook riutilizzabili, channels multi-piattaforma (Slack, Discord, Teams). Include durable execution, subagents, cron schedules, sandboxing su VM on-demand e human-in-the-loop con approval gates. Integrazione nativa con l'infrastruttura Vercel.",
+    "url": "https://vercel.com/eve",
+    "category": "agent-framework",
+    "tags": [
+      "typescript",
+      "vercel",
+      "durable-execution",
+      "multi-channel",
+      "production",
+      "developer-tools"
+    ],
+    "pricing": "freemium",
+    "type": "tool"
   }
 ];
