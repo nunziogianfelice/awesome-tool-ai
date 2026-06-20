@@ -219,6 +219,25 @@
         margin-left: auto;
       }
 
+      .copy-link-btn {
+        background: none;
+        border: none;
+        cursor: pointer;
+        font-size: 13px;
+        padding: 2px 4px;
+        opacity: 0.35;
+        transition: opacity 0.15s;
+        line-height: 1;
+      }
+      .card:hover .copy-link-btn { opacity: 0.7; }
+      .copy-link-btn:hover { opacity: 1 !important; }
+      .copy-link-btn.copied { opacity: 1; }
+
+      .card:target {
+        outline: 2px solid var(--accent);
+        outline-offset: 3px;
+      }
+
       .empty {
         text-align: center;
         padding: 48px 16px;
@@ -378,12 +397,16 @@
           const pricing = item.pricing
             ? `<span class="pricing">${escapeHtml(item.pricing)}</span>`
             : "";
+          const anchorId = `tool-${escapeHtml(item.id || "")}`;
 
           return `
-            <article class="card">
+            <article class="card" id="${anchorId}">
               <div class="card-head">
                 <h3 class="card-title">${titleHtml}</h3>
-                <span class="${badgeClass}">${escapeHtml(catLabel)}</span>
+                <div style="display:flex;align-items:center;gap:6px">
+                  <button class="copy-link-btn" title="Copia link diretto" data-id="${anchorId}" aria-label="Copia link">🔗</button>
+                  <span class="${badgeClass}">${escapeHtml(catLabel)}</span>
+                </div>
               </div>
               <p class="card-desc">${escapeHtml(item.description || "")}</p>
               <div class="tags">${tags}${pricing}</div>
@@ -421,12 +444,34 @@
           debounce = setTimeout(render, 80);
         });
 
+        // Copy-link handler (delegated)
+        resultsEl.addEventListener("click", (e) => {
+          const btn = e.target.closest(".copy-link-btn");
+          if (!btn) return;
+          const id = btn.dataset.id;
+          const url = `${location.origin}${location.pathname}#${id}`;
+          history.replaceState(null, "", `#${id}`);
+          navigator.clipboard.writeText(url).catch(() => {});
+          btn.textContent = "✓";
+          btn.classList.add("copied");
+          setTimeout(() => { btn.textContent = "🔗"; btn.classList.remove("copied"); }, 1500);
+        });
+
+        // Scroll to hash on load
+        function scrollToHash() {
+          const hash = location.hash;
+          if (!hash) return;
+          const el = document.getElementById(hash.slice(1));
+          if (el) el.scrollIntoView({ behavior: "smooth", block: "center" });
+        }
+
         if (data.length === 0) {
           statsEl.textContent =
             "Nessun dato caricato. Verifica che tools.js sia presente.";
         } else {
           buildFilters();
           render();
+          setTimeout(scrollToHash, 100);
         }
       })();
     </script>
