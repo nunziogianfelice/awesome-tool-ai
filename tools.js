@@ -1553,5 +1553,24 @@ window.TOOLS_DATA = [
     ],
     "pricing": "freemium",
     "type": "tool"
+  },
+  {
+    "id": "headroom",
+    "name": "Headroom",
+    "description": "Compressore di contesto per agenti AI che riduce i token di input del 60-95% (JSON, codice, RAG, log) prima che raggiungano l'LLM, senza perdere informazioni critiche. Tre modalità d'uso: libreria Python/TS inline, proxy trasparente senza modifiche al codice, MCP server. Include CodeCompressor AST-aware per Python/JS/Go/Rust, compressione reversibile con cache locale e supporto OpenAI/Anthropic/Gemini.",
+    "url": "https://github.com/chopratejas/headroom",
+    "category": "llm-infrastructure",
+    "tags": [
+      "open-source",
+      "context-compression",
+      "token-reduction",
+      "python",
+      "typescript",
+      "mcp",
+      "rag",
+      "agent"
+    ],
+    "pricing": "free",
+    "type": "tool"
   }
 ];

@@ -74,6 +74,7 @@ python3 scripts/build_tools_js.py
 |------|-------------|-----|
 | [AgentMail](https://agentmail.to/) | Infrastruttura email pensata per agenti AI: API per creare caselle al volo, ricevere e inviare email programmaticamente con webhook strutturati. Risolve il problema di dare un indirizzo email a ogni agente. | `api` `email` `agent` |
 | [Apple Foundation Models](https://developer.apple.com/documentation/foundationmodels) | Framework Swift di Apple per usare i modelli on-device di Apple Intelligence direttamente nelle app iOS/macOS. Espone API per generazione testo, tool calling e guided generation con privacy locale. | `apple` `on-device` `ios` `macos` `swift` `privacy` |
+| [Headroom](https://github.com/chopratejas/headroom) | Compressore di contesto per agenti AI che riduce i token di input del 60-95% (JSON, codice, RAG, log) prima che raggiungano l'LLM, senza perdere informazioni critiche. Tre modalità d'uso: libreria Python/TS inline, proxy trasparente senza modifiche al codice, MCP server. Include CodeCompressor AST-aware per Python/JS/Go/Rust, compressione reversibile con cache locale e supporto OpenAI/Anthropic/Gemini. | `open-source` `context-compression` `token-reduction` `python` `typescript` `mcp` `rag` `agent` |
 | [Kong](https://konghq.com/) | API gateway cloud-native con funzionalita AI Gateway integrate per il routing, la sicurezza e il rate-limiting di traffico LLM. Utile per centralizzare il consumo di provider AI eterogenei in ambienti enterprise. | `enterprise` `api` `gateway` `open-source` |
 | [LiteLLM](https://www.litellm.ai/) | Proxy e SDK Python open-source che unifica le API di oltre 100 provider LLM in un'unica interfaccia OpenAI-compatible, con retry, fallback, budget e logging. Standard per ambienti multi-modello. | `open-source` `python` `proxy` `openai-compatible` `self-hostable` |
 | [OpenRouter](https://openrouter.ai/) | Aggregatore di LLM che espone via un'unica API OpenAI-compatible centinaia di modelli (GPT, Claude, Gemini, Llama, ecc.) con routing automatico, fallback e prezzi competitivi. Standard de facto per multi-model app. | `api` `multi-model` `routing` `openai-compatible` |
@@ -183,8 +184,8 @@ python3 scripts/build_tools_js.py
 
 ## Statistiche
 
-- **103** item totali
-- **71** tool/prodotti
+- **104** item totali
+- **72** tool/prodotti
 - **32** risorse (articoli, corsi, doc, awesome list)
 - **14** categorie utilizzate
 
