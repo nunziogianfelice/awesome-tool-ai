@@ -107,6 +107,31 @@
         flex-wrap: wrap;
         gap: 8px;
       }
+
+      @media (max-width: 640px) {
+        header { padding: 20px 16px 12px; }
+        header h1 { font-size: 22px; }
+        .controls { padding: 12px 16px 10px; }
+        main { padding: 8px 16px 48px; }
+
+        .filters {
+          flex-wrap: nowrap;
+          overflow-x: auto;
+          -webkit-overflow-scrolling: touch;
+          scrollbar-width: none;
+          padding-bottom: 4px;
+          margin: 0 -16px;
+          padding-left: 16px;
+          padding-right: 16px;
+        }
+        .filters::-webkit-scrollbar { display: none; }
+        .chip { white-space: nowrap; flex-shrink: 0; }
+
+        .grid {
+          grid-template-columns: 1fr;
+        }
+        .card-desc { font-size: 13px; }
+      }
       .chip {
         padding: 6px 12px;
         font-size: 13px;
@@ -317,6 +342,12 @@
           "llm-infrastructure": "LLM Infrastructure",
           "data-ai": "Data & AI",
           "browser-agent": "Browser Agents",
+          "coding-assistant": "Coding Assistants",
+          "data-ai": "Data & AI",
+          "developer-tools": "Developer Tools",
+          "llm-infrastructure": "LLM Infrastructure",
+          mcp: "MCP",
+          "ui-framework": "UI Framework",
           "vector-db": "Vector DB",
           scraping: "Scraping",
           platform: "Platform",
