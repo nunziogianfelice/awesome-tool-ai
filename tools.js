@@ -1572,5 +1572,22 @@ window.TOOLS_DATA = [
     ],
     "pricing": "free",
     "type": "tool"
+  },
+  {
+    "id": "latitude-llm",
+    "name": "Latitude",
+    "description": "Piattaforma open-source di osservabilità e monitoring per applicazioni LLM e agenti AI: tracing degli errori, logging dei prompt, valutazioni e metriche in produzione. Self-hostable (MIT) con cloud gestito opzionale e SDK TypeScript/Python.",
+    "url": "https://github.com/latitude-dev/latitude-llm",
+    "category": "llm-infrastructure",
+    "tags": [
+      "open-source",
+      "observability",
+      "monitoring",
+      "llm-ops",
+      "typescript",
+      "agent"
+    ],
+    "pricing": "freemium",
+    "type": "tool"
   }
 ];
