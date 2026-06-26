@@ -57,6 +57,7 @@ python3 scripts/build_tools_js.py
 | [mcp-ui](https://github.com/idosal/mcp-ui) | Libreria open-source che permette ai server MCP di esporre componenti UI ricchi (HTML, React) renderizzabili dai client compatibili. Abilita esperienze interattive oltre il testo nei tool MCP. | `open-source` `ui` `typescript` `react` |
 | [Pipedream MCP Chat](https://github.com/PipedreamHQ/mcp-chat) | Chat client open-source di Pipedream che dimostra come usare MCP per orchestrare migliaia di integrazioni Pipedream da un LLM. Buon esempio di reference implementation. | `open-source` `typescript` `pipedream` `integrations` |
 | Rube.app | Server MCP universale di Composio che da accesso a oltre 500 app SaaS (Gmail, Slack, Notion, GitHub...) tramite un unico endpoint, con OAuth gestito. Pensato per agenti multi-tool senza configurare ogni integrazione. | `saas` `integrations` `composio` |
+| [TokenSave](https://github.com/aovestdipaperino/tokensave) | Server MCP di code intelligence per agenti di coding AI: oltre 40 tool e 30+ linguaggi, con knowledge graph semantici pre-indicizzati per una comprensione istantanea del codice. Riduce token e numero di tool call, funziona 100% in locale e si integra con 9 agenti. | `open-source` `mcp` `code-intelligence` `knowledge-graph` `rust` `token-reduction` `developer-tools` |
 
 ### Coding Assistants
 
@@ -185,8 +186,8 @@ python3 scripts/build_tools_js.py
 
 ## Statistiche
 
-- **105** item totali
-- **73** tool/prodotti
+- **106** item totali
+- **74** tool/prodotti
 - **32** risorse (articoli, corsi, doc, awesome list)
 - **14** categorie utilizzate
 

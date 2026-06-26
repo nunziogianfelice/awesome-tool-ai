@@ -1589,5 +1589,23 @@ window.TOOLS_DATA = [
     ],
     "pricing": "freemium",
     "type": "tool"
+  },
+  {
+    "id": "tokensave",
+    "name": "TokenSave",
+    "description": "Server MCP di code intelligence per agenti di coding AI: oltre 40 tool e 30+ linguaggi, con knowledge graph semantici pre-indicizzati per una comprensione istantanea del codice. Riduce token e numero di tool call, funziona 100% in locale e si integra con 9 agenti.",
+    "url": "https://github.com/aovestdipaperino/tokensave",
+    "category": "mcp",
+    "tags": [
+      "open-source",
+      "mcp",
+      "code-intelligence",
+      "knowledge-graph",
+      "rust",
+      "token-reduction",
+      "developer-tools"
+    ],
+    "pricing": "free",
+    "type": "tool"
   }
 ];
