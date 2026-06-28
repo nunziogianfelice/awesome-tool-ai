@@ -1112,13 +1112,15 @@ window.TOOLS_DATA = [
   {
     "id": "google-agents-cli",
     "name": "agents-cli by Google",
-    "description": "CLI di Google per scaffolding, esecuzione e deploy di agenti basati su ADK, con template e tooling integrato per Vertex AI. Acceleratore per sviluppatori che usano l'Agent Development Kit.",
+    "description": "CLI ufficiale di Google con skills che trasformano qualsiasi coding assistant in un esperto nel creare, valutare e distribuire agenti AI su Google Cloud. Basata sull'Agent Development Kit (ADK), con scaffolding, esecuzione e deploy su Vertex AI e sulla Gemini Enterprise Agent Platform.",
     "url": "https://github.com/google/agents-cli",
     "category": "agent-framework",
     "tags": [
       "open-source",
       "google",
       "cli",
+      "adk",
+      "gemini",
       "developer-tools"
     ],
     "pricing": "open-source",
