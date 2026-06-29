@@ -1609,5 +1609,23 @@ window.TOOLS_DATA = [
     ],
     "pricing": "free",
     "type": "tool"
+  },
+  {
+    "id": "pentesterflow-agent",
+    "name": "PentesterFlow Agent",
+    "description": "Agente AI di offensive security che opera da terminale: automazione di penetration testing, security audit e bug bounty tramite un approccio agentico, eseguendo ricognizione e test di sicurezza in autonomia.",
+    "url": "https://github.com/PentesterFlow/agent",
+    "category": "tool-utility",
+    "tags": [
+      "open-source",
+      "security",
+      "penetration-testing",
+      "ai-agent",
+      "bug-bounty",
+      "cli",
+      "typescript"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
   }
 ];

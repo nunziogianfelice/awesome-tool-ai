@@ -145,6 +145,7 @@ python3 scripts/build_tools_js.py
 | [Open Notebook](https://github.com/lfnovo/open-notebook) | Alternativa open-source e self-hostable a Google NotebookLM per la ricerca AI-assistita: ingestione di fonti eterogenee (PDF, web, audio, video), chat contestuale, note strutturate e generazione di podcast. Privacy-first, supporta modelli locali e cloud. | `open-source` `self-hostable` `python` `notebooklm` `rag` `privacy` |
 | [open-design by Nexu.io](https://github.com/nexu-io/open-design) | Tool open-source che genera design system e componenti UI a partire da prompt o brief, con focus su consistenza e tokens. Pensato come alternativa libera a tool come Stitch o v0. | `open-source` `design` `ui` |
 | [PageIndex by VectifyAI](https://github.com/VectifyAI/PageIndex) | Sistema di document retrieval reasoning-based che organizza documenti come alberi gerarchici per migliorare il recall su documenti lunghi e complessi (paper, contratti, manuali). Alternativa al chunk-based RAG classico. | `open-source` `rag` `document` `python` |
+| [PentesterFlow Agent](https://github.com/PentesterFlow/agent) | Agente AI di offensive security che opera da terminale: automazione di penetration testing, security audit e bug bounty tramite un approccio agentico, eseguendo ricognizione e test di sicurezza in autonomia. | `open-source` `security` `penetration-testing` `ai-agent` `bug-bounty` `cli` `typescript` |
 | [Redamon](https://github.com/samugit83/redamon) | Tool open-source di AI red teaming per testare la sicurezza di applicazioni LLM con attacchi automatizzati (prompt injection, jailbreak, data exfiltration). Utile per security team. | `open-source` `security` `red-team` `evaluation` |
 | [Repomix](https://github.com/yamadashy/repomix) | Tool open-source che impacchetta l'intero repository in un unico file ottimizzato per LLM, con output XML, Markdown o testo, esclusione via .gitignore e conteggio token. Standard di fatto per preparare codebase come contesto per agenti AI. | `open-source` `cli` `rag` `context-management` `developer-tools` |
 | [Stitch by Google](https://stitch.withgoogle.com/) | Tool sperimentale di Google Labs che genera UI design e codice frontend a partire da una descrizione testuale o da uno sketch. Output esportabile verso Figma o codice HTML/CSS. | `google` `design` `ui` `code-generation` |
@@ -186,8 +187,8 @@ python3 scripts/build_tools_js.py
 
 ## Statistiche
 
-- **106** item totali
-- **74** tool/prodotti
+- **107** item totali
+- **75** tool/prodotti
 - **32** risorse (articoli, corsi, doc, awesome list)
 - **14** categorie utilizzate
 
