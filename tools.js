@@ -1627,5 +1627,24 @@ window.TOOLS_DATA = [
     ],
     "pricing": "open-source",
     "type": "tool"
+  },
+  {
+    "id": "meetily",
+    "name": "Meetily",
+    "description": "Assistente AI per riunioni privacy-first, 100% locale e self-hosted: trascrizione live (Parakeet/Whisper, fino a 4x più veloce), diarizzazione degli speaker e sintesi via Ollama. Note-taker open-source per macOS e Windows, senza cloud.",
+    "url": "https://github.com/Zackriya-Solutions/meetily",
+    "category": "tool-utility",
+    "tags": [
+      "open-source",
+      "meeting-notes",
+      "transcription",
+      "self-hosted",
+      "privacy",
+      "whisper",
+      "local-ai",
+      "rust"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
   }
 ];

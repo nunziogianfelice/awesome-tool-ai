@@ -140,6 +140,7 @@ python3 scripts/build_tools_js.py
 |------|-------------|-----|
 | [EasyFunctionCall](https://easyfunctioncall.com/tool) | Tool che semplifica la definizione e l'invocazione di function calling lato LLM, generando schemi JSON pronti all'uso. Pensato per chi vuole prototipare agenti tool-using senza scrivere boilerplate. | `function-calling` `developer-tools` |
 | [MarkItDown](https://github.com/microsoft/markitdown) | Utility open-source di Microsoft che converte file di vario formato (PDF, DOCX, XLSX, immagini, audio) in Markdown ottimizzato per l'ingestion in LLM. Comodo come pre-processore per pipeline RAG. | `open-source` `python` `microsoft` `rag` `document` |
+| [Meetily](https://github.com/Zackriya-Solutions/meetily) | Assistente AI per riunioni privacy-first, 100% locale e self-hosted: trascrizione live (Parakeet/Whisper, fino a 4x più veloce), diarizzazione degli speaker e sintesi via Ollama. Note-taker open-source per macOS e Windows, senza cloud. | `open-source` `meeting-notes` `transcription` `self-hosted` `privacy` `whisper` `local-ai` `rust` |
 | [MiroFish](https://github.com/666ghj/MiroFish) | Tool open-source che integra Miro con LLM per generare e manipolare board Miro tramite prompt: utile per brainstorming, mappe mentali e diagrammi assistiti da AI. | `open-source` `miro` `collaboration` |
 | [NotebookLM Python API (unofficial)](https://github.com/teng-lin/notebooklm-py) | Wrapper Python non ufficiale per interagire programmaticamente con Google NotebookLM, permettendo di creare notebook, caricare fonti e generare audio overview da script. | `open-source` `python` `google` `notebooklm` `unofficial` |
 | [Open Notebook](https://github.com/lfnovo/open-notebook) | Alternativa open-source e self-hostable a Google NotebookLM per la ricerca AI-assistita: ingestione di fonti eterogenee (PDF, web, audio, video), chat contestuale, note strutturate e generazione di podcast. Privacy-first, supporta modelli locali e cloud. | `open-source` `self-hostable` `python` `notebooklm` `rag` `privacy` |
@@ -187,8 +188,8 @@ python3 scripts/build_tools_js.py
 
 ## Statistiche
 
-- **107** item totali
-- **75** tool/prodotti
+- **108** item totali
+- **76** tool/prodotti
 - **32** risorse (articoli, corsi, doc, awesome list)
 - **14** categorie utilizzate
 
