@@ -1646,5 +1646,24 @@ window.TOOLS_DATA = [
     ],
     "pricing": "open-source",
     "type": "tool"
+  },
+  {
+    "id": "sibillaos",
+    "name": "SibillaOS",
+    "description": "Distribuzione Linux con LLM integrato: al primo avvio rileva l'hardware, sceglie vLLM o Ollama, scarica un modello adatto alle risorse disponibili e espone un'API OpenAI-compatible. Inferenza locale self-hosted pronta all'uso, basata su Ubuntu/Debian.",
+    "url": "https://github.com/engineering87/sibillaos",
+    "category": "llm-infrastructure",
+    "tags": [
+      "open-source",
+      "linux",
+      "local-ai",
+      "self-hosted",
+      "ollama",
+      "vllm",
+      "inference",
+      "openai-compatible"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
   }
 ];

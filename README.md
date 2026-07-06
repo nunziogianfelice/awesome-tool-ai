@@ -80,6 +80,7 @@ python3 scripts/build_tools_js.py
 | [Latitude](https://github.com/latitude-dev/latitude-llm) | Piattaforma open-source di osservabilità e monitoring per applicazioni LLM e agenti AI: tracing degli errori, logging dei prompt, valutazioni e metriche in produzione. Self-hostable (MIT) con cloud gestito opzionale e SDK TypeScript/Python. | `open-source` `observability` `monitoring` `llm-ops` `typescript` `agent` |
 | [LiteLLM](https://www.litellm.ai/) | Proxy e SDK Python open-source che unifica le API di oltre 100 provider LLM in un'unica interfaccia OpenAI-compatible, con retry, fallback, budget e logging. Standard per ambienti multi-modello. | `open-source` `python` `proxy` `openai-compatible` `self-hostable` |
 | [OpenRouter](https://openrouter.ai/) | Aggregatore di LLM che espone via un'unica API OpenAI-compatible centinaia di modelli (GPT, Claude, Gemini, Llama, ecc.) con routing automatico, fallback e prezzi competitivi. Standard de facto per multi-model app. | `api` `multi-model` `routing` `openai-compatible` |
+| [SibillaOS](https://github.com/engineering87/sibillaos) | Distribuzione Linux con LLM integrato: al primo avvio rileva l'hardware, sceglie vLLM o Ollama, scarica un modello adatto alle risorse disponibili e espone un'API OpenAI-compatible. Inferenza locale self-hosted pronta all'uso, basata su Ubuntu/Debian. | `open-source` `linux` `local-ai` `self-hosted` `ollama` `vllm` `inference` `openai-compatible` |
 | [WebLLM](https://webllm.mlc.ai/) | Runtime per eseguire LLM direttamente nel browser via WebGPU, senza server. Permette inferenza completamente locale e offline di modelli come Llama, Mistral o Phi. | `open-source` `browser` `local-llm` `webgpu` `privacy` |
 
 ### Data & AI
@@ -188,8 +189,8 @@ python3 scripts/build_tools_js.py
 
 ## Statistiche
 
-- **108** item totali
-- **76** tool/prodotti
+- **109** item totali
+- **77** tool/prodotti
 - **32** risorse (articoli, corsi, doc, awesome list)
 - **14** categorie utilizzate
 
