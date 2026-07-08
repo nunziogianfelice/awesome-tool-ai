@@ -144,6 +144,7 @@ python3 scripts/build_tools_js.py
 | [Meetily](https://github.com/Zackriya-Solutions/meetily) | Assistente AI per riunioni privacy-first, 100% locale e self-hosted: trascrizione live (Parakeet/Whisper, fino a 4x più veloce), diarizzazione degli speaker e sintesi via Ollama. Note-taker open-source per macOS e Windows, senza cloud. | `open-source` `meeting-notes` `transcription` `self-hosted` `privacy` `whisper` `local-ai` `rust` |
 | [MiroFish](https://github.com/666ghj/MiroFish) | Tool open-source che integra Miro con LLM per generare e manipolare board Miro tramite prompt: utile per brainstorming, mappe mentali e diagrammi assistiti da AI. | `open-source` `miro` `collaboration` |
 | [NotebookLM Python API (unofficial)](https://github.com/teng-lin/notebooklm-py) | Wrapper Python non ufficiale per interagire programmaticamente con Google NotebookLM, permettendo di creare notebook, caricare fonti e generare audio overview da script. | `open-source` `python` `google` `notebooklm` `unofficial` |
+| [OfficeCLI](https://github.com/iOfficeAI/OfficeCLI) | Suite Office pensata per gli agenti AI: CLI a binario singolo (niente Office installato) per leggere, creare e modificare file Word, Excel e PowerPoint. Approccio a livelli (lettura → DOM edit → XML raw), output JSON, resident mode per sessioni lunghe, skill dedicate per Claude Code e altri agenti. | `open-source` `office` `docx` `xlsx` `pptx` `cli` `ai-agent` `claude-code` `csharp` |
 | [Open Notebook](https://github.com/lfnovo/open-notebook) | Alternativa open-source e self-hostable a Google NotebookLM per la ricerca AI-assistita: ingestione di fonti eterogenee (PDF, web, audio, video), chat contestuale, note strutturate e generazione di podcast. Privacy-first, supporta modelli locali e cloud. | `open-source` `self-hostable` `python` `notebooklm` `rag` `privacy` |
 | [open-design by Nexu.io](https://github.com/nexu-io/open-design) | Tool open-source che genera design system e componenti UI a partire da prompt o brief, con focus su consistenza e tokens. Pensato come alternativa libera a tool come Stitch o v0. | `open-source` `design` `ui` |
 | [PageIndex by VectifyAI](https://github.com/VectifyAI/PageIndex) | Sistema di document retrieval reasoning-based che organizza documenti come alberi gerarchici per migliorare il recall su documenti lunghi e complessi (paper, contratti, manuali). Alternativa al chunk-based RAG classico. | `open-source` `rag` `document` `python` |
@@ -189,8 +190,8 @@ python3 scripts/build_tools_js.py
 
 ## Statistiche
 
-- **109** item totali
-- **77** tool/prodotti
+- **110** item totali
+- **78** tool/prodotti
 - **32** risorse (articoli, corsi, doc, awesome list)
 - **14** categorie utilizzate
 

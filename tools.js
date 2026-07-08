@@ -1665,5 +1665,25 @@ window.TOOLS_DATA = [
     ],
     "pricing": "open-source",
     "type": "tool"
+  },
+  {
+    "id": "officecli",
+    "name": "OfficeCLI",
+    "description": "Suite Office pensata per gli agenti AI: CLI a binario singolo (niente Office installato) per leggere, creare e modificare file Word, Excel e PowerPoint. Approccio a livelli (lettura → DOM edit → XML raw), output JSON, resident mode per sessioni lunghe, skill dedicate per Claude Code e altri agenti.",
+    "url": "https://github.com/iOfficeAI/OfficeCLI",
+    "category": "tool-utility",
+    "tags": [
+      "open-source",
+      "office",
+      "docx",
+      "xlsx",
+      "pptx",
+      "cli",
+      "ai-agent",
+      "claude-code",
+      "csharp"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
   }
 ];
