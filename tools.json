@@ -1090,6 +1090,16 @@
     "type": "tool"
   },
   {
+    "id": "ai-website-cloner-template",
+    "name": "AI Website Cloner Template",
+    "description": "Template Next.js 16 + shadcn/ui con skill /clone-website per agenti di coding (Claude Code e altri): dato un URL, ricostruisce la pagina come codice React pixel-perfect. Pipeline multi-agente: ricognizione via browser, estrazione CSS esatta (getComputedStyle) in spec per componente, builder paralleli in git worktree, QA con visual diff. Solo frontend (dati mock, niente backend/auth).",
+    "url": "https://github.com/JCodesMore/ai-website-cloner-template",
+    "category": "developer-tools",
+    "tags": ["open-source", "nextjs", "react", "website-clone", "ai-agent", "claude-code", "tailwindcss", "shadcn-ui", "typescript"],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
     "id": "officecli",
     "name": "OfficeCLI",
     "description": "Suite Office pensata per gli agenti AI: CLI a binario singolo (niente Office installato) per leggere, creare e modificare file Word, Excel e PowerPoint. Approccio a livelli (lettura → DOM edit → XML raw), output JSON, resident mode per sessioni lunghe, skill dedicate per Claude Code e altri agenti.",

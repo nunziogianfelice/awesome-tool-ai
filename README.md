@@ -190,8 +190,8 @@ python3 scripts/build_tools_js.py
 
 ## Statistiche
 
-- **110** item totali
-- **78** tool/prodotti
+- **111** item totali
+- **79** tool/prodotti
 - **32** risorse (articoli, corsi, doc, awesome list)
 - **14** categorie utilizzate
 
