@@ -1667,6 +1667,25 @@ window.TOOLS_DATA = [
     "type": "tool"
   },
   {
+    "id": "codeflow",
+    "name": "CodeFlow",
+    "description": "Mappa interattiva dell'architettura di un repo, 100% nel browser: incolli un URL GitHub (o dragghi una cartella locale, offline) e ottieni grafo delle dipendenze, blast radius (\"cosa si rompe se tocco questo file\"), analisi impatto PR, health score A-F, scanner di secrets e code ownership. Repo privati via PAT che resta in memoria del browser; single-file HTML self-hostabile.",
+    "url": "https://github.com/braedonsaunders/codeflow",
+    "category": "developer-tools",
+    "tags": [
+      "open-source",
+      "code-analysis",
+      "visualization",
+      "dependency-graph",
+      "architecture",
+      "browser-based",
+      "privacy",
+      "d3js"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
     "id": "ai-website-cloner-template",
     "name": "AI Website Cloner Template",
     "description": "Template Next.js 16 + shadcn/ui con skill /clone-website per agenti di coding (Claude Code e altri): dato un URL, ricostruisce la pagina come codice React pixel-perfect. Pipeline multi-agente: ricognizione via browser, estrazione CSS esatta (getComputedStyle) in spec per componente, builder paralleli in git worktree, QA con visual diff. Solo frontend (dati mock, niente backend/auth).",
