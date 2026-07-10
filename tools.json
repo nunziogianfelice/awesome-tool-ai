@@ -1090,6 +1090,16 @@
     "type": "tool"
   },
   {
+    "id": "cmux",
+    "name": "cmux",
+    "description": "Terminale macOS nativo (Swift + AppKit su motore Ghostty, niente Electron) pensato per orchestrare agenti AI da terminale (Claude Code, Codex, OpenCode): tab verticali con branch git, porte e anelli di notifica quando un agente chiede attenzione, split panel, browser integrato scriptabile, API CLI/Unix socket per l'automazione e companion app iOS sincronizzata.",
+    "url": "https://github.com/manaflow-ai/cmux",
+    "category": "developer-tools",
+    "tags": ["open-source", "terminal", "macos", "ai-agent", "claude-code", "multiplexer", "swift", "ghostty"],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
     "id": "codeflow",
     "name": "CodeFlow",
     "description": "Mappa interattiva dell'architettura di un repo, 100% nel browser: incolli un URL GitHub (o dragghi una cartella locale, offline) e ottieni grafo delle dipendenze, blast radius (\"cosa si rompe se tocco questo file\"), analisi impatto PR, health score A-F, scanner di secrets e code ownership. Repo privati via PAT che resta in memoria del browser; single-file HTML self-hostabile.",
