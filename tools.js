@@ -1667,6 +1667,24 @@ window.TOOLS_DATA = [
     "type": "tool"
   },
   {
+    "id": "openwiki",
+    "name": "OpenWiki",
+    "description": "CLI di LangChain che scrive e mantiene wiki per agenti AI: in modalità code genera e aggiorna la documentazione del repo (openwiki/), con workflow CI che aprono PR di aggiornamento automatiche; in modalità personal costruisce un \"personal brain\" locale ingerendo repo, Gmail, Notion, web search e X via connettori integrati.",
+    "url": "https://github.com/langchain-ai/openwiki",
+    "category": "developer-tools",
+    "tags": [
+      "open-source",
+      "langchain",
+      "documentation",
+      "cli",
+      "ai-agent",
+      "knowledge-base",
+      "typescript"
+    ],
+    "pricing": "open-source",
+    "type": "tool"
+  },
+  {
     "id": "cmux",
     "name": "cmux",
     "description": "Terminale macOS nativo (Swift + AppKit su motore Ghostty, niente Electron) pensato per orchestrare agenti AI da terminale (Claude Code, Codex, OpenCode): tab verticali con branch git, porte e anelli di notifica quando un agente chiede attenzione, split panel, browser integrato scriptabile, API CLI/Unix socket per l'automazione e companion app iOS sincronizzata.",
