@@ -39,21 +39,38 @@ cd awesome-tool-ai
 open index.html  # macOS
 ```
 
-I dati canonici vivono in [`tools.json`](tools.json). Il file
-[`tools.js`](tools.js) e una copia auto-generata che permette al frontend
-statico di funzionare senza un server HTTP. Rigeneralo con:
+**100% free & open source** — se il progetto ti è utile,
+[⭐ Star on GitHub](https://github.com/nunziogianfelice/awesome-tool-ai).
+
+Ogni tool ha una pagina dedicata (`tools/<id>.html`) con share LinkedIn e
+meta Open Graph. Novità via [RSS](https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml),
+versione machine-readable in [llms.txt](https://nunziogianfelice.github.io/awesome-tool-ai/llms.txt),
+accesso da agenti AI via [server MCP](mcp/README.md).
+
+## Manutenzione
+
+I dati canonici vivono in [`tools.json`](tools.json). Per aggiungere un tool:
+
+1. aggiungi la entry a `tools.json` **con il campo `added_at: YYYY-MM-DD`**
+   (data odierna);
+2. rigenera tutti gli artefatti (tools.js, README, pagine tool, feed.xml,
+   llms.txt):
 
 ```bash
-python3 scripts/build_tools_js.py
+python3 scripts/build_all.py
 ```
+
+3. commit & push.
 """
 
 FOOTER = """
 
 ---
 
-*Contribuisci aprendo una PR che aggiorna [`tools.json`](tools.json). Il
-workflow GitHub Actions in `.github/workflows/validate.yml` valida
+*Contribuisci aprendo una PR che aggiorna [`tools.json`](tools.json) (ricorda
+`added_at` e `python3 scripts/build_all.py`) oppure una
+[issue "Suggerisci un tool"](https://github.com/nunziogianfelice/awesome-tool-ai/issues/new?template=suggest-tool.yml).
+Il workflow GitHub Actions in `.github/workflows/validate.yml` valida
 automaticamente il JSON a ogni push.*
 """
 

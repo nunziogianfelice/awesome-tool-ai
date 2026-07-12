@@ -1,0 +1,55 @@
+name: Suggerisci un tool
+description: Proponi un nuovo tool o risorsa per la knowledge base
+title: "[tool] "
+labels: ["suggestion"]
+body:
+  - type: input
+    id: name
+    attributes:
+      label: Nome del tool
+      placeholder: es. LangGraph
+    validations:
+      required: true
+  - type: input
+    id: url
+    attributes:
+      label: URL
+      description: Link al sito o al repository del tool
+      placeholder: https://github.com/...
+    validations:
+      required: true
+  - type: textarea
+    id: description
+    attributes:
+      label: Descrizione breve
+      description: Una o due frasi su cosa fa il tool
+    validations:
+      required: true
+  - type: dropdown
+    id: category
+    attributes:
+      label: Categoria
+      options:
+        - agent-framework
+        - browser-agent
+        - coding-assistant
+        - data-ai
+        - developer-tools
+        - llm-infrastructure
+        - mcp
+        - model
+        - platform
+        - resource
+        - scraping
+        - tool-utility
+        - ui-framework
+        - vector-db
+    validations:
+      required: true
+  - type: textarea
+    id: why
+    attributes:
+      label: Perché è interessante
+      description: Cosa lo distingue dagli altri tool già in lista?
+    validations:
+      required: true

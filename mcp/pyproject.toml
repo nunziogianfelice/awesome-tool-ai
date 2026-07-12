@@ -1,0 +1,21 @@
+[project]
+name = "awesome-tool-ai-mcp"
+version = "0.1.0"
+description = "MCP server for the awesome-tool-ai GenAI tools knowledge base"
+readme = "README.md"
+requires-python = ">=3.10"
+license = { text = "MIT" }
+dependencies = [
+    "fastmcp>=2.0",
+    "httpx>=0.27",
+]
+
+[project.scripts]
+awesome-tool-ai-mcp = "server:main"
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+py-modules = ["server"]

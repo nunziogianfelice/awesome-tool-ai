@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>GenAI Tools KB</title>
+    <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
+    <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
+    <language>it</language>
+    <lastBuildDate>Sun, 12 Jul 2026 11:04:53 +0000</lastBuildDate>
+    <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>OpenWiki</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/openwiki.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/openwiki.html</guid>
+      <description>CLI di LangChain che scrive e mantiene wiki per agenti AI: in modalità code genera e aggiorna la documentazione del repo (openwiki/), con workflow CI che aprono PR di aggiornamento automatiche; in modalità personal costruisce un "personal brain" locale ingerendo repo, Gmail, Notion, web search e X via connettori integrati.</description>
+      <category>Developer Tools</category>
+      <pubDate>Sun, 12 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>CodeFlow</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/codeflow.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/codeflow.html</guid>
+      <description>Mappa interattiva dell'architettura di un repo, 100% nel browser: incolli un URL GitHub (o dragghi una cartella locale, offline) e ottieni grafo delle dipendenze, blast radius ("cosa si rompe se tocco questo file"), analisi impatto PR, health score A-F, scanner di secrets e code ownership. Repo privati via PAT che resta in memoria del browser; single-file HTML self-hostabile.</description>
+      <category>Developer Tools</category>
+      <pubDate>Fri, 10 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>cmux</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/cmux.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/cmux.html</guid>
+      <description>Terminale macOS nativo (Swift + AppKit su motore Ghostty, niente Electron) pensato per orchestrare agenti AI da terminale (Claude Code, Codex, OpenCode): tab verticali con branch git, porte e anelli di notifica quando un agente chiede attenzione, split panel, browser integrato scriptabile, API CLI/Unix socket per l'automazione e companion app iOS sincronizzata.</description>
+      <category>Developer Tools</category>
+      <pubDate>Fri, 10 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AI Website Cloner Template</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/ai-website-cloner-template.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/ai-website-cloner-template.html</guid>
+      <description>Template Next.js 16 + shadcn/ui con skill /clone-website per agenti di coding (Claude Code e altri): dato un URL, ricostruisce la pagina come codice React pixel-perfect. Pipeline multi-agente: ricognizione via browser, estrazione CSS esatta (getComputedStyle) in spec per componente, builder paralleli in git worktree, QA con visual diff. Solo frontend (dati mock, niente backend/auth).</description>
+      <category>Developer Tools</category>
+      <pubDate>Thu, 09 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OfficeCLI</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/officecli.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/officecli.html</guid>
+      <description>Suite Office pensata per gli agenti AI: CLI a binario singolo (niente Office installato) per leggere, creare e modificare file Word, Excel e PowerPoint. Approccio a livelli (lettura → DOM edit → XML raw), output JSON, resident mode per sessioni lunghe, skill dedicate per Claude Code e altri agenti.</description>
+      <category>Tool &amp; Utility</category>
+      <pubDate>Wed, 08 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>SibillaOS</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/sibillaos.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/sibillaos.html</guid>
+      <description>Distribuzione Linux con LLM integrato: al primo avvio rileva l'hardware, sceglie vLLM o Ollama, scarica un modello adatto alle risorse disponibili e espone un'API OpenAI-compatible. Inferenza locale self-hosted pronta all'uso, basata su Ubuntu/Debian.</description>
+      <category>LLM Infrastructure</category>
+      <pubDate>Mon, 06 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Meetily</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/meetily.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/meetily.html</guid>
+      <description>Assistente AI per riunioni privacy-first, 100% locale e self-hosted: trascrizione live (Parakeet/Whisper, fino a 4x più veloce), diarizzazione degli speaker e sintesi via Ollama. Note-taker open-source per macOS e Windows, senza cloud.</description>
+      <category>Tool &amp; Utility</category>
+      <pubDate>Fri, 03 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>PentesterFlow Agent</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/pentesterflow-agent.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/pentesterflow-agent.html</guid>
+      <description>Agente AI di offensive security che opera da terminale: automazione di penetration testing, security audit e bug bounty tramite un approccio agentico, eseguendo ricognizione e test di sicurezza in autonomia.</description>
+      <category>Tool &amp; Utility</category>
+      <pubDate>Mon, 29 Jun 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>TokenSave</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/tokensave.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/tokensave.html</guid>
+      <description>Server MCP di code intelligence per agenti di coding AI: oltre 40 tool e 30+ linguaggi, con knowledge graph semantici pre-indicizzati per una comprensione istantanea del codice. Riduce token e numero di tool call, funziona 100% in locale e si integra con 9 agenti.</description>
+      <category>MCP</category>
+      <pubDate>Fri, 26 Jun 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Latitude</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/latitude-llm.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/latitude-llm.html</guid>
+      <description>Piattaforma open-source di osservabilità e monitoring per applicazioni LLM e agenti AI: tracing degli errori, logging dei prompt, valutazioni e metriche in produzione. Self-hostable (MIT) con cloud gestito opzionale e SDK TypeScript/Python.</description>
+      <category>LLM Infrastructure</category>
+      <pubDate>Fri, 26 Jun 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Headroom</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/headroom.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/headroom.html</guid>
+      <description>Compressore di contesto per agenti AI che riduce i token di input del 60-95% (JSON, codice, RAG, log) prima che raggiungano l'LLM, senza perdere informazioni critiche. Tre modalità d'uso: libreria Python/TS inline, proxy trasparente senza modifiche al codice, MCP server. Include CodeCompressor AST-aware per Python/JS/Go/Rust, compressione reversibile con cache locale e supporto OpenAI/Anthropic/Gemini.</description>
+      <category>LLM Infrastructure</category>
+      <pubDate>Sat, 20 Jun 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Eve by Vercel</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/vercel-eve.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/vercel-eve.html</guid>
+      <description>Framework per costruire agenti AI production-ready con approccio directory-based (un agente = una cartella): istruzioni in Markdown, tool in TypeScript, skills come playbook riutilizzabili, channels multi-piattaforma (Slack, Discord, Teams). Include durable execution, subagents, cron schedules, sandboxing su VM on-demand e human-in-the-loop con approval gates. Integrazione nativa con l'infrastruttura Vercel.</description>
+      <category>Agent Frameworks</category>
+      <pubDate>Thu, 18 Jun 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Promptfoo Guardrails</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/promptfoo-guardrails.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/promptfoo-guardrails.html</guid>
+      <description>Layer di protezione runtime di Promptfoo contro jailbreak, prompt injection e attacchi adversarial sugli LLM in produzione. Si integra con minime modifiche di codice (cloud o on-prem) e si autoaddestra continuamente sui findings del modulo red-team della stessa piattaforma, alzando l'efficacia nel tempo. Pensato come complemento runtime alle attivita' di eval+red-team di Promptfoo.</description>
+      <category>Developer Tools</category>
+      <pubDate>Sat, 06 Jun 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Promptfoo</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/promptfoo.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/promptfoo.html</guid>
+      <description>Piattaforma open-source per LLM evaluation, red-teaming e security testing di applicazioni AI. Definisci test in YAML, simula attacchi (prompt injection, jailbreak, data leak), integri in CI/CD e fai code scanning su agenti e RAG pipeline. Usata da 156 Fortune 500 con tier enterprise per compliance (FINRA, finance, healthcare, telco).</description>
+      <category>Developer Tools</category>
+      <pubDate>Sat, 06 Jun 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Graphify</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/graphify.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/graphify.html</guid>
+      <description>Skill open-source (MIT, YC S26) per AI coding assistant che con un solo comando `/graphify .` trasforma qualsiasi cartella (codice, SQL, docs, PDF, immagini, video, MCP config, Terraform) in un knowledge graph navigabile. Usa tree-sitter per l'AST locale + LLM per le entita' nei docs + Leiden community detection (stile Microsoft GraphRAG). Output: HTML interattivo, report markdown con god-node e surprising connections, JSON queryable, server MCP opzionale. Supporta 20+ assistant (Claude Code, Codex, Cursor, Gemini CLI, ecc.) e include PR triage, callflow Mermaid auto-rigenerati a ogni commit, hook git.</description>
+      <category>Vector DB</category>
+      <pubDate>Sat, 06 Jun 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Open Notebook</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/open-notebook.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/open-notebook.html</guid>
+      <description>Alternativa open-source e self-hostable a Google NotebookLM per la ricerca AI-assistita: ingestione di fonti eterogenee (PDF, web, audio, video), chat contestuale, note strutturate e generazione di podcast. Privacy-first, supporta modelli locali e cloud.</description>
+      <category>Tool &amp; Utility</category>
+      <pubDate>Fri, 29 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Skills.sh</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/skills-sh.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/skills-sh.html</guid>
+      <description>Marketplace di skill Claude Code con focus su sviluppo web e programmazione. Raccolta curata di skill per workflow frontend, backend e tooling per sviluppatori.</description>
+      <category>Resources</category>
+      <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Repomix</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/repomix.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/repomix.html</guid>
+      <description>Tool open-source che impacchetta l'intero repository in un unico file ottimizzato per LLM, con output XML, Markdown o testo, esclusione via .gitignore e conteggio token. Standard di fatto per preparare codebase come contesto per agenti AI.</description>
+      <category>Tool &amp; Utility</category>
+      <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Prompt Engineering Guide (DAIR.AI)</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/prompt-engineering-guide.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/prompt-engineering-guide.html</guid>
+      <description>Guida completa al prompt engineering di DAIR.AI: tecniche (zero-shot, few-shot, CoT, RAG, agents), best practice e paper di riferimento. La risorsa educativa piu citata sull'argomento, aggiornata continuamente.</description>
+      <category>Resources</category>
+      <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>MCP Market</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/mcp-market.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/mcp-market.html</guid>
+      <description>Portale che aggrega oltre 30.000 MCP tool per connettere LLM a database, Google Drive, Slack e altri SaaS. Utile per trovare server MCP pronti all'uso senza sviluppo custom.</description>
+      <category>Resources</category>
+      <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ClaudeMarketPlaces</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/claude-marketplaces.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/claude-marketplaces.html</guid>
+      <description>Marketplace community con centinaia di skill per Claude Code, navigabili per categoria con sistema di votazione. Piattaforma principale per scoprire e condividere skill Claude pronte all'uso.</description>
+      <category>Resources</category>
+      <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Awesome Claude Code Subagents (VoltAgent)</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/awesome-claude-code-subagents.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/awesome-claude-code-subagents.html</guid>
+      <description>Raccolta curata di subagenti specializzati per Claude Code, organizzati per dominio d'uso. Ogni subagente ha profilo, tool set e CLAUDE.md che ne definisce il comportamento. Ottimo per estendere Claude con agenti verticali pronti all'uso.</description>
+      <category>Resources</category>
+      <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Awesome Claude Code</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/awesome-claude-code.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/awesome-claude-code.html</guid>
+      <description>Lista curata dalla community con le migliori risorse per Claude Code: skill, plugin, configurazioni, articoli e workflow. Riferimento principale per chi vuole massimizzare Claude come coding agent.</description>
+      <category>Resources</category>
+      <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Anthropic Skills Repository</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/anthropic-skills-repo.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/anthropic-skills-repo.html</guid>
+      <description>Repository ufficiale di Anthropic con skill pronte all'uso per Claude Code: workflow strutturati, integrazioni e utility che estendono le capacita dell'agente. Punto di partenza canonico per esplorare o creare skill.</description>
+      <category>Resources</category>
+      <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>AgentSkill.sh</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/agentskill-sh.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/agentskill-sh.html</guid>
+      <description>Marketplace di skill per Claude Code che assegna un security score a ogni skill, fondamentale quando l'AI deve accedere a file o account. Buon filtro qualitativo rispetto alle liste non moderate.</description>
+      <category>Resources</category>
+      <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Agensi.io</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/agensi-io.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/agensi-io.html</guid>
+      <description>Marketplace di skill AI con revisione di sicurezza obbligatoria prima dell'approvazione, suddivise per categoria d'uso. Include skill gratuite e a pagamento, utile quando l'agente deve accedere a file o account sensibili.</description>
+      <category>Resources</category>
+      <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>trs (Token-Reducing Shell)</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/trs.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/trs.html</guid>
+      <description>CLI che comprime l'output del terminale per agenti AI, riducendo l'uso di token del 76-99%. Si usa come prefisso ai comandi (es. `trs npm install`) e integra hook per 9 agenti AI (Claude Code, Cursor, Gemini, ecc.). Include parser dedicati per 50+ tipi di comandi, uno strumento di digestione del repository per creare riassunti context-aware, e una dashboard con le statistiche di risparmio cumulativo.</description>
+      <category>Developer Tools</category>
+      <pubDate>Fri, 15 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Superpowers</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/superpowers.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/superpowers.html</guid>
+      <description>Plugin per Claude Code con 640.000+ installazioni che introduce metodologie strutturate di sviluppo software: TDD guidato (ciclo red-green-refactor), debugging sistematico in quattro fasi, brainstorming socratico pre-codice e code review automatica con checkpoint. Trasforma Claude da assistente reattivo a collaboratore che segue gate di qualità predefiniti. Disponibile tramite slash commands (/brainstorming, /execute-plan).</description>
+      <category>Developer Tools</category>
+      <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Peekaboo</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/peekaboo.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/peekaboo.html</guid>
+      <description>Tool macOS che combina screen capture e analisi AI per abilitare automazione intelligente della GUI. Permette agli agenti AI di catturare screenshot di applicazioni o dell'intero schermo con visual question answering integrato, e di automatizzare click, digitazione e interazioni tramite comandi in linguaggio naturale. Risolve il problema di automatizzare workflow macOS complessi dando agli agenti la capacità di vedere lo schermo e agire su di esso.</description>
+      <category>Developer Tools</category>
+      <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Multica</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/multica.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/multica.html</guid>
+      <description>Piattaforma open-source che integra agenti AI come membri del team: si assegnano task agli agenti come a un collega su Linear o Jira, e loro eseguono autonomamente, aggiornano lo stato e segnalano i blocchi. Un daemon locale rileva automaticamente gli agenti installati (Claude Code, Copilot CLI, Codex, ecc.) e li connette al server centrale via WebSocket. Supporta workspace multi-utente e riuso delle skill tra agenti diversi.</description>
+      <category>Agent Frameworks</category>
+      <pubDate>Mon, 11 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Symphony</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/symphony.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/symphony.html</guid>
+      <description>Tool di orchestrazione di OpenAI che automatizza il lavoro di sviluppo spawning agenti di coding autonomi che gestiscono i task in modo indipendente. Permette ai team di operare a un livello più alto senza supervisionare ogni agente: i task vengono assegnati e gli agenti restituiscono proof of work al completamento. Disponibile come spec aperta con implementazione di riferimento in Elixir.</description>
+      <category>Agent Frameworks</category>
+      <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Awesome Italian PA Open Source</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/awesome-italian-pa-opensource.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/awesome-italian-pa-opensource.html</guid>
+      <description>Lista curata di librerie e tool open-source per integrare i servizi della Pubblica Amministrazione italiana in applicazioni software. Copre autenticazione SPID, fatturazione elettronica, PEC, firma digitale, sanità e molto altro — centinaia di progetti organizzati per categoria, pensati per sviluppatori italiani che devono interfacciarsi con sistemi governativi.</description>
+      <category>Resources</category>
+      <pubDate>Tue, 05 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenUI</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/openui.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/openui.html</guid>
+      <description>Standard aperto e framework full-stack per applicazioni di generative UI, con un linguaggio streaming-first che usa fino al 67% meno token rispetto a JSON equivalente. Separa la generazione LLM dall'esecuzione: il modello genera l'interfaccia una volta sola, poi la UI gestisce autonomamente stato, data fetching e interazioni utente. Ideale per app AI che devono rispondere con componenti UI dinamici e interattivi.</description>
+      <category>UI Framework</category>
+      <pubDate>Mon, 04 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>agentskill</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/agentskill.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/agentskill.html</guid>
+      <description>Tool di analisi forense dei repository che genera file AGENTS.md con specifiche comportamentali: naming convention, indentazione, strategie git, grafi di import e mapping dei test. Supporta 15+ linguaggi con sette analizzatori paralleli, producendo spec machine-readable che permettono agli agenti AI di generare codice indistinguibile da quello esistente.</description>
+      <category>Developer Tools</category>
+      <pubDate>Mon, 04 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>zvec by Alibaba</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/zvec-alibaba.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/zvec-alibaba.html</guid>
+      <description>Engine di vector search ad alte prestazioni open-source di Alibaba, ottimizzato per scalare retrieval semantico su miliardi di vettori. Alternativa enterprise a Faiss/Milvus.</description>
+      <category>Vector DB</category>
+      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>WrenAI</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/wren-ai.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/wren-ai.html</guid>
+      <description>Agente text-to-SQL open-source di Canner che traduce domande in linguaggio naturale in query SQL su data warehouse, con generazione di chart e insight. Alternativa self-hostable a soluzioni BI proprietarie.</description>
+      <category>Data &amp; AI</category>
+      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>WebLLM</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/webllm.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/webllm.html</guid>
+      <description>Runtime per eseguire LLM direttamente nel browser via WebGPU, senza server. Permette inferenza completamente locale e offline di modelli come Llama, Mistral o Phi.</description>
+      <category>LLM Infrastructure</category>
+      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vy by Vercept</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/vy-vercept.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/vy-vercept.html</guid>
+      <description>Collaboratore AI proattivo per macOS che osserva il contesto dell'utente, suggerisce azioni e completa task automaticamente. Si pone a meta strada tra Copilot di sistema e agente personale.</description>
+      <category>Browser Agents</category>
+      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Vizro</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/vizro.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/vizro.html</guid>
+      <description>Toolkit Python di McKinsey per costruire dashboard di data visualization basati su Plotly Dash, con configurazione dichiarativa e supporto a Vizro-AI per la generazione di grafici da prompt. Indicato per analisti e team di BI.</description>
+      <category>Data &amp; AI</category>
+      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>VibeVoice</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/vibevoice.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/vibevoice.html</guid>
+      <description>Modello TTS open-source di Microsoft Research per la generazione di parlato lungo, espressivo e multi-speaker. Pensato per audiobook, podcast e dialoghi sintetici di alta qualita.</description>
+      <category>Models</category>
+      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>VibeKit</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/vibekit.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/vibekit.html</guid>
+      <description>Sandbox open-source per eseguire in sicurezza coding agents (Codex, Claude, Gemini) in container isolati con scoped permissions, audit log e telemetry. Pensato per produzionalizzare agenti che scrivono codice.</description>
+      <category>Coding Assistants</category>
+      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Unwind AI</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/unwind-ai.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/unwind-ai.html</guid>
+      <description>Newsletter e portale che curano le novita su LLM apps, agenti e infrastruttura AI con tutorial pratici. Gestiscono anche il repo awesome-llm-apps.</description>
+      <category>Resources</category>
+      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Suna AI</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/suna-ai.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/suna-ai.html</guid>
+      <description>Agente AI generale autonomo open-source che esegue task di ricerca, scraping, scrittura e automazione browser. Alternativa libera e self-hostable a Manus.</description>
+      <category>Agent Frameworks</category>
+      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stitch by Google</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/stitch-google.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/stitch-google.html</guid>
+      <description>Tool sperimentale di Google Labs che genera UI design e codice frontend a partire da una descrizione testuale o da uno sketch. Output esportabile verso Figma o codice HTML/CSS.</description>
+      <category>Tool &amp; Utility</category>
+      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Stagehand by Browserbase</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/stagehand.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/stagehand.html</guid>
+      <description>Framework TypeScript di Browserbase per browser automation AI-driven: combina Playwright con primitive LLM (act, extract, observe) per scrivere agenti web robusti e debuggabili.</description>
+      <category>Browser Agents</category>
+      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Designing Smart Multi-Agent Workflows</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/smart-multi-agent-workflows-blog.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/smart-multi-agent-workflows-blog.html</guid>
+      <description>Articolo che analizza pattern e trade-off nel design di workflow multi-agente: orchestrator vs swarm, gestione dello stato, handoff. Lettura di riferimento per chi progetta sistemi agentivi.</description>
+      <category>Resources</category>
+      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Simular AI</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/simular-ai.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/simular-ai.html</guid>
+      <description>Agente desktop che automatizza task sul tuo Mac osservando lo schermo e simulando interazioni utente. Pensato per workflow ripetitivi che attraversano piu applicazioni.</description>
+      <category>Browser Agents</category>
+      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>ScrapeGraphAI</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/scrapegraph-ai.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/scrapegraph-ai.html</guid>
+      <description>Libreria Python per web scraping basata su LLM: descrivi cosa estrarre in linguaggio naturale e il tool costruisce la pipeline (fetch, parse, estrazione). Ottima per scraping low-code di siti dinamici.</description>
+      <category>Scraping</category>
+      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Runner H</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/runner-h.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/runner-h.html</guid>
+      <description>Agente AI di H Company che controlla GUI desktop e web autonomamente per portare a termine task complessi (form, ricerche, automazioni multi-app). Pensato per use case enterprise di automazione.</description>
+      <category>Browser Agents</category>
+      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Rube.app</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/rube-app.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/rube-app.html</guid>
+      <description>Server MCP universale di Composio che da accesso a oltre 500 app SaaS (Gmail, Slack, Notion, GitHub...) tramite un unico endpoint, con OAuth gestito. Pensato per agenti multi-tool senza configurare ogni integrazione.</description>
+      <category>MCP</category>
+      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
+    </item>
+  </channel>
+</rss>

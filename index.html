@@ -9,6 +9,7 @@
       content="Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico."
     />
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='52' font-size='52'%3E%F0%9F%A4%96%3C/text%3E%3C/svg%3E" />
+    <link rel="alternate" type="application/rss+xml" title="GenAI Tools KB" href="feed.xml" />
     <style>
       :root {
         --bg: #0b1020;
@@ -244,19 +245,116 @@
         margin-left: auto;
       }
 
-      .copy-link-btn {
+      .free-star {
+        display: flex;
+        align-items: center;
+        gap: 12px;
+        margin-top: 12px;
+        font-size: 13px;
+        color: var(--text-dim);
+      }
+      .star-btn {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        background: var(--bg-elev);
+        border: 1px solid var(--border);
+        color: var(--text);
+        border-radius: 8px;
+        padding: 6px 12px;
+        font-size: 13px;
+      }
+      .star-btn:hover {
+        border-color: var(--accent);
+        text-decoration: none;
+      }
+
+      .toolbar {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+        flex-wrap: wrap;
+      }
+      #sort {
+        background: var(--bg-elev);
+        color: var(--text-dim);
+        border: 1px solid var(--border);
+        border-radius: 8px;
+        padding: 6px 10px;
+        font-size: 13px;
+        font-family: inherit;
+        cursor: pointer;
+      }
+      #sort:focus { outline: none; border-color: var(--accent); }
+      .active-tag {
+        display: inline-flex;
+        align-items: center;
+        gap: 6px;
+        padding: 6px 12px;
+        font-size: 13px;
+        border-radius: 999px;
+        border: 1px solid var(--accent);
+        background: var(--accent-soft);
+        color: var(--text);
+        cursor: pointer;
+        user-select: none;
+      }
+
+      .badge-new {
+        font-size: 10px;
+        font-weight: 700;
+        text-transform: uppercase;
+        letter-spacing: 0.04em;
+        padding: 2px 7px;
+        border-radius: 999px;
+        background: #1e4633;
+        color: #7fe0ae;
+        margin-left: 6px;
+        vertical-align: middle;
+        white-space: nowrap;
+      }
+
+      .tag { cursor: pointer; }
+      .tag:hover { color: var(--text); }
+
+      .card-foot {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        gap: 8px;
+        margin-top: auto;
+        padding-top: 4px;
+      }
+      .details-link { font-size: 13px; }
+      .card-share {
+        display: flex;
+        align-items: center;
+        gap: 4px;
+      }
+      .share-btn {
+        display: inline-flex;
+        align-items: center;
+        justify-content: center;
+        width: 28px;
+        height: 28px;
         background: none;
         border: none;
+        border-radius: 6px;
+        color: var(--text-dim);
         cursor: pointer;
-        font-size: 13px;
-        padding: 2px 4px;
-        opacity: 0.35;
-        transition: opacity 0.15s;
-        line-height: 1;
+        padding: 0;
+        opacity: 0.55;
+        transition: all 0.12s ease;
       }
-      .card:hover .copy-link-btn { opacity: 0.7; }
-      .copy-link-btn:hover { opacity: 1 !important; }
-      .copy-link-btn.copied { opacity: 1; }
+      .card:hover .share-btn { opacity: 0.9; }
+      .share-btn:hover {
+        opacity: 1;
+        color: var(--accent);
+        background: var(--accent-soft);
+        text-decoration: none;
+      }
+      .share-btn.copied { color: #7fe0ae; opacity: 1; }
+      .share-btn svg { display: block; }
 
       .card:target {
         outline: 2px solid var(--accent);
@@ -301,6 +399,16 @@
         Knowledge base di tool, framework e risorse per il mondo AI agentico.
         Cerca, filtra, scopri.
       </p>
+      <div class="free-star">
+        <span>100% free &amp; open source</span>
+        <a
+          class="star-btn"
+          href="https://github.com/nunziogianfelice/awesome-tool-ai"
+          target="_blank"
+          rel="noopener noreferrer"
+          >⭐ Star on GitHub</a
+        >
+      </div>
     </header>
 
     <div class="controls">
@@ -313,6 +421,13 @@
           autofocus
         />
         <div class="filters" id="filters"></div>
+        <div class="toolbar">
+          <select id="sort" aria-label="Ordinamento">
+            <option value="relevance">Ordine: rilevanza</option>
+            <option value="newest">Più recenti</option>
+          </select>
+          <span id="active-tag-slot"></span>
+        </div>
       </div>
     </div>
 
@@ -337,24 +452,32 @@
 
         const CATEGORY_LABELS = {
           "agent-framework": "Agent Frameworks",
-          mcp: "MCP",
-          "coding-assistant": "Coding Assistants",
-          "llm-infrastructure": "LLM Infrastructure",
-          "data-ai": "Data & AI",
           "browser-agent": "Browser Agents",
           "coding-assistant": "Coding Assistants",
           "data-ai": "Data & AI",
           "developer-tools": "Developer Tools",
           "llm-infrastructure": "LLM Infrastructure",
           mcp: "MCP",
-          "ui-framework": "UI Framework",
-          "vector-db": "Vector DB",
-          scraping: "Scraping",
-          platform: "Platform",
           model: "Models",
+          platform: "Platform",
+          resource: "Resources",
+          scraping: "Scraping",
           "tool-utility": "Tool & Utility",
-          resource: "Resources"
+          "ui-framework": "UI Framework",
+          "vector-db": "Vector DB"
         };
+
+        const SITE_URL = "https://nunziogianfelice.github.io/awesome-tool-ai";
+        const NEW_DAYS_MS = 30 * 24 * 60 * 60 * 1000;
+
+        const ICON_LINKEDIN =
+          '<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg>';
+        const ICON_GITHUB =
+          '<svg viewBox="0 0 24 24" width="14" height="14" fill="currentColor" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 0 0 .5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.17c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.75 2.69 1.25 3.34.95.1-.74.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.25 5.67.41.35.77 1.04.77 2.1v3.11c0 .3.21.66.8.55A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5z"/></svg>';
+        const ICON_LINK =
+          '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg>';
+        const ICON_CHECK =
+          '<svg viewBox="0 0 24 24" width="14" height="14" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" aria-hidden="true"><path d="M4 12.5l5 5L20 6.5"/></svg>';
 
         const data = Array.isArray(window.TOOLS_DATA) ? window.TOOLS_DATA : [];
         const searchEl = document.getElementById("search");
@@ -362,6 +485,8 @@
         const resultsEl = document.getElementById("results");
         const emptyEl = document.getElementById("empty");
         const statsEl = document.getElementById("stats");
+        const sortEl = document.getElementById("sort");
+        const tagSlotEl = document.getElementById("active-tag-slot");
 
         const fuse = new Fuse(data, {
           keys: [
@@ -376,6 +501,34 @@
         });
 
         let activeCategory = "all";
+        let activeTag = new URLSearchParams(location.search).get("tag") || "";
+        let sortMode = "relevance";
+
+        function isNew(item) {
+          if (!item.added_at) return false;
+          return Date.now() - new Date(item.added_at + "T00:00:00Z") < NEW_DAYS_MS;
+        }
+
+        function setActiveTag(tag) {
+          activeTag = tag;
+          const url = new URL(location.href);
+          if (tag) url.searchParams.set("tag", tag);
+          else url.searchParams.delete("tag");
+          history.replaceState(null, "", url);
+          renderActiveTag();
+          render();
+        }
+
+        function renderActiveTag() {
+          tagSlotEl.innerHTML = "";
+          if (!activeTag) return;
+          const chip = document.createElement("button");
+          chip.className = "active-tag";
+          chip.innerHTML = `tag: ${escapeHtml(activeTag)} <span aria-hidden="true">✕</span>`;
+          chip.title = "Rimuovi filtro tag";
+          chip.addEventListener("click", () => setActiveTag(""));
+          tagSlotEl.appendChild(chip);
+        }
 
         function buildFilters() {
           const counts = data.reduce((acc, item) => {
@@ -419,28 +572,44 @@
           const titleHtml = item.url
             ? `<a href="${escapeHtml(item.url)}" target="_blank" rel="noopener noreferrer">${title}</a>`
             : title;
+          const newBadge = isNew(item)
+            ? ' <span class="badge-new">nuovo</span>'
+            : "";
           const catLabel = CATEGORY_LABELS[item.category] || item.category;
           const badgeClass =
             item.type === "resource" ? "badge resource" : "badge";
           const tags = (item.tags || [])
-            .map((t) => `<span class="tag">${escapeHtml(t)}</span>`)
+            .map(
+              (t) =>
+                `<span class="tag" data-tag="${escapeHtml(t)}" title="Filtra per tag">${escapeHtml(t)}</span>`
+            )
             .join("");
           const pricing = item.pricing
             ? `<span class="pricing">${escapeHtml(item.pricing)}</span>`
             : "";
           const anchorId = `tool-${escapeHtml(item.id || "")}`;
+          const pageUrl = `${SITE_URL}/tools/${encodeURIComponent(item.id)}.html`;
+          const linkedinUrl = `https://www.linkedin.com/sharing/share-offsite/?url=${encodeURIComponent(pageUrl)}`;
+          const copyGh = item.url
+            ? `<button class="share-btn" data-copy="${escapeHtml(item.url)}" title="Copia il link del tool" aria-label="Copia link GitHub del tool">${ICON_GITHUB}</button>`
+            : "";
 
           return `
             <article class="card" id="${anchorId}">
               <div class="card-head">
-                <h3 class="card-title">${titleHtml}</h3>
-                <div style="display:flex;align-items:center;gap:6px">
-                  <button class="copy-link-btn" title="Copia link diretto" data-id="${anchorId}" aria-label="Copia link">🔗</button>
-                  <span class="${badgeClass}">${escapeHtml(catLabel)}</span>
-                </div>
+                <h3 class="card-title">${titleHtml}${newBadge}</h3>
+                <span class="${badgeClass}">${escapeHtml(catLabel)}</span>
               </div>
               <p class="card-desc">${escapeHtml(item.description || "")}</p>
               <div class="tags">${tags}${pricing}</div>
+              <div class="card-foot">
+                <a class="details-link" href="tools/${encodeURIComponent(item.id)}.html">dettagli →</a>
+                <div class="card-share">
+                  <a class="share-btn" href="${escapeHtml(linkedinUrl)}" target="_blank" rel="noopener noreferrer" title="Condividi su LinkedIn" aria-label="Condividi su LinkedIn">${ICON_LINKEDIN}</a>
+                  ${copyGh}
+                  <button class="share-btn" data-copy="${escapeHtml(pageUrl)}" title="Copia il link della pagina" aria-label="Copia link della pagina del tool">${ICON_LINK}</button>
+                </div>
+              </div>
             </article>
           `;
         }
@@ -450,6 +619,16 @@
           let items = q ? fuse.search(q).map((r) => r.item) : data.slice();
           if (activeCategory !== "all") {
             items = items.filter((i) => i.category === activeCategory);
+          }
+          if (activeTag) {
+            items = items.filter((i) => (i.tags || []).includes(activeTag));
+          }
+          if (sortMode === "newest") {
+            items = items
+              .slice()
+              .sort((a, b) =>
+                (b.added_at || "").localeCompare(a.added_at || "")
+              );
           }
           return items;
         }
@@ -475,17 +654,28 @@
           debounce = setTimeout(render, 80);
         });
 
-        // Copy-link handler (delegated)
+        sortEl.addEventListener("change", () => {
+          sortMode = sortEl.value;
+          render();
+        });
+
+        // Delegated handlers: copy-to-clipboard + tag filter
         resultsEl.addEventListener("click", (e) => {
-          const btn = e.target.closest(".copy-link-btn");
-          if (!btn) return;
-          const id = btn.dataset.id;
-          const url = `${location.origin}${location.pathname}#${id}`;
-          history.replaceState(null, "", `#${id}`);
-          navigator.clipboard.writeText(url).catch(() => {});
-          btn.textContent = "✓";
-          btn.classList.add("copied");
-          setTimeout(() => { btn.textContent = "🔗"; btn.classList.remove("copied"); }, 1500);
+          const btn = e.target.closest("button.share-btn[data-copy]");
+          if (btn) {
+            const original = btn.innerHTML;
+            navigator.clipboard.writeText(btn.dataset.copy).catch(() => {});
+            btn.innerHTML = ICON_CHECK;
+            btn.title = "copiato ✓";
+            btn.classList.add("copied");
+            setTimeout(() => {
+              btn.innerHTML = original;
+              btn.classList.remove("copied");
+            }, 1500);
+            return;
+          }
+          const tag = e.target.closest(".tag[data-tag]");
+          if (tag) setActiveTag(tag.dataset.tag);
         });
 
         // Scroll to hash on load
@@ -501,6 +691,7 @@
             "Nessun dato caricato. Verifica che tools.js sia presente.";
         } else {
           buildFilters();
+          renderActiveTag();
           render();
           setTimeout(scrollToHash, 100);
         }

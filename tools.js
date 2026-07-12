@@ -13,7 +13,8 @@ window.TOOLS_DATA = [
       "developer-tools"
     ],
     "pricing": "free",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "kong",
@@ -28,7 +29,8 @@ window.TOOLS_DATA = [
       "open-source"
     ],
     "pricing": "freemium",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "easy-function-call",
@@ -41,7 +43,8 @@ window.TOOLS_DATA = [
       "developer-tools"
     ],
     "pricing": "free",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "huggingface-spaces",
@@ -56,7 +59,8 @@ window.TOOLS_DATA = [
       "python"
     ],
     "pricing": "freemium",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "manus",
@@ -70,7 +74,8 @@ window.TOOLS_DATA = [
       "cloud"
     ],
     "pricing": "paid",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "genspark",
@@ -84,7 +89,8 @@ window.TOOLS_DATA = [
       "consumer"
     ],
     "pricing": "freemium",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "agno-sql-agent",
@@ -100,7 +106,8 @@ window.TOOLS_DATA = [
       "example"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "atomic-agents",
@@ -115,7 +122,8 @@ window.TOOLS_DATA = [
       "pydantic"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "scrapegraph-ai",
@@ -130,7 +138,8 @@ window.TOOLS_DATA = [
       "rag"
     ],
     "pricing": "freemium",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "markitdown",
@@ -146,7 +155,8 @@ window.TOOLS_DATA = [
       "document"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "ematching-blog",
@@ -160,7 +170,8 @@ window.TOOLS_DATA = [
       "embeddings"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-03"
   },
   {
     "id": "plexe",
@@ -175,7 +186,8 @@ window.TOOLS_DATA = [
       "no-code"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "awesome-llm-apps",
@@ -191,7 +203,8 @@ window.TOOLS_DATA = [
       "agent"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-03"
   },
   {
     "id": "anthropic-prompt-caching",
@@ -206,7 +219,8 @@ window.TOOLS_DATA = [
       "claude"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-03"
   },
   {
     "id": "vizro",
@@ -222,7 +236,8 @@ window.TOOLS_DATA = [
       "low-code"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "simular-ai",
@@ -237,7 +252,8 @@ window.TOOLS_DATA = [
       "desktop"
     ],
     "pricing": "freemium",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "cosine-genie",
@@ -251,7 +267,8 @@ window.TOOLS_DATA = [
       "autonomous"
     ],
     "pricing": "paid",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "google-vids",
@@ -266,7 +283,8 @@ window.TOOLS_DATA = [
       "no-code"
     ],
     "pricing": "paid",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "stitch-google",
@@ -281,7 +299,8 @@ window.TOOLS_DATA = [
       "code-generation"
     ],
     "pricing": "free",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "mindsdb",
@@ -297,7 +316,8 @@ window.TOOLS_DATA = [
       "self-hostable"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "bigquery-continuous-queries",
@@ -312,7 +332,8 @@ window.TOOLS_DATA = [
       "sql"
     ],
     "pricing": "paid",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-03"
   },
   {
     "id": "agenticseek",
@@ -328,7 +349,8 @@ window.TOOLS_DATA = [
       "python"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "mcp-inspector-mcpjam",
@@ -342,7 +364,8 @@ window.TOOLS_DATA = [
       "debugging"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "mcp-linker",
@@ -356,7 +379,8 @@ window.TOOLS_DATA = [
       "cli"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "mcp-introduction",
@@ -371,7 +395,8 @@ window.TOOLS_DATA = [
       "specification"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-03"
   },
   {
     "id": "unwind-ai",
@@ -385,7 +410,8 @@ window.TOOLS_DATA = [
       "free"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-03"
   },
   {
     "id": "mcp-servers-repo",
@@ -400,7 +426,8 @@ window.TOOLS_DATA = [
       "mcp"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-03"
   },
   {
     "id": "mcp-deeplearning-course",
@@ -415,7 +442,8 @@ window.TOOLS_DATA = [
       "mcp"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-03"
   },
   {
     "id": "apple-foundation-models",
@@ -432,7 +460,8 @@ window.TOOLS_DATA = [
       "privacy"
     ],
     "pricing": "free",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "huggingface-agents-course",
@@ -447,7 +476,8 @@ window.TOOLS_DATA = [
       "agent"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-03"
   },
   {
     "id": "gemini-cli",
@@ -462,7 +492,8 @@ window.TOOLS_DATA = [
       "open-source"
     ],
     "pricing": "freemium",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "google-adk",
@@ -478,7 +509,8 @@ window.TOOLS_DATA = [
       "multi-agent"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "opendia",
@@ -493,7 +525,8 @@ window.TOOLS_DATA = [
       "extension"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "raspberry-pi-agents-article",
@@ -508,7 +541,8 @@ window.TOOLS_DATA = [
       "raspberry-pi"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-03"
   },
   {
     "id": "qwen3-coder",
@@ -523,7 +557,8 @@ window.TOOLS_DATA = [
       "open-weights"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "langchain-deep-agents",
@@ -539,7 +574,8 @@ window.TOOLS_DATA = [
       "multi-agent"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "google-genai-toolbox",
@@ -555,7 +591,8 @@ window.TOOLS_DATA = [
       "sql"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "smart-multi-agent-workflows-blog",
@@ -569,7 +606,8 @@ window.TOOLS_DATA = [
       "design-patterns"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-03"
   },
   {
     "id": "cursor-vs-claude-code-article",
@@ -583,7 +621,8 @@ window.TOOLS_DATA = [
       "comparison"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-03"
   },
   {
     "id": "aider",
@@ -598,7 +637,8 @@ window.TOOLS_DATA = [
       "git"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "mcp-ui",
@@ -613,7 +653,8 @@ window.TOOLS_DATA = [
       "react"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "agentic-design-patterns-doc",
@@ -628,7 +669,8 @@ window.TOOLS_DATA = [
       "free"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-03"
   },
   {
     "id": "rube-app",
@@ -642,7 +684,8 @@ window.TOOLS_DATA = [
       "composio"
     ],
     "pricing": "freemium",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "pipedream-mcp-chat",
@@ -657,7 +700,8 @@ window.TOOLS_DATA = [
       "integrations"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "ag-ui-protocol",
@@ -671,7 +715,8 @@ window.TOOLS_DATA = [
       "ui"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "vibekit",
@@ -686,7 +731,8 @@ window.TOOLS_DATA = [
       "agent"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "wren-ai",
@@ -702,7 +748,8 @@ window.TOOLS_DATA = [
       "rag"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "google-ai-studio",
@@ -717,7 +764,8 @@ window.TOOLS_DATA = [
       "ide"
     ],
     "pricing": "freemium",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "vibevoice",
@@ -732,7 +780,8 @@ window.TOOLS_DATA = [
       "tts"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "agentmail",
@@ -746,7 +795,8 @@ window.TOOLS_DATA = [
       "agent"
     ],
     "pricing": "freemium",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "runner-h",
@@ -761,7 +811,8 @@ window.TOOLS_DATA = [
       "browser-use"
     ],
     "pricing": "paid",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "vy-vercept",
@@ -775,7 +826,8 @@ window.TOOLS_DATA = [
       "personal-assistant"
     ],
     "pricing": "paid",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "suna-ai",
@@ -790,7 +842,8 @@ window.TOOLS_DATA = [
       "autonomous"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "agent-zero",
@@ -805,7 +858,8 @@ window.TOOLS_DATA = [
       "self-hostable"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "deepagent-abacus",
@@ -820,7 +874,8 @@ window.TOOLS_DATA = [
       "agent"
     ],
     "pricing": "paid",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "openrouter",
@@ -835,7 +890,8 @@ window.TOOLS_DATA = [
       "openai-compatible"
     ],
     "pricing": "paid",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "parlant",
@@ -850,7 +906,8 @@ window.TOOLS_DATA = [
       "guardrails"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "webllm",
@@ -866,7 +923,8 @@ window.TOOLS_DATA = [
       "privacy"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "dash-data-agent-article",
@@ -880,7 +938,8 @@ window.TOOLS_DATA = [
       "agent"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-03"
   },
   {
     "id": "chess-fine-tuning-tutorial",
@@ -894,7 +953,8 @@ window.TOOLS_DATA = [
       "fine-tuning"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-03"
   },
   {
     "id": "redamon",
@@ -909,7 +969,8 @@ window.TOOLS_DATA = [
       "evaluation"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "zvec-alibaba",
@@ -924,7 +985,8 @@ window.TOOLS_DATA = [
       "rag"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "redis-for-ai",
@@ -940,7 +1002,8 @@ window.TOOLS_DATA = [
       "enterprise"
     ],
     "pricing": "freemium",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "agentskills-ref",
@@ -955,7 +1018,8 @@ window.TOOLS_DATA = [
       "examples"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-03"
   },
   {
     "id": "page-index",
@@ -970,7 +1034,8 @@ window.TOOLS_DATA = [
       "python"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "apitap",
@@ -984,7 +1049,8 @@ window.TOOLS_DATA = [
       "developer-tools"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "notebooklm-py",
@@ -1000,7 +1066,8 @@ window.TOOLS_DATA = [
       "unofficial"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "open-notebook",
@@ -1017,7 +1084,8 @@ window.TOOLS_DATA = [
       "privacy"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-29"
   },
   {
     "id": "google-always-on-memory-agent",
@@ -1033,7 +1101,8 @@ window.TOOLS_DATA = [
       "gemini"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-03"
   },
   {
     "id": "personal-skills-nodejs-article",
@@ -1048,7 +1117,8 @@ window.TOOLS_DATA = [
       "claude"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-03"
   },
   {
     "id": "mirofish",
@@ -1062,7 +1132,8 @@ window.TOOLS_DATA = [
       "collaboration"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "coding-agents-enea",
@@ -1076,7 +1147,8 @@ window.TOOLS_DATA = [
       "python"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "openagents",
@@ -1091,7 +1163,8 @@ window.TOOLS_DATA = [
       "multi-agent"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "litellm",
@@ -1107,7 +1180,8 @@ window.TOOLS_DATA = [
       "self-hostable"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "google-agents-cli",
@@ -1124,7 +1198,8 @@ window.TOOLS_DATA = [
       "developer-tools"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "stagehand",
@@ -1139,7 +1214,8 @@ window.TOOLS_DATA = [
       "playwright"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "open-design-nexu",
@@ -1153,7 +1229,8 @@ window.TOOLS_DATA = [
       "ui"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-03"
   },
   {
     "id": "awesome-agentic-patterns",
@@ -1168,7 +1245,8 @@ window.TOOLS_DATA = [
       "free"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-03"
   },
   {
     "id": "reasoning-agents-blog",
@@ -1182,7 +1260,8 @@ window.TOOLS_DATA = [
       "agent"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-03"
   },
   {
     "id": "learning-machines-blog",
@@ -1196,7 +1275,8 @@ window.TOOLS_DATA = [
       "continual-learning"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-03"
   },
   {
     "id": "andrej-karpathy-skills",
@@ -1211,7 +1291,8 @@ window.TOOLS_DATA = [
       "examples"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-03"
   },
   {
     "id": "agentskill",
@@ -1226,7 +1307,8 @@ window.TOOLS_DATA = [
       "open-source"
     ],
     "pricing": "free",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-04"
   },
   {
     "id": "peekaboo",
@@ -1241,7 +1323,8 @@ window.TOOLS_DATA = [
       "multimodal"
     ],
     "pricing": "free",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-12"
   },
   {
     "id": "superpowers",
@@ -1256,7 +1339,8 @@ window.TOOLS_DATA = [
       "framework"
     ],
     "pricing": "free",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-12"
   },
   {
     "id": "multica",
@@ -1271,7 +1355,8 @@ window.TOOLS_DATA = [
       "tools"
     ],
     "pricing": "free",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-11"
   },
   {
     "id": "symphony",
@@ -1286,7 +1371,8 @@ window.TOOLS_DATA = [
       "framework"
     ],
     "pricing": "free",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-06"
   },
   {
     "id": "awesome-italian-pa-opensource",
@@ -1301,7 +1387,8 @@ window.TOOLS_DATA = [
       "api"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-05"
   },
   {
     "id": "openui",
@@ -1316,7 +1403,8 @@ window.TOOLS_DATA = [
       "open-source"
     ],
     "pricing": "free",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-04"
   },
   {
     "id": "anthropic-skills-repo",
@@ -1331,7 +1419,8 @@ window.TOOLS_DATA = [
       "claude"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-17"
   },
   {
     "id": "awesome-claude-code",
@@ -1346,7 +1435,8 @@ window.TOOLS_DATA = [
       "coding-assistant"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-17"
   },
   {
     "id": "prompt-engineering-guide",
@@ -1362,7 +1452,8 @@ window.TOOLS_DATA = [
       "rag"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-17"
   },
   {
     "id": "repomix",
@@ -1378,7 +1469,8 @@ window.TOOLS_DATA = [
       "developer-tools"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-17"
   },
   {
     "id": "awesome-claude-code-subagents",
@@ -1394,7 +1486,8 @@ window.TOOLS_DATA = [
       "awesome-list"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-17"
   },
   {
     "id": "claude-marketplaces",
@@ -1409,7 +1502,8 @@ window.TOOLS_DATA = [
       "community"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-17"
   },
   {
     "id": "agensi-io",
@@ -1424,7 +1518,8 @@ window.TOOLS_DATA = [
       "community"
     ],
     "pricing": "freemium",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-17"
   },
   {
     "id": "mcp-market",
@@ -1439,7 +1534,8 @@ window.TOOLS_DATA = [
       "saas"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-17"
   },
   {
     "id": "agentskill-sh",
@@ -1454,7 +1550,8 @@ window.TOOLS_DATA = [
       "security"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-17"
   },
   {
     "id": "skills-sh",
@@ -1469,7 +1566,8 @@ window.TOOLS_DATA = [
       "web-development"
     ],
     "pricing": "free",
-    "type": "resource"
+    "type": "resource",
+    "added_at": "2026-05-17"
   },
   {
     "id": "trs",
@@ -1485,7 +1583,8 @@ window.TOOLS_DATA = [
       "ai-agents"
     ],
     "pricing": "free",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-05-15"
   },
   {
     "id": "graphify",
@@ -1503,7 +1602,8 @@ window.TOOLS_DATA = [
       "yc"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-06-06"
   },
   {
     "id": "promptfoo",
@@ -1520,7 +1620,8 @@ window.TOOLS_DATA = [
       "rag"
     ],
     "pricing": "freemium",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-06-06"
   },
   {
     "id": "promptfoo-guardrails",
@@ -1537,7 +1638,8 @@ window.TOOLS_DATA = [
       "enterprise"
     ],
     "pricing": "paid",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-06-06"
   },
   {
     "id": "vercel-eve",
@@ -1554,7 +1656,8 @@ window.TOOLS_DATA = [
       "developer-tools"
     ],
     "pricing": "freemium",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-06-18"
   },
   {
     "id": "headroom",
@@ -1573,7 +1676,8 @@ window.TOOLS_DATA = [
       "agent"
     ],
     "pricing": "free",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-06-20"
   },
   {
     "id": "latitude-llm",
@@ -1590,7 +1694,8 @@ window.TOOLS_DATA = [
       "agent"
     ],
     "pricing": "freemium",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-06-26"
   },
   {
     "id": "tokensave",
@@ -1608,7 +1713,8 @@ window.TOOLS_DATA = [
       "developer-tools"
     ],
     "pricing": "free",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-06-26"
   },
   {
     "id": "pentesterflow-agent",
@@ -1626,7 +1732,8 @@ window.TOOLS_DATA = [
       "typescript"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-06-29"
   },
   {
     "id": "meetily",
@@ -1645,7 +1752,8 @@ window.TOOLS_DATA = [
       "rust"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-07-03"
   },
   {
     "id": "sibillaos",
@@ -1664,7 +1772,8 @@ window.TOOLS_DATA = [
       "openai-compatible"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-07-06"
   },
   {
     "id": "openwiki",
@@ -1682,7 +1791,8 @@ window.TOOLS_DATA = [
       "typescript"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-07-12"
   },
   {
     "id": "cmux",
@@ -1701,7 +1811,8 @@ window.TOOLS_DATA = [
       "ghostty"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-07-10"
   },
   {
     "id": "codeflow",
@@ -1720,7 +1831,8 @@ window.TOOLS_DATA = [
       "d3js"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-07-10"
   },
   {
     "id": "ai-website-cloner-template",
@@ -1740,7 +1852,8 @@ window.TOOLS_DATA = [
       "typescript"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-07-09"
   },
   {
     "id": "officecli",
@@ -1760,6 +1873,7 @@ window.TOOLS_DATA = [
       "csharp"
     ],
     "pricing": "open-source",
-    "type": "tool"
+    "type": "tool",
+    "added_at": "2026-07-08"
   }
 ];
