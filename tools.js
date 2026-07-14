@@ -1776,6 +1776,25 @@ window.TOOLS_DATA = [
     "added_at": "2026-07-06"
   },
   {
+    "id": "promptops",
+    "name": "PromptOps",
+    "description": "App desktop macOS (di Shellonback, azienda italiana) per orchestrare agenti di coding CLI: multi-agente con sub-agent paralleli, 10+ provider AI (Claude, Codex, Gemini, Copilot), libreria prompt condivisa e versionata, gestione Git integrata, database explorer, controllo vocale, audit trail delle sessioni e monitoring Docker. Tratta i prompt come asset versionati, non messaggi usa-e-getta.",
+    "url": "https://promptops.it/",
+    "category": "developer-tools",
+    "tags": [
+      "prompt-management",
+      "ai-agent",
+      "claude-code",
+      "orchestration",
+      "macos",
+      "multi-agent",
+      "italiano"
+    ],
+    "pricing": "freemium",
+    "type": "tool",
+    "added_at": "2026-07-14"
+  },
+  {
     "id": "openwiki",
     "name": "OpenWiki",
     "description": "CLI di LangChain che scrive e mantiene wiki per agenti AI: in modalità code genera e aggiorna la documentazione del repo (openwiki/), con workflow CI che aprono PR di aggiornamento automatiche; in modalità personal costruisce un \"personal brain\" locale ingerendo repo, Gmail, Notion, web search e X via connettori integrati.",

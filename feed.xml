@@ -5,8 +5,16 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Sun, 12 Jul 2026 11:04:53 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 10:25:47 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>PromptOps</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/promptops.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/promptops.html</guid>
+      <description>App desktop macOS (di Shellonback, azienda italiana) per orchestrare agenti di coding CLI: multi-agente con sub-agent paralleli, 10+ provider AI (Claude, Codex, Gemini, Copilot), libreria prompt condivisa e versionata, gestione Git integrata, database explorer, controllo vocale, audit trail delle sessioni e monitoring Docker. Tratta i prompt come asset versionati, non messaggi usa-e-getta.</description>
+      <category>Developer Tools</category>
+      <pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>OpenWiki</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/openwiki.html</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/runner-h.html</guid>
       <description>Agente AI di H Company che controlla GUI desktop e web autonomamente per portare a termine task complessi (form, ricerche, automazioni multi-app). Pensato per use case enterprise di automazione.</description>
       <category>Browser Agents</category>
-      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Rube.app</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/rube-app.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/rube-app.html</guid>
-      <description>Server MCP universale di Composio che da accesso a oltre 500 app SaaS (Gmail, Slack, Notion, GitHub...) tramite un unico endpoint, con OAuth gestito. Pensato per agenti multi-tool senza configurare ogni integrazione.</description>
-      <category>MCP</category>
       <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>
