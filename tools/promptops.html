@@ -3,126 +3,207 @@
   <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <title>PromptOps — GenAI Tools KB</title>
+    <title>PromptOps · GenAI Tools KB</title>
     <meta name="description" content="App desktop macOS (di Shellonback, azienda italiana) per orchestrare agenti di coding CLI: multi-agente con sub-agent paralleli, 10+ provider AI (Claude, Codex, Gemini, Copilot), libreria prompt cond…" />
     <link rel="canonical" href="https://nunziogianfelice.github.io/awesome-tool-ai/tools/promptops.html" />
     <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='52' font-size='52'%3E%F0%9F%A4%96%3C/text%3E%3C/svg%3E" />
     <link rel="alternate" type="application/rss+xml" title="GenAI Tools KB" href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" />
-    <meta property="og:title" content="PromptOps — GenAI Tools KB" />
+    <meta property="og:title" content="PromptOps · GenAI Tools KB" />
     <meta property="og:description" content="App desktop macOS (di Shellonback, azienda italiana) per orchestrare agenti di coding CLI: multi-agente con sub-agent paralleli, 10+ provider AI (Claude, Codex, Gemini, Copilot), libreria prompt cond…" />
     <meta property="og:url" content="https://nunziogianfelice.github.io/awesome-tool-ai/tools/promptops.html" />
     <meta property="og:type" content="website" />
     <meta property="og:site_name" content="GenAI Tools KB" />
     <meta name="twitter:card" content="summary" />
-    <meta name="twitter:title" content="PromptOps — GenAI Tools KB" />
+    <meta name="twitter:title" content="PromptOps · GenAI Tools KB" />
     <meta name="twitter:description" content="App desktop macOS (di Shellonback, azienda italiana) per orchestrare agenti di coding CLI: multi-agente con sub-agent paralleli, 10+ provider AI (Claude, Codex, Gemini, Copilot), libreria prompt cond…" />
     <style>
+@font-face {
+  font-family: "Geist";
+  src: url("../assets/fonts/Geist-Variable.woff2") format("woff2");
+  font-weight: 100 900; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Geist Mono";
+  src: url("../assets/fonts/GeistMono-Variable.woff2") format("woff2");
+  font-weight: 100 900; font-style: normal; font-display: swap;
+}
 :root {
-  --bg: #0b1020; --bg-elev: #131a30; --bg-card: #161e36; --border: #243056;
-  --text: #e8ecf7; --text-dim: #9aa3bd; --accent: #7c9cff;
-  --accent-soft: rgba(124, 156, 255, 0.15); --chip-bg: #1d2747;
-  --chip-text: #b9c5ee; --badge-bg: #2a356a; --badge-text: #d6deff;
-  --shadow: 0 4px 20px rgba(0, 0, 0, 0.35);
+  --bg: #0a0a0c; --bg-elev: #101013; --bg-card: #0e0e11;
+  --bg-card-hover: #131317; --border: #222228; --border-strong: #33333c;
+  --text: #ededf0; --text-dim: #9a9aa5; --text-faint: #7d7d89;
+  --accent: #3ecf8e; --accent-dim: #2f9e6e;
+  --accent-soft: rgba(62, 207, 142, 0.1);
+  --font-sans: "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, "SF Mono", SFMono-Regular,
+    Menlo, Consolas, monospace;
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --radius: 8px; --radius-card: 10px;
 }
 * { box-sizing: border-box; }
 html, body {
   margin: 0; padding: 0; background: var(--bg); color: var(--text);
-  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Inter, Roboto,
-    "Helvetica Neue", Arial, sans-serif;
-  line-height: 1.5; -webkit-font-smoothing: antialiased;
+  font-family: var(--font-sans); line-height: 1.55;
+  -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
 }
-a { color: var(--accent); text-decoration: none; }
-a:hover { text-decoration: underline; }
-.wrap { max-width: 860px; margin: 0 auto; padding: 0 24px; }
-header.site { padding: 24px 0 8px; }
-header.site a.back { color: var(--text-dim); font-size: 14px; }
+body::before {
+  content: ""; position: fixed; inset: 0 0 auto 0; height: 420px;
+  background:
+    radial-gradient(680px 320px at 22% -80px, rgba(62, 207, 142, 0.07), transparent 70%),
+    radial-gradient(1000px 400px at 80% -120px, rgba(255, 255, 255, 0.035), transparent 70%);
+  pointer-events: none; z-index: 0;
+}
+body::after {
+  content: ""; position: fixed; inset: 0; z-index: 2; pointer-events: none;
+  opacity: 0.5;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.02 0'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+a { color: var(--text); text-decoration: none; }
+a:hover { color: var(--accent); }
+:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px;
+}
+::selection { background: var(--accent-soft); color: var(--text); }
+.wrap { position: relative; max-width: 820px; margin: 0 auto; padding: 0 24px; }
+header.site {
+  padding: 28px 0 20px; border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+}
+header.site a.back {
+  color: var(--text-dim); font-size: 13.5px;
+  transition: color 0.15s var(--ease);
+}
 header.site a.back:hover { color: var(--accent); }
-article.tool {
-  background: var(--bg-card); border: 1px solid var(--border);
-  border-radius: 14px; padding: 28px; margin-top: 16px; box-shadow: var(--shadow);
+header.site .brand {
+  font-family: var(--font-mono); font-size: 12px; color: var(--text-faint);
 }
-.tool-head { display: flex; align-items: flex-start; gap: 12px; flex-wrap: wrap; }
-.tool-head h1 { margin: 0; font-size: 30px; letter-spacing: -0.01em; flex: 1; }
-.badge {
-  font-size: 12px; padding: 5px 10px; border-radius: 6px;
-  background: var(--badge-bg); color: var(--badge-text); white-space: nowrap;
+article.tool { padding: 36px 0 8px; }
+.tool-kicker {
+  font-family: var(--font-mono); font-size: 11px; text-transform: uppercase;
+  letter-spacing: 0.07em; color: var(--text-faint); margin: 0 0 10px;
 }
-.badge.resource { background: #3a2a5a; color: #d8c8ff; }
-.meta { color: var(--text-dim); font-size: 14px; margin: 10px 0 0; }
+.tool-head h1 {
+  margin: 0; font-size: 36px; font-weight: 650; letter-spacing: -0.03em;
+  line-height: 1.12;
+}
+.meta {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  color: var(--text-faint); font-family: var(--font-mono); font-size: 12px;
+  margin: 14px 0 0;
+}
 .pricing-pill {
-  display: inline-block; font-size: 12px; padding: 3px 10px;
+  display: inline-block; font-size: 11px; padding: 2.5px 10px;
   border-radius: 999px; background: var(--accent-soft); color: var(--accent);
-  border: 1px solid var(--accent); margin-right: 8px;
 }
-.desc { font-size: 16px; color: var(--text); margin: 18px 0; }
-.tags { display: flex; flex-wrap: wrap; gap: 8px; margin: 16px 0; }
+.desc {
+  font-size: 16.5px; color: var(--text); margin: 22px 0 0; max-width: 65ch;
+  text-wrap: pretty;
+}
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 20px 0 0; }
 a.tag {
-  font-size: 12px; padding: 4px 10px; border-radius: 999px;
-  background: var(--chip-bg); color: var(--chip-text);
-  border: 1px solid transparent;
+  font-family: var(--font-mono); font-size: 11px; padding: 3px 10px;
+  border-radius: 999px; background: rgba(255, 255, 255, 0.045);
+  color: var(--text-dim);
+  transition: color 0.15s var(--ease), background 0.15s var(--ease);
 }
-a.tag:hover { border-color: var(--accent); color: var(--text); text-decoration: none; }
-.actions { display: flex; align-items: center; gap: 12px; flex-wrap: wrap; margin-top: 22px; }
+a.tag:hover { color: var(--accent); background: var(--accent-soft); }
+.actions {
+  display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+  margin: 28px 0 0; padding-top: 24px; border-top: 1px solid var(--border);
+}
 a.btn-primary {
-  display: inline-block; background: var(--accent); color: #0b1020;
-  font-weight: 600; padding: 10px 18px; border-radius: 10px; font-size: 15px;
+  display: inline-block; background: var(--text); color: var(--bg);
+  font-weight: 560; padding: 10px 18px; border-radius: var(--radius);
+  font-size: 14.5px; border: 1px solid var(--text);
+  transition: background 0.18s var(--ease), transform 0.18s var(--ease);
 }
-a.btn-primary:hover { text-decoration: none; filter: brightness(1.1); }
-.share { display: flex; align-items: center; gap: 8px; }
-.share-label { color: var(--text-dim); font-size: 13px; }
+a.btn-primary:hover { background: #fff; color: var(--bg); }
+a.btn-primary:active { transform: scale(0.98); }
+.share { display: flex; align-items: center; gap: 6px; }
+.share-label {
+  color: var(--text-faint); font-family: var(--font-mono); font-size: 12px;
+  margin-right: 2px;
+}
 .share button, .share a.share-btn {
   display: inline-flex; align-items: center; gap: 6px; cursor: pointer;
-  background: var(--bg-elev); border: 1px solid var(--border);
-  color: var(--text-dim); border-radius: 8px; padding: 7px 10px;
-  font-size: 12px; font-family: inherit; transition: all 0.12s ease;
+  background: transparent; border: 1px solid var(--border);
+  color: var(--text-dim); border-radius: var(--radius); padding: 7px 11px;
+  font-size: 12px; font-family: var(--font-sans);
+  transition: color 0.15s var(--ease), border-color 0.15s var(--ease),
+    transform 0.15s var(--ease);
 }
 .share button:hover, .share a.share-btn:hover {
-  color: var(--text); border-color: var(--accent); text-decoration: none;
+  color: var(--accent); border-color: var(--accent-dim);
 }
-.share button.copied { color: var(--accent); border-color: var(--accent); }
-section.related { margin-top: 36px; }
-section.related h2 { font-size: 18px; margin: 0 0 14px; }
+.share button:active { transform: scale(0.97); }
+.share button.copied { color: var(--accent); border-color: var(--accent-dim); }
+section.related { margin-top: 44px; }
+section.related h2 {
+  font-size: 16px; font-weight: 590; letter-spacing: -0.01em; margin: 0 0 14px;
+}
 .rel-grid {
-  display: grid; grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
   gap: 12px;
 }
 a.rel-card {
   display: block; background: var(--bg-card); border: 1px solid var(--border);
-  border-radius: 10px; padding: 14px 16px; color: var(--text);
-  transition: border-color 0.12s ease, transform 0.12s ease;
+  border-radius: var(--radius-card); padding: 14px 16px; color: var(--text);
+  transition: border-color 0.2s var(--ease), transform 0.2s var(--ease),
+    background 0.2s var(--ease);
 }
-a.rel-card:hover { border-color: var(--accent); transform: translateY(-1px); text-decoration: none; }
-a.rel-card strong { display: block; font-size: 14px; margin-bottom: 4px; }
-a.rel-card span { font-size: 12px; color: var(--text-dim); display: block; }
+a.rel-card:hover {
+  border-color: var(--border-strong); background: var(--bg-card-hover);
+  transform: translateY(-2px); color: var(--text);
+}
+a.rel-card strong {
+  display: block; font-size: 14px; font-weight: 590;
+  letter-spacing: -0.01em; margin-bottom: 4px;
+}
+a.rel-card span {
+  font-family: var(--font-mono); font-size: 11px; color: var(--text-faint);
+  display: block;
+}
 footer.site {
-  max-width: 860px; margin: 40px auto 0; padding: 20px 24px 40px;
+  max-width: 772px; margin: 48px auto 0; padding: 20px 24px 44px;
   border-top: 1px solid var(--border); color: var(--text-dim); font-size: 13px;
   display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
 }
+footer.site .free-note { font-family: var(--font-mono); font-size: 12px; }
 a.star-btn {
-  display: inline-flex; align-items: center; gap: 6px;
-  background: var(--bg-elev); border: 1px solid var(--border);
-  color: var(--text); border-radius: 8px; padding: 7px 12px; font-size: 13px;
+  display: inline-flex; align-items: center; gap: 7px;
+  background: var(--text); border: 1px solid var(--text);
+  color: var(--bg); border-radius: var(--radius); padding: 7px 13px;
+  font-size: 13px; font-weight: 560;
+  transition: background 0.18s var(--ease), transform 0.18s var(--ease);
 }
-a.star-btn:hover { border-color: var(--accent); text-decoration: none; }
+a.star-btn:hover { background: #fff; color: var(--bg); }
+a.star-btn:active { transform: scale(0.98); }
 @media (max-width: 640px) {
   .wrap { padding: 0 16px; }
-  article.tool { padding: 20px; }
-  .tool-head h1 { font-size: 24px; }
+  article.tool { padding: 26px 0 8px; }
+  .tool-head h1 { font-size: 27px; }
+  footer.site { padding: 18px 16px 40px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
 }
 </style>
   </head>
   <body>
     <div class="wrap">
       <header class="site">
-        <a class="back" href="../index.html">← GenAI Tools KB — tutti i tool</a>
+        <a class="back" href="../index.html">← Tutti i tool</a>
+        <span class="brand">GenAI Tools KB</span>
       </header>
       <article class="tool">
+        <p class="tool-kicker badge">Developer Tools</p>
         <div class="tool-head">
           <h1>PromptOps</h1>
-          <span class="badge">Developer Tools</span>
         </div>
-        <p class="meta"><span class="pricing-pill">freemium</span> · Aggiunto il 14 luglio 2026</p>
+        <p class="meta"><span class="pricing-pill">freemium</span><span>Aggiunto il 14 luglio 2026</span></p>
         <p class="desc">App desktop macOS (di Shellonback, azienda italiana) per orchestrare agenti di coding CLI: multi-agente con sub-agent paralleli, 10+ provider AI (Claude, Codex, Gemini, Copilot), libreria prompt condivisa e versionata, gestione Git integrata, database explorer, controllo vocale, audit trail delle sessioni e monitoring Docker. Tratta i prompt come asset versionati, non messaggi usa-e-getta.</p>
         <div class="tags"><a class="tag" href="../index.html?tag=prompt-management">prompt-management</a><a class="tag" href="../index.html?tag=ai-agent">ai-agent</a><a class="tag" href="../index.html?tag=claude-code">claude-code</a><a class="tag" href="../index.html?tag=orchestration">orchestration</a><a class="tag" href="../index.html?tag=macos">macos</a><a class="tag" href="../index.html?tag=multi-agent">multi-agent</a><a class="tag" href="../index.html?tag=italiano">italiano</a></div>
         <div class="actions">
@@ -138,7 +219,7 @@ a.star-btn:hover { border-color: var(--accent); text-decoration: none; }
       <section class="related"><h2>Tool correlati</h2><div class="rel-grid"><a class="rel-card" href="cmux.html"><strong>cmux</strong><span>Developer Tools · open-source</span></a><a class="rel-card" href="ai-website-cloner-template.html"><strong>AI Website Cloner Template</strong><span>Developer Tools · open-source</span></a><a class="rel-card" href="officecli.html"><strong>OfficeCLI</strong><span>Tool &amp; Utility · open-source</span></a><a class="rel-card" href="apple-foundation-models.html"><strong>Apple Foundation Models</strong><span>LLM Infrastructure · free</span></a></div></section>
     </div>
     <footer class="site">
-      <span>100% free &amp; open source</span>
+      <span class="free-note">100% free &amp; open source</span>
       <a class="star-btn" href="https://github.com/nunziogianfelice/awesome-tool-ai" target="_blank" rel="noopener noreferrer">⭐ Star on GitHub</a>
     </footer>
     <script>
