@@ -1,6 +1,25 @@
 // Auto-generated from tools.json. Do not edit by hand.
 window.TOOLS_DATA = [
   {
+    "id": "taste-skill",
+    "name": "Taste Skill",
+    "description": "Agent skill \"anti-slop\" per frontend che dà buon gusto agli agenti di coding (Claude Code, Codex, Cursor): legge il brief, deduce la direzione di design giusta (Design Read) e applica regole contestuali di typography, layout, motion e palette invece dell'estetica template di default. Include varianti (minimalist, brutalist, redesign) e skill di image-generation per reference board. È la skill che ha ridisegnato questo stesso sito.",
+    "url": "https://github.com/Leonxlnx/taste-skill",
+    "category": "developer-tools",
+    "tags": [
+      "open-source",
+      "design",
+      "frontend",
+      "ai-agent",
+      "claude-code",
+      "skill",
+      "vibecoding"
+    ],
+    "pricing": "open-source",
+    "type": "tool",
+    "added_at": "2026-07-14"
+  },
+  {
     "id": "apidog-mcp-server",
     "name": "Apidog MCP Server",
     "description": "Server MCP che espone le specifiche OpenAPI/Apidog come contesto consultabile dagli agenti AI. Permette a Claude, Cursor e altri client MCP di leggere documentazione API in tempo reale per generare codice e test allineati al contratto.",

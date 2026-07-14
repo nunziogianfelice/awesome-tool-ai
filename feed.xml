@@ -5,8 +5,16 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Tue, 14 Jul 2026 10:25:47 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 14 Jul 2026 21:51:52 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Taste Skill</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/taste-skill.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/taste-skill.html</guid>
+      <description>Agent skill "anti-slop" per frontend che dà buon gusto agli agenti di coding (Claude Code, Codex, Cursor): legge il brief, deduce la direzione di design giusta (Design Read) e applica regole contestuali di typography, layout, motion e palette invece dell'estetica template di default. Include varianti (minimalist, brutalist, redesign) e skill di image-generation per reference board. È la skill che ha ridisegnato questo stesso sito.</description>
+      <category>Developer Tools</category>
+      <pubDate>Tue, 14 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>PromptOps</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/promptops.html</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/scrapegraph-ai.html</guid>
       <description>Libreria Python per web scraping basata su LLM: descrivi cosa estrarre in linguaggio naturale e il tool costruisce la pipeline (fetch, parse, estrazione). Ottima per scraping low-code di siti dinamici.</description>
       <category>Scraping</category>
-      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Runner H</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/runner-h.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/runner-h.html</guid>
-      <description>Agente AI di H Company che controlla GUI desktop e web autonomamente per portare a termine task complessi (form, ricerche, automazioni multi-app). Pensato per use case enterprise di automazione.</description>
-      <category>Browser Agents</category>
       <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>
