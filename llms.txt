@@ -95,6 +95,10 @@
 - [HuggingFace Spaces](https://huggingface.co/docs/hub/spaces): Piattaforma per deployare demo e applicazioni ML basate su Gradio, Streamlit o Docker direttamente da un repository Hugging Face. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/huggingface-spaces.html)
 - [Manus](https://nunziogianfelice.github.io/awesome-tool-ai/tools/manus.html): Agente AI generale autonomo cinese capace di pianificare ed eseguire task complessi end-to-end (ricerca, scraping, scrittura, automazione). (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/manus.html)
 
+## productivity
+
+- [Bento](https://bento.page/): Suite di produttività locale per presentazioni animate: crea slide con animazioni, video, grafici live e design web-grade in un singolo file HTML autonomo, senza account né cloud. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/bento-page.html)
+
 ## Resources
 
 - [Agensi.io](https://www.agensi.io/skills): Marketplace di skill AI con revisione di sicurezza obbligatoria prima dell'approvazione, suddivise per categoria d'uso. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/agensi-io.html)

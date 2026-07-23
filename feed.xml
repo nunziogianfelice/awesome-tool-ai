@@ -5,8 +5,16 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Tue, 14 Jul 2026 21:51:52 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 23 Jul 2026 13:39:50 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Bento</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/bento-page.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/bento-page.html</guid>
+      <description>Suite di produttività locale per presentazioni animate: crea slide con animazioni, video, grafici live e design web-grade in un singolo file HTML autonomo, senza account né cloud. Include viewer, editor e player integrati nello stesso file. Supporta editing AI-nativo, transizioni morph e collaborazione real-time con crittografia E2E.</description>
+      <category>productivity</category>
+      <pubDate>Thu, 23 Jul 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Taste Skill</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/taste-skill.html</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/simular-ai.html</guid>
       <description>Agente desktop che automatizza task sul tuo Mac osservando lo schermo e simulando interazioni utente. Pensato per workflow ripetitivi che attraversano piu applicazioni.</description>
       <category>Browser Agents</category>
-      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ScrapeGraphAI</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/scrapegraph-ai.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/scrapegraph-ai.html</guid>
-      <description>Libreria Python per web scraping basata su LLM: descrivi cosa estrarre in linguaggio naturale e il tool costruisce la pipeline (fetch, parse, estrazione). Ottima per scraping low-code di siti dinamici.</description>
-      <category>Scraping</category>
       <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>
