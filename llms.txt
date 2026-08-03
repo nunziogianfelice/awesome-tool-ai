@@ -161,5 +161,6 @@
 ## Vector DB
 
 - [Graphify](https://github.com/safishamsi/graphify): Skill open-source (MIT, YC S26) per AI coding assistant che con un solo comando `/graphify .` trasforma qualsiasi cartella (codice, SQL, docs, PDF, immagini, video, MCP config, Terraform) in un knowl… (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/graphify.html)
+- [Polygres](https://polygres.com/): PostgreSQL all-in-one pensato come memoria di lavoro per agenti AI: unifica dati relazionali, grafo e ricerca vettoriale in una singola query ibrida. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/polygres.html)
 - [Redis for AI](https://redis.io/redis-for-ai/): Bundle di Redis con vector search, semantic cache e LLM memory pensato per workload AI/RAG. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/redis-for-ai.html)
 - [zvec by Alibaba](https://github.com/alibaba/zvec): Engine di vector search ad alte prestazioni open-source di Alibaba, ottimizzato per scalare retrieval semantico su miliardi di vettori. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/zvec-alibaba.html)

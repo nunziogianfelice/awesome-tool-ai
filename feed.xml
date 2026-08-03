@@ -5,8 +5,16 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Thu, 23 Jul 2026 13:39:50 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 03 Aug 2026 06:55:44 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Polygres</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/polygres.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/polygres.html</guid>
+      <description>PostgreSQL all-in-one pensato come memoria di lavoro per agenti AI: unifica dati relazionali, grafo e ricerca vettoriale in una singola query ibrida. pgGraph fa traversamenti multi-hop usando le foreign key come grafo, pgContext fonde ~10 metodi di ricerca (HNSW denso, sparse, full-text, filtri) in un unico risultato ordinato. Elimina la sincronizzazione tra vector store e database primario. Di Evokoa, disponibile come istanza gestita o SDK open source.</description>
+      <category>Vector DB</category>
+      <pubDate>Mon, 03 Aug 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Bento</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/bento-page.html</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/smart-multi-agent-workflows-blog.html</guid>
       <description>Articolo che analizza pattern e trade-off nel design di workflow multi-agente: orchestrator vs swarm, gestione dello stato, handoff. Lettura di riferimento per chi progetta sistemi agentivi.</description>
       <category>Resources</category>
-      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Simular AI</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/simular-ai.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/simular-ai.html</guid>
-      <description>Agente desktop che automatizza task sul tuo Mac osservando lo schermo e simulando interazioni utente. Pensato per workflow ripetitivi che attraversano piu applicazioni.</description>
-      <category>Browser Agents</category>
       <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>

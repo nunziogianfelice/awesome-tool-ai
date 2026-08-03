@@ -1933,5 +1933,25 @@ window.TOOLS_DATA = [
     "pricing": "open-source",
     "type": "tool",
     "added_at": "2026-07-08"
+  },
+  {
+    "id": "polygres",
+    "name": "Polygres",
+    "description": "PostgreSQL all-in-one pensato come memoria di lavoro per agenti AI: unifica dati relazionali, grafo e ricerca vettoriale in una singola query ibrida. pgGraph fa traversamenti multi-hop usando le foreign key come grafo, pgContext fonde ~10 metodi di ricerca (HNSW denso, sparse, full-text, filtri) in un unico risultato ordinato. Elimina la sincronizzazione tra vector store e database primario. Di Evokoa, disponibile come istanza gestita o SDK open source.",
+    "url": "https://polygres.com/",
+    "category": "vector-db",
+    "tags": [
+      "postgres",
+      "vector-search",
+      "graph",
+      "hybrid-search",
+      "rag",
+      "ai-agents",
+      "memory",
+      "open-source"
+    ],
+    "pricing": "freemium",
+    "type": "tool",
+    "added_at": "2026-08-03"
   }
 ];
