@@ -5,8 +5,16 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Mon, 03 Aug 2026 06:55:44 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 08 Aug 2026 19:43:39 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>exo</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/exo.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/exo.html</guid>
+      <description>Framework open source che unisce i dispositivi di tutti i giorni (Mac, laptop, in prospettiva Linux/GPU) in un cluster AI per far girare LLM troppo grandi per una singola macchina. Partiziona il modello automaticamente tra i nodi (pipeline e tensor parallelism, fino a 3.2x di speedup su 4 dispositivi), con scoperta automatica dei device sulla rete e supporto RDMA over Thunderbolt. Backend MLX; 46k+ stelle, Apache 2.0.</description>
+      <category>LLM Infrastructure</category>
+      <pubDate>Sat, 08 Aug 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Polygres</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/polygres.html</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/stagehand.html</guid>
       <description>Framework TypeScript di Browserbase per browser automation AI-driven: combina Playwright con primitive LLM (act, extract, observe) per scrivere agenti web robusti e debuggabili.</description>
       <category>Browser Agents</category>
-      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Designing Smart Multi-Agent Workflows</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/smart-multi-agent-workflows-blog.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/smart-multi-agent-workflows-blog.html</guid>
-      <description>Articolo che analizza pattern e trade-off nel design di workflow multi-agente: orchestrator vs swarm, gestione dello stato, handoff. Lettura di riferimento per chi progetta sistemi agentivi.</description>
-      <category>Resources</category>
       <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>

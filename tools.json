@@ -1952,5 +1952,25 @@
   "pricing": "freemium",
   "type": "tool",
   "added_at": "2026-08-03"
+ },
+ {
+  "id": "exo",
+  "name": "exo",
+  "description": "Framework open source che unisce i dispositivi di tutti i giorni (Mac, laptop, in prospettiva Linux/GPU) in un cluster AI per far girare LLM troppo grandi per una singola macchina. Partiziona il modello automaticamente tra i nodi (pipeline e tensor parallelism, fino a 3.2x di speedup su 4 dispositivi), con scoperta automatica dei device sulla rete e supporto RDMA over Thunderbolt. Backend MLX; 46k+ stelle, Apache 2.0.",
+  "url": "https://github.com/exo-explore/exo",
+  "category": "llm-infrastructure",
+  "tags": [
+   "distributed-inference",
+   "cluster",
+   "local-llm",
+   "mlx",
+   "pipeline-parallelism",
+   "tensor-parallelism",
+   "open-source",
+   "edge"
+  ],
+  "pricing": "free",
+  "type": "tool",
+  "added_at": "2026-08-08"
  }
 ]

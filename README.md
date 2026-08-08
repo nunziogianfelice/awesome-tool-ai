@@ -90,6 +90,7 @@ python3 scripts/build_all.py
 |------|-------------|-----|
 | [AgentMail](https://agentmail.to/) | Infrastruttura email pensata per agenti AI: API per creare caselle al volo, ricevere e inviare email programmaticamente con webhook strutturati. Risolve il problema di dare un indirizzo email a ogni agente. | `api` `email` `agent` |
 | [Apple Foundation Models](https://developer.apple.com/documentation/foundationmodels) | Framework Swift di Apple per usare i modelli on-device di Apple Intelligence direttamente nelle app iOS/macOS. Espone API per generazione testo, tool calling e guided generation con privacy locale. | `apple` `on-device` `ios` `macos` `swift` `privacy` |
+| [exo](https://github.com/exo-explore/exo) | Framework open source che unisce i dispositivi di tutti i giorni (Mac, laptop, in prospettiva Linux/GPU) in un cluster AI per far girare LLM troppo grandi per una singola macchina. Partiziona il modello automaticamente tra i nodi (pipeline e tensor parallelism, fino a 3.2x di speedup su 4 dispositivi), con scoperta automatica dei device sulla rete e supporto RDMA over Thunderbolt. Backend MLX; 46k+ stelle, Apache 2.0. | `distributed-inference` `cluster` `local-llm` `mlx` `pipeline-parallelism` `tensor-parallelism` `open-source` `edge` |
 | [Headroom](https://github.com/chopratejas/headroom) | Compressore di contesto per agenti AI che riduce i token di input del 60-95% (JSON, codice, RAG, log) prima che raggiungano l'LLM, senza perdere informazioni critiche. Tre modalità d'uso: libreria Python/TS inline, proxy trasparente senza modifiche al codice, MCP server. Include CodeCompressor AST-aware per Python/JS/Go/Rust, compressione reversibile con cache locale e supporto OpenAI/Anthropic/Gemini. | `open-source` `context-compression` `token-reduction` `python` `typescript` `mcp` `rag` `agent` |
 | [Kong](https://konghq.com/) | API gateway cloud-native con funzionalita AI Gateway integrate per il routing, la sicurezza e il rate-limiting di traffico LLM. Utile per centralizzare il consumo di provider AI eterogenei in ambienti enterprise. | `enterprise` `api` `gateway` `open-source` |
 | [Latitude](https://github.com/latitude-dev/latitude-llm) | Piattaforma open-source di osservabilità e monitoring per applicazioni LLM e agenti AI: tracing degli errori, logging dei prompt, valutazioni e metriche in produzione. Self-hostable (MIT) con cloud gestito opzionale e SDK TypeScript/Python. | `open-source` `observability` `monitoring` `llm-ops` `typescript` `agent` |
@@ -206,8 +207,8 @@ python3 scripts/build_all.py
 
 ## Statistiche
 
-- **118** item totali
-- **86** tool/prodotti
+- **119** item totali
+- **87** tool/prodotti
 - **32** risorse (articoli, corsi, doc, awesome list)
 - **15** categorie utilizzate
 
