@@ -157,6 +157,7 @@
 
 ## UI Framework
 
+- [Beautiful UI](https://beautiful-ui-five.vercel.app/): Catalogo di 19 primitivi UI copy-paste pensati per le interfacce AI-native: stati thinking/loading/streaming, chat, approval card per le azioni degli agenti, prompt bar, tool chips, diff review, cont… (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/beautiful-ui.html)
 - [OpenUI](https://www.openui.com/): Standard aperto e framework full-stack per applicazioni di generative UI, con un linguaggio streaming-first che usa fino al 67% meno token rispetto a JSON equivalente. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/openui.html)
 
 ## Vector DB

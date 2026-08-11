@@ -1973,5 +1973,25 @@ window.TOOLS_DATA = [
     "pricing": "free",
     "type": "tool",
     "added_at": "2026-08-08"
+  },
+  {
+    "id": "beautiful-ui",
+    "name": "Beautiful UI",
+    "description": "Catalogo di 19 primitivi UI copy-paste pensati per le interfacce AI-native: stati thinking/loading/streaming, chat, approval card per le azioni degli agenti, prompt bar, tool chips, diff review, context card. Design minimale con gerarchia tipografica curata — un riferimento per chi costruisce frontend di app agentiche. Realizzato dallo studio di product design Turbo.",
+    "url": "https://beautiful-ui-five.vercel.app/",
+    "category": "ui-framework",
+    "tags": [
+      "ui-components",
+      "design-patterns",
+      "ai-native",
+      "agents",
+      "streaming",
+      "approval-flow",
+      "frontend",
+      "copy-paste"
+    ],
+    "pricing": "free",
+    "type": "resource",
+    "added_at": "2026-08-11"
   }
 ];

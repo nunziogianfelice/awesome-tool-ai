@@ -5,8 +5,16 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Sat, 08 Aug 2026 19:43:39 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 11 Aug 2026 12:23:39 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Beautiful UI</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/beautiful-ui.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/beautiful-ui.html</guid>
+      <description>Catalogo di 19 primitivi UI copy-paste pensati per le interfacce AI-native: stati thinking/loading/streaming, chat, approval card per le azioni degli agenti, prompt bar, tool chips, diff review, context card. Design minimale con gerarchia tipografica curata — un riferimento per chi costruisce frontend di app agentiche. Realizzato dallo studio di product design Turbo.</description>
+      <category>UI Framework</category>
+      <pubDate>Tue, 11 Aug 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>exo</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/exo.html</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/stitch-google.html</guid>
       <description>Tool sperimentale di Google Labs che genera UI design e codice frontend a partire da una descrizione testuale o da uno sketch. Output esportabile verso Figma o codice HTML/CSS.</description>
       <category>Tool &amp; Utility</category>
-      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Stagehand by Browserbase</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/stagehand.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/stagehand.html</guid>
-      <description>Framework TypeScript di Browserbase per browser automation AI-driven: combina Playwright con primitive LLM (act, extract, observe) per scrivere agenti web robusti e debuggabili.</description>
-      <category>Browser Agents</category>
       <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>
