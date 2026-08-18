@@ -1993,5 +1993,25 @@ window.TOOLS_DATA = [
     "pricing": "free",
     "type": "resource",
     "added_at": "2026-08-11"
+  },
+  {
+    "id": "graft",
+    "name": "Graft",
+    "description": "Mappa di contesto del repository per agenti di coding (Claude Code, Cursor): analisi strutturale deterministica con tree-sitter (21 linguaggi) + sintesi concettuale via LLM, persistita come cartella di markdown collegati dentro il repo, con MCP server integrato. Dichiara 46% di tool call in meno, 42% di token risparmiati e 66% su SWE-bench Verified (vs 54% senza). Approccio alternativo a Graphify: markdown portabile invece di grafo con query strutturate. MIT, di NanoNets.",
+    "url": "https://github.com/NanoNets/Graft",
+    "category": "developer-tools",
+    "tags": [
+      "code-context",
+      "coding-agents",
+      "tree-sitter",
+      "mcp",
+      "knowledge-map",
+      "repo-analysis",
+      "open-source",
+      "markdown"
+    ],
+    "pricing": "free",
+    "type": "tool",
+    "added_at": "2026-08-18"
   }
 ];

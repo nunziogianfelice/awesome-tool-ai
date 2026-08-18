@@ -5,8 +5,16 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Tue, 11 Aug 2026 12:23:39 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 18 Aug 2026 09:08:47 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Graft</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/graft.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/graft.html</guid>
+      <description>Mappa di contesto del repository per agenti di coding (Claude Code, Cursor): analisi strutturale deterministica con tree-sitter (21 linguaggi) + sintesi concettuale via LLM, persistita come cartella di markdown collegati dentro il repo, con MCP server integrato. Dichiara 46% di tool call in meno, 42% di token risparmiati e 66% su SWE-bench Verified (vs 54% senza). Approccio alternativo a Graphify: markdown portabile invece di grafo con query strutturate. MIT, di NanoNets.</description>
+      <category>Developer Tools</category>
+      <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Beautiful UI</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/beautiful-ui.html</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/suna-ai.html</guid>
       <description>Agente AI generale autonomo open-source che esegue task di ricerca, scraping, scrittura e automazione browser. Alternativa libera e self-hostable a Manus.</description>
       <category>Agent Frameworks</category>
-      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Stitch by Google</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/stitch-google.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/stitch-google.html</guid>
-      <description>Tool sperimentale di Google Labs che genera UI design e codice frontend a partire da una descrizione testuale o da uno sketch. Output esportabile verso Figma o codice HTML/CSS.</description>
-      <category>Tool &amp; Utility</category>
       <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>
