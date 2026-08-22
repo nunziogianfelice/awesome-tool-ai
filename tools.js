@@ -2013,5 +2013,25 @@ window.TOOLS_DATA = [
     "pricing": "free",
     "type": "tool",
     "added_at": "2026-08-18"
+  },
+  {
+    "id": "firecrawl",
+    "name": "Firecrawl",
+    "description": "\"Context API\" per il web pensata per gli agenti: scrape di qualsiasi pagina in markdown pulito (gestisce JS), crawl di interi siti, search con contenuto completo, extract strutturato via schema e interazione (click, form). Include un indice developer che cerca dentro issue, PR mergiate, README e docs — ottimo per capire perché una libreria si comporta in un certo modo. Server MCP ufficiale e skill pronte per Claude, SDK in 6 linguaggi, 1.000 crediti gratis al mese. 170k+ stelle.",
+    "url": "https://firecrawl.dev",
+    "category": "scraping",
+    "tags": [
+      "web-scraping",
+      "crawler",
+      "markdown",
+      "mcp",
+      "llm-ready",
+      "search",
+      "structured-extraction",
+      "agents"
+    ],
+    "pricing": "freemium",
+    "type": "tool",
+    "added_at": "2026-08-22"
   }
 ];

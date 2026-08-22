@@ -132,6 +132,7 @@ python3 scripts/build_all.py
 
 | Tool | Descrizione | Tag |
 |------|-------------|-----|
+| [Firecrawl](https://firecrawl.dev) | "Context API" per il web pensata per gli agenti: scrape di qualsiasi pagina in markdown pulito (gestisce JS), crawl di interi siti, search con contenuto completo, extract strutturato via schema e interazione (click, form). Include un indice developer che cerca dentro issue, PR mergiate, README e docs — ottimo per capire perché una libreria si comporta in un certo modo. Server MCP ufficiale e skill pronte per Claude, SDK in 6 linguaggi, 1.000 crediti gratis al mese. 170k+ stelle. | `web-scraping` `crawler` `markdown` `mcp` `llm-ready` `search` `structured-extraction` `agents` |
 | [ScrapeGraphAI](https://scrapegraphai.com/) | Libreria Python per web scraping basata su LLM: descrivi cosa estrarre in linguaggio naturale e il tool costruisce la pipeline (fetch, parse, estrazione). Ottima per scraping low-code di siti dinamici. | `open-source` `python` `llm` `rag` |
 
 ### Platforms
@@ -207,8 +208,8 @@ python3 scripts/build_all.py
 
 ## Statistiche
 
-- **121** item totali
-- **89** tool/prodotti
+- **122** item totali
+- **90** tool/prodotti
 - **32** risorse (articoli, corsi, doc, awesome list)
 - **15** categorie utilizzate
 

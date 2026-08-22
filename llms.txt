@@ -138,6 +138,7 @@
 
 ## Scraping
 
+- [Firecrawl](https://firecrawl.dev): "Context API" per il web pensata per gli agenti: scrape di qualsiasi pagina in markdown pulito (gestisce JS), crawl di interi siti, search con contenuto completo, extract strutturato via schema e int… (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/firecrawl.html)
 - [ScrapeGraphAI](https://scrapegraphai.com/): Libreria Python per web scraping basata su LLM: descrivi cosa estrarre in linguaggio naturale e il tool costruisce la pipeline (fetch, parse, estrazione). (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/scrapegraph-ai.html)
 
 ## Tool & Utility

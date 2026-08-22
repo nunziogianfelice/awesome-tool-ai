@@ -5,8 +5,16 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Tue, 18 Aug 2026 09:08:47 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 13:35:50 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Firecrawl</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/firecrawl.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/firecrawl.html</guid>
+      <description>"Context API" per il web pensata per gli agenti: scrape di qualsiasi pagina in markdown pulito (gestisce JS), crawl di interi siti, search con contenuto completo, extract strutturato via schema e interazione (click, form). Include un indice developer che cerca dentro issue, PR mergiate, README e docs — ottimo per capire perché una libreria si comporta in un certo modo. Server MCP ufficiale e skill pronte per Claude, SDK in 6 linguaggi, 1.000 crediti gratis al mese. 170k+ stelle.</description>
+      <category>Scraping</category>
+      <pubDate>Sat, 22 Aug 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Graft</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/graft.html</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/unwind-ai.html</guid>
       <description>Newsletter e portale che curano le novita su LLM apps, agenti e infrastruttura AI con tutorial pratici. Gestiscono anche il repo awesome-llm-apps.</description>
       <category>Resources</category>
-      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Suna AI</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/suna-ai.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/suna-ai.html</guid>
-      <description>Agente AI generale autonomo open-source che esegue task di ricerca, scraping, scrittura e automazione browser. Alternativa libera e self-hostable a Manus.</description>
-      <category>Agent Frameworks</category>
       <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>
