@@ -57,6 +57,7 @@
 - [Superpowers](https://claude.com/plugins/superpowers): Plugin per Claude Code con 640.000+ installazioni che introduce metodologie strutturate di sviluppo software: TDD guidato (ciclo red-green-refactor), debugging sistematico in quattro fasi, brainstorm… (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/superpowers.html)
 - [Taste Skill](https://github.com/Leonxlnx/taste-skill): Agent skill "anti-slop" per frontend che dà buon gusto agli agenti di coding (Claude Code, Codex, Cursor): legge il brief, deduce la direzione di design giusta (Design Read) e applica regole contestu… (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/taste-skill.html)
 - [trs (Token-Reducing Shell)](https://github.com/dPeluChe/trs): CLI che comprime l'output del terminale per agenti AI, riducendo l'uso di token del 76-99%. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/trs.html)
+- [Zoetrope](https://github.com/furkankly/zoetrope): Visualizzatore di sessioni Claude Code come grafo interattivo: legge i transcript JSONL e mostra un nodo per agente (main e subagent) con stato, tool in esecuzione, conteggio chiamate e token in outp… (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/zoetrope.html)
 
 ## LLM Infrastructure
 

@@ -2032,5 +2032,25 @@
   "pricing": "freemium",
   "type": "tool",
   "added_at": "2026-08-22"
+ },
+ {
+  "id": "zoetrope",
+  "name": "Zoetrope",
+  "description": "Visualizzatore di sessioni Claude Code come grafo interattivo: legge i transcript JSONL e mostra un nodo per agente (main e subagent) con stato, tool in esecuzione, conteggio chiamate e token in output. Include una timeline scrubabile per riavvolgere la sessione — gli agenti \"si de-finiscono\" e il grafo si restringe — più `zoe inspect` per l'analisi headless. TUI in Rust (ratatui) con versione web via WebAssembly. Read-only e zero-network by design. MIT.",
+  "url": "https://github.com/furkankly/zoetrope",
+  "category": "developer-tools",
+  "tags": [
+   "claude-code",
+   "observability",
+   "agents",
+   "tui",
+   "rust",
+   "visualization",
+   "debugging",
+   "open-source"
+  ],
+  "pricing": "free",
+  "type": "tool",
+  "added_at": "2026-08-22"
  }
 ]

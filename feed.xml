@@ -5,8 +5,16 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Sat, 22 Aug 2026 13:35:50 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 22 Aug 2026 13:37:47 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Zoetrope</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/zoetrope.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/zoetrope.html</guid>
+      <description>Visualizzatore di sessioni Claude Code come grafo interattivo: legge i transcript JSONL e mostra un nodo per agente (main e subagent) con stato, tool in esecuzione, conteggio chiamate e token in output. Include una timeline scrubabile per riavvolgere la sessione — gli agenti "si de-finiscono" e il grafo si restringe — più `zoe inspect` per l'analisi headless. TUI in Rust (ratatui) con versione web via WebAssembly. Read-only e zero-network by design. MIT.</description>
+      <category>Developer Tools</category>
+      <pubDate>Sat, 22 Aug 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Firecrawl</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/firecrawl.html</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/vibekit.html</guid>
       <description>Sandbox open-source per eseguire in sicurezza coding agents (Codex, Claude, Gemini) in container isolati con scoped permissions, audit log e telemetry. Pensato per produzionalizzare agenti che scrivono codice.</description>
       <category>Coding Assistants</category>
-      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Unwind AI</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/unwind-ai.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/unwind-ai.html</guid>
-      <description>Newsletter e portale che curano le novita su LLM apps, agenti e infrastruttura AI con tutorial pratici. Gestiscono anche il repo awesome-llm-apps.</description>
-      <category>Resources</category>
       <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>
