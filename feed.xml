@@ -5,8 +5,16 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Sat, 22 Aug 2026 13:37:47 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 27 Aug 2026 08:10:07 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>last30days-skill</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/last30days-skill.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/last30days-skill.html</guid>
+      <description>Skill per agenti AI che, dato un tema, ricostruisce cosa se n'è detto negli ultimi 30 giorni su Reddit, X, YouTube (trascrizioni intere), Hacker News, GitHub, arXiv, Techmeme, Polymarket e altre fonti, e ne produce una sintesi ragionata invece di un elenco di link. Pesa il coinvolgimento reale — voti su Reddit, capitale scommesso su Polymarket. Reddit, HN, GitHub e Polymarket funzionano senza chiavi; X, TikTok e Instagram richiedono cookie o servizi di scraping. Output in markdown, JSON o HTML. Gira su Claude Code, Codex, Cursor e 50+ host di Agent Skills. MIT, 59k+ stelle.</description>
+      <category>Data &amp; AI</category>
+      <pubDate>Thu, 27 Aug 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Zoetrope</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/zoetrope.html</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/vibevoice.html</guid>
       <description>Modello TTS open-source di Microsoft Research per la generazione di parlato lungo, espressivo e multi-speaker. Pensato per audiobook, podcast e dialoghi sintetici di alta qualita.</description>
       <category>Models</category>
-      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>VibeKit</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/vibekit.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/vibekit.html</guid>
-      <description>Sandbox open-source per eseguire in sicurezza coding agents (Codex, Claude, Gemini) in container isolati con scoped permissions, audit log e telemetry. Pensato per produzionalizzare agenti che scrivono codice.</description>
-      <category>Coding Assistants</category>
       <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>

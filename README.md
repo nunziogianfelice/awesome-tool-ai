@@ -104,6 +104,7 @@ python3 scripts/build_all.py
 | Tool | Descrizione | Tag |
 |------|-------------|-----|
 | [Agno SQL Agent Example](https://github.com/agno-agi/agno/tree/main/cookbook/examples/apps/sql_agent) | Esempio di agente SQL costruito con il framework Agno: dato un database, l'agente genera query, le esegue e spiega i risultati in linguaggio naturale. Utile come reference per chi costruisce text-to-SQL. | `open-source` `python` `sql` `agent` `example` |
+| [last30days-skill](https://github.com/mvanhorn/last30days-skill) | Skill per agenti AI che, dato un tema, ricostruisce cosa se n'è detto negli ultimi 30 giorni su Reddit, X, YouTube (trascrizioni intere), Hacker News, GitHub, arXiv, Techmeme, Polymarket e altre fonti, e ne produce una sintesi ragionata invece di un elenco di link. Pesa il coinvolgimento reale — voti su Reddit, capitale scommesso su Polymarket. Reddit, HN, GitHub e Polymarket funzionano senza chiavi; X, TikTok e Instagram richiedono cookie o servizi di scraping. Output in markdown, JSON o HTML. Gira su Claude Code, Codex, Cursor e 50+ host di Agent Skills. MIT, 59k+ stelle. | `agent-skill` `research` `claude-code` `social-listening` `synthesis` `reddit` `open-source` `trends` |
 | [MindsDB](https://github.com/mindsdb/mindsdb) | Piattaforma open-source che porta AI e ML dentro al database, esponendo modelli come tabelle SQL interrogabili. Permette di costruire feature predictive, agenti e RAG su dati eterogenei senza spostarli. | `open-source` `python` `sql` `rag` `self-hostable` |
 | [Plexe](https://github.com/plexe-ai/plexe) | Framework che genera modelli ML custom partendo da una descrizione in linguaggio naturale del problema e dei dati. Automatizza feature engineering, training e packaging del modello. | `open-source` `python` `automl` `no-code` |
 | [Vizro](https://github.com/mckinsey/vizro) | Toolkit Python di McKinsey per costruire dashboard di data visualization basati su Plotly Dash, con configurazione dichiarativa e supporto a Vizro-AI per la generazione di grafici da prompt. Indicato per analisti e team di BI. | `open-source` `python` `visualization` `dashboard` `low-code` |
@@ -208,8 +209,8 @@ python3 scripts/build_all.py
 
 ## Statistiche
 
-- **123** item totali
-- **91** tool/prodotti
+- **124** item totali
+- **92** tool/prodotti
 - **32** risorse (articoli, corsi, doc, awesome list)
 - **15** categorie utilizzate
 

@@ -2052,5 +2052,25 @@
   "pricing": "free",
   "type": "tool",
   "added_at": "2026-08-22"
+ },
+ {
+  "id": "last30days-skill",
+  "name": "last30days-skill",
+  "description": "Skill per agenti AI che, dato un tema, ricostruisce cosa se n'è detto negli ultimi 30 giorni su Reddit, X, YouTube (trascrizioni intere), Hacker News, GitHub, arXiv, Techmeme, Polymarket e altre fonti, e ne produce una sintesi ragionata invece di un elenco di link. Pesa il coinvolgimento reale — voti su Reddit, capitale scommesso su Polymarket. Reddit, HN, GitHub e Polymarket funzionano senza chiavi; X, TikTok e Instagram richiedono cookie o servizi di scraping. Output in markdown, JSON o HTML. Gira su Claude Code, Codex, Cursor e 50+ host di Agent Skills. MIT, 59k+ stelle.",
+  "url": "https://github.com/mvanhorn/last30days-skill",
+  "category": "data-ai",
+  "tags": [
+   "agent-skill",
+   "research",
+   "claude-code",
+   "social-listening",
+   "synthesis",
+   "reddit",
+   "open-source",
+   "trends"
+  ],
+  "pricing": "free",
+  "type": "tool",
+  "added_at": "2026-08-27"
  }
 ]

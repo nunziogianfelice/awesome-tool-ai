@@ -1,0 +1,241 @@
+<!doctype html>
+<html lang="it">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>last30days-skill · GenAI Tools KB</title>
+    <meta name="description" content="Skill per agenti AI che, dato un tema, ricostruisce cosa se n&#x27;è detto negli ultimi 30 giorni su Reddit, X, YouTube (trascrizioni intere), Hacker News, GitHub, arXiv, Techmeme, Polymarket e altre font…" />
+    <link rel="canonical" href="https://nunziogianfelice.github.io/awesome-tool-ai/tools/last30days-skill.html" />
+    <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Ctext y='52' font-size='52'%3E%F0%9F%A4%96%3C/text%3E%3C/svg%3E" />
+    <link rel="alternate" type="application/rss+xml" title="GenAI Tools KB" href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" />
+    <meta property="og:title" content="last30days-skill · GenAI Tools KB" />
+    <meta property="og:description" content="Skill per agenti AI che, dato un tema, ricostruisce cosa se n&#x27;è detto negli ultimi 30 giorni su Reddit, X, YouTube (trascrizioni intere), Hacker News, GitHub, arXiv, Techmeme, Polymarket e altre font…" />
+    <meta property="og:url" content="https://nunziogianfelice.github.io/awesome-tool-ai/tools/last30days-skill.html" />
+    <meta property="og:type" content="website" />
+    <meta property="og:site_name" content="GenAI Tools KB" />
+    <meta name="twitter:card" content="summary" />
+    <meta name="twitter:title" content="last30days-skill · GenAI Tools KB" />
+    <meta name="twitter:description" content="Skill per agenti AI che, dato un tema, ricostruisce cosa se n&#x27;è detto negli ultimi 30 giorni su Reddit, X, YouTube (trascrizioni intere), Hacker News, GitHub, arXiv, Techmeme, Polymarket e altre font…" />
+    <style>
+@font-face {
+  font-family: "Geist";
+  src: url("../assets/fonts/Geist-Variable.woff2") format("woff2");
+  font-weight: 100 900; font-style: normal; font-display: swap;
+}
+@font-face {
+  font-family: "Geist Mono";
+  src: url("../assets/fonts/GeistMono-Variable.woff2") format("woff2");
+  font-weight: 100 900; font-style: normal; font-display: swap;
+}
+:root {
+  --bg: #0b1020; --bg-elev: #131a30; --bg-card: #121a31;
+  --bg-card-hover: #172040; --border: #243056; --border-strong: #364678;
+  --text: #e8ecf7; --text-dim: #9aa3bd; --text-faint: #7b86ab;
+  --accent: #7c9cff; --accent-dim: #5c7ae0;
+  --accent-soft: rgba(124, 156, 255, 0.13);
+  --font-sans: "Geist", -apple-system, BlinkMacSystemFont, "Segoe UI",
+    Roboto, "Helvetica Neue", Arial, sans-serif;
+  --font-mono: "Geist Mono", ui-monospace, "SF Mono", SFMono-Regular,
+    Menlo, Consolas, monospace;
+  --ease: cubic-bezier(0.16, 1, 0.3, 1);
+  --radius: 8px; --radius-card: 10px;
+}
+* { box-sizing: border-box; }
+html, body {
+  margin: 0; padding: 0; background: var(--bg); color: var(--text);
+  font-family: var(--font-sans); line-height: 1.55;
+  -webkit-font-smoothing: antialiased; text-rendering: optimizeLegibility;
+}
+body::before {
+  content: ""; position: fixed; inset: 0 0 auto 0; height: 420px;
+  background:
+    radial-gradient(680px 320px at 22% -80px, rgba(124, 156, 255, 0.08), transparent 70%),
+    radial-gradient(1000px 400px at 80% -120px, rgba(232, 236, 247, 0.04), transparent 70%);
+  pointer-events: none; z-index: 0;
+}
+body::after {
+  content: ""; position: fixed; inset: 0; z-index: 2; pointer-events: none;
+  opacity: 0.5;
+  background-image: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence type='fractalNoise' baseFrequency='0.9' numOctaves='2' stitchTiles='stitch'/%3E%3CfeColorMatrix values='0 0 0 0 1 0 0 0 0 1 0 0 0 0 1 0 0 0 0.02 0'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)'/%3E%3C/svg%3E");
+}
+a { color: var(--text); text-decoration: none; }
+a:hover { color: var(--accent); }
+:focus-visible {
+  outline: 2px solid var(--accent); outline-offset: 2px; border-radius: 4px;
+}
+::selection { background: var(--accent-soft); color: var(--text); }
+.wrap { position: relative; max-width: 820px; margin: 0 auto; padding: 0 24px; }
+header.site {
+  padding: 28px 0 20px; border-bottom: 1px solid var(--border);
+  display: flex; align-items: center; justify-content: space-between; gap: 12px;
+}
+header.site a.back {
+  color: var(--text-dim); font-size: 13.5px;
+  transition: color 0.15s var(--ease);
+}
+header.site a.back:hover { color: var(--accent); }
+header.site .brand {
+  font-family: var(--font-mono); font-size: 12px; color: var(--text-faint);
+}
+article.tool { padding: 36px 0 8px; }
+.tool-kicker {
+  font-family: var(--font-mono); font-size: 11px; text-transform: uppercase;
+  letter-spacing: 0.07em; color: var(--text-faint); margin: 0 0 10px;
+}
+.tool-head h1 {
+  margin: 0; font-size: 36px; font-weight: 650; letter-spacing: -0.03em;
+  line-height: 1.12;
+}
+.meta {
+  display: flex; align-items: center; gap: 12px; flex-wrap: wrap;
+  color: var(--text-faint); font-family: var(--font-mono); font-size: 12px;
+  margin: 14px 0 0;
+}
+.pricing-pill {
+  display: inline-block; font-size: 11px; padding: 2.5px 10px;
+  border-radius: 999px; background: var(--accent-soft); color: var(--accent);
+}
+.desc {
+  font-size: 16.5px; color: var(--text); margin: 22px 0 0; max-width: 65ch;
+  text-wrap: pretty;
+}
+.tags { display: flex; flex-wrap: wrap; gap: 6px; margin: 20px 0 0; }
+a.tag {
+  font-family: var(--font-mono); font-size: 11px; padding: 3px 10px;
+  border-radius: 999px; background: rgba(185, 197, 238, 0.08);
+  color: var(--text-dim);
+  transition: color 0.15s var(--ease), background 0.15s var(--ease);
+}
+a.tag:hover { color: var(--accent); background: var(--accent-soft); }
+.actions {
+  display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+  margin: 28px 0 0; padding-top: 24px; border-top: 1px solid var(--border);
+}
+a.btn-primary {
+  display: inline-block; background: var(--text); color: var(--bg);
+  font-weight: 560; padding: 10px 18px; border-radius: var(--radius);
+  font-size: 14.5px; border: 1px solid var(--text);
+  transition: background 0.18s var(--ease), transform 0.18s var(--ease);
+}
+a.btn-primary:hover { background: #fff; color: var(--bg); }
+a.btn-primary:active { transform: scale(0.98); }
+.share { display: flex; align-items: center; gap: 6px; }
+.share-label {
+  color: var(--text-faint); font-family: var(--font-mono); font-size: 12px;
+  margin-right: 2px;
+}
+.share button, .share a.share-btn {
+  display: inline-flex; align-items: center; gap: 6px; cursor: pointer;
+  background: transparent; border: 1px solid var(--border);
+  color: var(--text-dim); border-radius: var(--radius); padding: 7px 11px;
+  font-size: 12px; font-family: var(--font-sans);
+  transition: color 0.15s var(--ease), border-color 0.15s var(--ease),
+    transform 0.15s var(--ease);
+}
+.share button:hover, .share a.share-btn:hover {
+  color: var(--accent); border-color: var(--accent-dim);
+}
+.share button:active { transform: scale(0.97); }
+.share button.copied { color: var(--accent); border-color: var(--accent-dim); }
+section.related { margin-top: 44px; }
+section.related h2 {
+  font-size: 16px; font-weight: 590; letter-spacing: -0.01em; margin: 0 0 14px;
+}
+.rel-grid {
+  display: grid; grid-template-columns: repeat(auto-fill, minmax(230px, 1fr));
+  gap: 12px;
+}
+a.rel-card {
+  display: block; background: var(--bg-card); border: 1px solid var(--border);
+  border-radius: var(--radius-card); padding: 14px 16px; color: var(--text);
+  transition: border-color 0.2s var(--ease), transform 0.2s var(--ease),
+    background 0.2s var(--ease);
+}
+a.rel-card:hover {
+  border-color: var(--border-strong); background: var(--bg-card-hover);
+  transform: translateY(-2px); color: var(--text);
+}
+a.rel-card strong {
+  display: block; font-size: 14px; font-weight: 590;
+  letter-spacing: -0.01em; margin-bottom: 4px;
+}
+a.rel-card span {
+  font-family: var(--font-mono); font-size: 11px; color: var(--text-faint);
+  display: block;
+}
+footer.site {
+  max-width: 772px; margin: 48px auto 0; padding: 20px 24px 44px;
+  border-top: 1px solid var(--border); color: var(--text-dim); font-size: 13px;
+  display: flex; align-items: center; gap: 14px; flex-wrap: wrap;
+}
+footer.site .free-note { font-family: var(--font-mono); font-size: 12px; }
+a.star-btn {
+  display: inline-flex; align-items: center; gap: 7px;
+  background: var(--text); border: 1px solid var(--text);
+  color: var(--bg); border-radius: var(--radius); padding: 7px 13px;
+  font-size: 13px; font-weight: 560;
+  transition: background 0.18s var(--ease), transform 0.18s var(--ease);
+}
+a.star-btn:hover { background: #fff; color: var(--bg); }
+a.star-btn:active { transform: scale(0.98); }
+@media (max-width: 640px) {
+  .wrap { padding: 0 16px; }
+  article.tool { padding: 26px 0 8px; }
+  .tool-head h1 { font-size: 27px; }
+  footer.site { padding: 18px 16px 40px; }
+}
+@media (prefers-reduced-motion: reduce) {
+  *, *::before, *::after {
+    animation-duration: 0.01ms !important;
+    transition-duration: 0.01ms !important;
+  }
+}
+</style>
+  </head>
+  <body>
+    <div class="wrap">
+      <header class="site">
+        <a class="back" href="../index.html">← Tutti i tool</a>
+        <span class="brand">GenAI Tools KB</span>
+      </header>
+      <article class="tool">
+        <p class="tool-kicker badge">Data &amp; AI</p>
+        <div class="tool-head">
+          <h1>last30days-skill</h1>
+        </div>
+        <p class="meta"><span class="pricing-pill">free</span><span>Aggiunto il 27 agosto 2026</span></p>
+        <p class="desc">Skill per agenti AI che, dato un tema, ricostruisce cosa se n&#x27;è detto negli ultimi 30 giorni su Reddit, X, YouTube (trascrizioni intere), Hacker News, GitHub, arXiv, Techmeme, Polymarket e altre fonti, e ne produce una sintesi ragionata invece di un elenco di link. Pesa il coinvolgimento reale — voti su Reddit, capitale scommesso su Polymarket. Reddit, HN, GitHub e Polymarket funzionano senza chiavi; X, TikTok e Instagram richiedono cookie o servizi di scraping. Output in markdown, JSON o HTML. Gira su Claude Code, Codex, Cursor e 50+ host di Agent Skills. MIT, 59k+ stelle.</p>
+        <div class="tags"><a class="tag" href="../index.html?tag=agent-skill">agent-skill</a><a class="tag" href="../index.html?tag=research">research</a><a class="tag" href="../index.html?tag=claude-code">claude-code</a><a class="tag" href="../index.html?tag=social-listening">social-listening</a><a class="tag" href="../index.html?tag=synthesis">synthesis</a><a class="tag" href="../index.html?tag=reddit">reddit</a><a class="tag" href="../index.html?tag=open-source">open-source</a><a class="tag" href="../index.html?tag=trends">trends</a></div>
+        <div class="actions">
+          <a class="btn-primary" href="https://github.com/mvanhorn/last30days-skill" target="_blank" rel="noopener noreferrer">Vai al sito →</a>
+          <div class="share">
+            <span class="share-label">Condividi:</span>
+            <a class="share-btn" href="https://www.linkedin.com/sharing/share-offsite/?url=https%3A%2F%2Fnunziogianfelice.github.io%2Fawesome-tool-ai%2Ftools%2Flast30days-skill.html" target="_blank" rel="noopener noreferrer" title="Condividi su LinkedIn"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M20.45 20.45h-3.55v-5.57c0-1.33-.03-3.04-1.85-3.04-1.85 0-2.14 1.45-2.14 2.94v5.67H9.36V9h3.41v1.56h.05c.47-.9 1.63-1.85 3.36-1.85 3.6 0 4.27 2.37 4.27 5.46v6.28zM5.34 7.43a2.06 2.06 0 1 1 0-4.12 2.06 2.06 0 0 1 0 4.12zM7.12 20.45H3.56V9h3.56v11.45z"/></svg> LinkedIn</a>
+            <button data-copy="https://github.com/mvanhorn/last30days-skill" title="Copia il link del tool"><svg viewBox="0 0 24 24" width="16" height="16" fill="currentColor" aria-hidden="true"><path d="M12 .5A11.5 11.5 0 0 0 .5 12c0 5.08 3.29 9.39 7.86 10.91.58.11.79-.25.79-.55v-2.17c-3.2.7-3.87-1.36-3.87-1.36-.52-1.33-1.28-1.68-1.28-1.68-1.04-.71.08-.7.08-.7 1.15.08 1.76 1.19 1.76 1.19 1.03 1.75 2.69 1.25 3.34.95.1-.74.4-1.25.72-1.54-2.55-.29-5.24-1.28-5.24-5.68 0-1.26.45-2.28 1.19-3.09-.12-.29-.52-1.46.11-3.05 0 0 .97-.31 3.18 1.18a11.1 11.1 0 0 1 5.8 0c2.2-1.49 3.17-1.18 3.17-1.18.63 1.59.23 2.76.11 3.05.74.81 1.19 1.83 1.19 3.09 0 4.41-2.69 5.38-5.25 5.67.41.35.77 1.04.77 2.1v3.11c0 .3.21.66.8.55A11.5 11.5 0 0 0 23.5 12 11.5 11.5 0 0 0 12 .5z"/></svg> link tool</button>
+            <button data-copy="https://nunziogianfelice.github.io/awesome-tool-ai/tools/last30days-skill.html" title="Copia il link di questa pagina"><svg viewBox="0 0 24 24" width="16" height="16" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" aria-hidden="true"><path d="M10 13a5 5 0 0 0 7.54.54l3-3a5 5 0 0 0-7.07-7.07l-1.72 1.71"/><path d="M14 11a5 5 0 0 0-7.54-.54l-3 3a5 5 0 0 0 7.07 7.07l1.71-1.71"/></svg> link pagina</button>
+          </div>
+        </div>
+      </article>
+      <section class="related"><h2>Tool correlati</h2><div class="rel-grid"><a class="rel-card" href="ai-website-cloner-template.html"><strong>AI Website Cloner Template</strong><span>Developer Tools · open-source</span></a><a class="rel-card" href="cmux.html"><strong>cmux</strong><span>Developer Tools · open-source</span></a><a class="rel-card" href="graphify.html"><strong>Graphify</strong><span>Vector DB · open-source</span></a><a class="rel-card" href="officecli.html"><strong>OfficeCLI</strong><span>Tool &amp; Utility · open-source</span></a></div></section>
+    </div>
+    <footer class="site">
+      <span class="free-note">100% free &amp; open source</span>
+      <a class="star-btn" href="https://github.com/nunziogianfelice/awesome-tool-ai" target="_blank" rel="noopener noreferrer">⭐ Star on GitHub</a>
+    </footer>
+    <script>
+document.querySelectorAll("button[data-copy]").forEach(function (btn) {
+  var original = btn.innerHTML;
+  btn.addEventListener("click", function () {
+    navigator.clipboard.writeText(btn.dataset.copy).then(function () {
+      btn.innerHTML = "copiato \u2713";
+      btn.classList.add("copied");
+      setTimeout(function () {
+        btn.innerHTML = original;
+        btn.classList.remove("copied");
+      }, 1500);
+    });
+  });
+});
+</script>
+  </body>
+</html>
