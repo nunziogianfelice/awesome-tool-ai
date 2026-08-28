@@ -2093,5 +2093,45 @@ window.TOOLS_DATA = [
     "pricing": "freemium",
     "type": "platform",
     "added_at": "2026-08-28"
+  },
+  {
+    "id": "figranium",
+    "name": "Figranium",
+    "description": "Alternativa open-source e self-hosted ad Apify: si costruisce visivamente un flusso di navigazione a blocchi (click, digitazione, attesa, JavaScript) e lo si pubblica come endpoint API, richiamabile via HTTP o CLI passando variabili dinamiche a runtime. Il motore Figranite esegue i workflow in modo deterministico simulando la fisica del movimento umano, con rotazione proxy, schedulazione a intervalli o cron, e raccolta di screenshot, registrazioni e cookie. Stack React/Vite + Express + Playwright, si installa con Docker Compose o `npx figranium`; interfaccia web su localhost:11345. Non è un MCP server, ma l'API REST lo rende agganciabile a un agente.",
+    "url": "https://github.com/figranium/figranium",
+    "category": "scraping",
+    "tags": [
+      "browser-automation",
+      "playwright",
+      "self-hosted",
+      "open-source",
+      "web-scraping",
+      "no-code",
+      "proxy-rotation",
+      "api"
+    ],
+    "pricing": "open-source",
+    "type": "tool",
+    "added_at": "2026-08-28"
+  },
+  {
+    "id": "claude-obsidian",
+    "name": "claude-obsidian",
+    "description": "Plugin per Claude Code che costruisce una knowledge base Obsidian a partire da materiale sorgente, con quattro fasi: cattura della fonte con il suo contesto, ancoraggio di ogni affermazione alla prova, costruzione di pagine collegate e indici, interrogazione e manutenzione del vault. Include 15 skill coordinate — fra cui wiki-ingest, wiki-query, wiki-lint, autoresearch e canvas — invocabili come /claude-obsidian:<skill>. Ogni operazione che modifica il vault produce un hash SHA-256 da approvare prima dell'applicazione. Local-first: il vault resta una normale cartella di Markdown, JSON e file sorgente, senza cache proprietarie né database cloud. Python 3.11+, MIT; come Agent Skills funziona anche con Cursor, Windsurf, Codex, OpenCode e Gemini.",
+    "url": "https://github.com/AgriciDaniel/claude-obsidian",
+    "category": "productivity",
+    "tags": [
+      "obsidian",
+      "knowledge-base",
+      "claude-code",
+      "agent-skills",
+      "note-taking",
+      "local-first",
+      "citations",
+      "plugin"
+    ],
+    "pricing": "open-source",
+    "type": "tool",
+    "added_at": "2026-08-28"
   }
 ];
