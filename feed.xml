@@ -5,8 +5,16 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Thu, 27 Aug 2026 08:10:07 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 07:32:34 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Inkbox AI</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/inkbox-ai.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/inkbox-ai.html</guid>
+      <description>Dà a un agente AI un'identità di contatto vera e propria: casella email dedicata, numero di telefono per chiamate e SMS, iMessage, endpoint web e canale agent-to-agent per farlo parlare con altri agenti. La memoria è condivisa tra i canali, così chi scrive via mail e poi telefona trova lo stesso contesto; gli amministratori decidono chi può raggiungerlo su ciascun canale. Plugin nativi per Claude Code, Codex, OpenCode, Hermes e OpenClaw, più CLI e SDK. Backed by Y Combinator; piano gratuito e tier a pagamento.</description>
+      <category>Agent Frameworks</category>
+      <pubDate>Fri, 28 Aug 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>last30days-skill</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/last30days-skill.html</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/vizro.html</guid>
       <description>Toolkit Python di McKinsey per costruire dashboard di data visualization basati su Plotly Dash, con configurazione dichiarativa e supporto a Vizro-AI per la generazione di grafici da prompt. Indicato per analisti e team di BI.</description>
       <category>Data &amp; AI</category>
-      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>VibeVoice</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/vibevoice.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/vibevoice.html</guid>
-      <description>Modello TTS open-source di Microsoft Research per la generazione di parlato lungo, espressivo e multi-speaker. Pensato per audiobook, podcast e dialoghi sintetici di alta qualita.</description>
-      <category>Models</category>
       <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>

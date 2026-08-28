@@ -54,6 +54,7 @@ python3 scripts/build_all.py
 | [Deep Agents by LangChain](https://github.com/langchain-ai/deepagents) | Libreria di LangChain che implementa pattern di agenti deep (planning, sub-agent, file system virtuale) ispirati a Manus e Claude Code. Pensata per task autonomi a lungo orizzonte. | `open-source` `langchain` `python` `agent` `multi-agent` |
 | [Eve by Vercel](https://vercel.com/eve) | Framework per costruire agenti AI production-ready con approccio directory-based (un agente = una cartella): istruzioni in Markdown, tool in TypeScript, skills come playbook riutilizzabili, channels multi-piattaforma (Slack, Discord, Teams). Include durable execution, subagents, cron schedules, sandboxing su VM on-demand e human-in-the-loop con approval gates. Integrazione nativa con l'infrastruttura Vercel. | `typescript` `vercel` `durable-execution` `multi-channel` `production` `developer-tools` |
 | Google ADK (Agent Development Kit) | Toolkit open-source di Google per costruire, valutare e deployare agenti AI multi-step e multi-agente, integrato con Vertex AI e Gemini. Disponibile in Python e Java. | `google` `open-source` `python` `java` `multi-agent` |
+| [Inkbox AI](https://inkbox.ai) | Dà a un agente AI un'identità di contatto vera e propria: casella email dedicata, numero di telefono per chiamate e SMS, iMessage, endpoint web e canale agent-to-agent per farlo parlare con altri agenti. La memoria è condivisa tra i canali, così chi scrive via mail e poi telefona trova lo stesso contesto; gli amministratori decidono chi può raggiungerlo su ciascun canale. Plugin nativi per Claude Code, Codex, OpenCode, Hermes e OpenClaw, più CLI e SDK. Backed by Y Combinator; piano gratuito e tier a pagamento. | `agent-identity` `email` `telephony` `sms` `imessage` `agent2agent` `claude-code` `multi-channel` |
 | [Multica](https://github.com/multica-ai/multica) | Piattaforma open-source che integra agenti AI come membri del team: si assegnano task agli agenti come a un collega su Linear o Jira, e loro eseguono autonomamente, aggiornano lo stato e segnalano i blocchi. Un daemon locale rileva automaticamente gli agenti installati (Claude Code, Copilot CLI, Codex, ecc.) e li connette al server centrale via WebSocket. Supporta workspace multi-utente e riuso delle skill tra agenti diversi. | `agent` `workflow` `open-source` `tools` |
 | [OpenAgents](https://github.com/openagents-org/openagents) | Piattaforma open-source per costruire e condividere agenti AI generali, con focus su data agents, plugin agents e web agents. Originariamente nato come progetto accademico aperto. | `open-source` `self-hostable` `python` `multi-agent` |
 | [Parlant](https://www.parlant.io/) | Framework open-source per costruire agenti conversazionali governati da regole e guideline esplicite invece che solo da prompt. Pensato per use case enterprise dove serve controllo e auditabilita. | `open-source` `python` `enterprise` `guardrails` |
@@ -209,8 +210,8 @@ python3 scripts/build_all.py
 
 ## Statistiche
 
-- **124** item totali
-- **92** tool/prodotti
+- **125** item totali
+- **93** tool/prodotti
 - **32** risorse (articoli, corsi, doc, awesome list)
 - **15** categorie utilizzate
 

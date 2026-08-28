@@ -2073,5 +2073,25 @@ window.TOOLS_DATA = [
     "pricing": "free",
     "type": "tool",
     "added_at": "2026-08-27"
+  },
+  {
+    "id": "inkbox-ai",
+    "name": "Inkbox AI",
+    "description": "Dà a un agente AI un'identità di contatto vera e propria: casella email dedicata, numero di telefono per chiamate e SMS, iMessage, endpoint web e canale agent-to-agent per farlo parlare con altri agenti. La memoria è condivisa tra i canali, così chi scrive via mail e poi telefona trova lo stesso contesto; gli amministratori decidono chi può raggiungerlo su ciascun canale. Plugin nativi per Claude Code, Codex, OpenCode, Hermes e OpenClaw, più CLI e SDK. Backed by Y Combinator; piano gratuito e tier a pagamento.",
+    "url": "https://inkbox.ai",
+    "category": "agent-framework",
+    "tags": [
+      "agent-identity",
+      "email",
+      "telephony",
+      "sms",
+      "imessage",
+      "agent2agent",
+      "claude-code",
+      "multi-channel"
+    ],
+    "pricing": "freemium",
+    "type": "platform",
+    "added_at": "2026-08-28"
   }
 ];
