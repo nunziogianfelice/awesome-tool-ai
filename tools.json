@@ -2112,5 +2112,25 @@
   "pricing": "open-source",
   "type": "tool",
   "added_at": "2026-08-28"
+ },
+ {
+  "id": "claude-obsidian",
+  "name": "claude-obsidian",
+  "description": "Plugin per Claude Code che costruisce una knowledge base Obsidian a partire da materiale sorgente, con quattro fasi: cattura della fonte con il suo contesto, ancoraggio di ogni affermazione alla prova, costruzione di pagine collegate e indici, interrogazione e manutenzione del vault. Include 15 skill coordinate — fra cui wiki-ingest, wiki-query, wiki-lint, autoresearch e canvas — invocabili come /claude-obsidian:<skill>. Ogni operazione che modifica il vault produce un hash SHA-256 da approvare prima dell'applicazione. Local-first: il vault resta una normale cartella di Markdown, JSON e file sorgente, senza cache proprietarie né database cloud. Python 3.11+, MIT; come Agent Skills funziona anche con Cursor, Windsurf, Codex, OpenCode e Gemini.",
+  "url": "https://github.com/AgriciDaniel/claude-obsidian",
+  "category": "productivity",
+  "tags": [
+   "obsidian",
+   "knowledge-base",
+   "claude-code",
+   "agent-skills",
+   "note-taking",
+   "local-first",
+   "citations",
+   "plugin"
+  ],
+  "pricing": "open-source",
+  "type": "tool",
+  "added_at": "2026-08-28"
  }
 ]
