@@ -103,6 +103,7 @@
 ## productivity
 
 - [Bento](https://bento.page/): Suite di produttività locale per presentazioni animate: crea slide con animazioni, video, grafici live e design web-grade in un singolo file HTML autonomo, senza account né cloud. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/bento-page.html)
+- [claude-obsidian](https://github.com/AgriciDaniel/claude-obsidian): Plugin per Claude Code che costruisce una knowledge base Obsidian a partire da materiale sorgente, con quattro fasi: cattura della fonte con il suo contesto, ancoraggio di ogni affermazione alla prov… (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/claude-obsidian.html)
 
 ## Resources
 
@@ -141,6 +142,7 @@
 
 ## Scraping
 
+- [Figranium](https://github.com/figranium/figranium): Alternativa open-source e self-hosted ad Apify: si costruisce visivamente un flusso di navigazione a blocchi (click, digitazione, attesa, JavaScript) e lo si pubblica come endpoint API, richiamabile… (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/figranium.html)
 - [Firecrawl](https://firecrawl.dev): "Context API" per il web pensata per gli agenti: scrape di qualsiasi pagina in markdown pulito (gestisce JS), crawl di interi siti, search con contenuto completo, extract strutturato via schema e int… (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/firecrawl.html)
 - [ScrapeGraphAI](https://scrapegraphai.com/): Libreria Python per web scraping basata su LLM: descrivi cosa estrarre in linguaggio naturale e il tool costruisce la pipeline (fetch, parse, estrazione). (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/scrapegraph-ai.html)
 

@@ -134,6 +134,7 @@ python3 scripts/build_all.py
 
 | Tool | Descrizione | Tag |
 |------|-------------|-----|
+| [Figranium](https://github.com/figranium/figranium) | Alternativa open-source e self-hosted ad Apify: si costruisce visivamente un flusso di navigazione a blocchi (click, digitazione, attesa, JavaScript) e lo si pubblica come endpoint API, richiamabile via HTTP o CLI passando variabili dinamiche a runtime. Il motore Figranite esegue i workflow in modo deterministico simulando la fisica del movimento umano, con rotazione proxy, schedulazione a intervalli o cron, e raccolta di screenshot, registrazioni e cookie. Stack React/Vite + Express + Playwright, si installa con Docker Compose o `npx figranium`; interfaccia web su localhost:11345. Non è un MCP server, ma l'API REST lo rende agganciabile a un agente. | `browser-automation` `playwright` `self-hosted` `open-source` `web-scraping` `no-code` `proxy-rotation` `api` |
 | [Firecrawl](https://firecrawl.dev) | "Context API" per il web pensata per gli agenti: scrape di qualsiasi pagina in markdown pulito (gestisce JS), crawl di interi siti, search con contenuto completo, extract strutturato via schema e interazione (click, form). Include un indice developer che cerca dentro issue, PR mergiate, README e docs — ottimo per capire perché una libreria si comporta in un certo modo. Server MCP ufficiale e skill pronte per Claude, SDK in 6 linguaggi, 1.000 crediti gratis al mese. 170k+ stelle. | `web-scraping` `crawler` `markdown` `mcp` `llm-ready` `search` `structured-extraction` `agents` |
 | [ScrapeGraphAI](https://scrapegraphai.com/) | Libreria Python per web scraping basata su LLM: descrivi cosa estrarre in linguaggio naturale e il tool costruisce la pipeline (fetch, parse, estrazione). Ottima per scraping low-code di siti dinamici. | `open-source` `python` `llm` `rag` |
 
@@ -210,8 +211,8 @@ python3 scripts/build_all.py
 
 ## Statistiche
 
-- **125** item totali
-- **93** tool/prodotti
+- **127** item totali
+- **95** tool/prodotti
 - **32** risorse (articoli, corsi, doc, awesome list)
 - **15** categorie utilizzate
 

@@ -5,7 +5,7 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Fri, 28 Aug 2026 07:32:34 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 28 Aug 2026 10:24:52 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>Inkbox AI</title>
@@ -13,6 +13,22 @@
       <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/inkbox-ai.html</guid>
       <description>Dà a un agente AI un'identità di contatto vera e propria: casella email dedicata, numero di telefono per chiamate e SMS, iMessage, endpoint web e canale agent-to-agent per farlo parlare con altri agenti. La memoria è condivisa tra i canali, così chi scrive via mail e poi telefona trova lo stesso contesto; gli amministratori decidono chi può raggiungerlo su ciascun canale. Plugin nativi per Claude Code, Codex, OpenCode, Hermes e OpenClaw, più CLI e SDK. Backed by Y Combinator; piano gratuito e tier a pagamento.</description>
       <category>Agent Frameworks</category>
+      <pubDate>Fri, 28 Aug 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>Figranium</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/figranium.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/figranium.html</guid>
+      <description>Alternativa open-source e self-hosted ad Apify: si costruisce visivamente un flusso di navigazione a blocchi (click, digitazione, attesa, JavaScript) e lo si pubblica come endpoint API, richiamabile via HTTP o CLI passando variabili dinamiche a runtime. Il motore Figranite esegue i workflow in modo deterministico simulando la fisica del movimento umano, con rotazione proxy, schedulazione a intervalli o cron, e raccolta di screenshot, registrazioni e cookie. Stack React/Vite + Express + Playwright, si installa con Docker Compose o `npx figranium`; interfaccia web su localhost:11345. Non è un MCP server, ma l'API REST lo rende agganciabile a un agente.</description>
+      <category>Scraping</category>
+      <pubDate>Fri, 28 Aug 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>claude-obsidian</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/claude-obsidian.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/claude-obsidian.html</guid>
+      <description>Plugin per Claude Code che costruisce una knowledge base Obsidian a partire da materiale sorgente, con quattro fasi: cattura della fonte con il suo contesto, ancoraggio di ogni affermazione alla prova, costruzione di pagine collegate e indici, interrogazione e manutenzione del vault. Include 15 skill coordinate — fra cui wiki-ingest, wiki-query, wiki-lint, autoresearch e canvas — invocabili come /claude-obsidian:&lt;skill&gt;. Ogni operazione che modifica il vault produce un hash SHA-256 da approvare prima dell'applicazione. Local-first: il vault resta una normale cartella di Markdown, JSON e file sorgente, senza cache proprietarie né database cloud. Python 3.11+, MIT; come Agent Skills funziona anche con Cursor, Windsurf, Codex, OpenCode e Gemini.</description>
+      <category>productivity</category>
       <pubDate>Fri, 28 Aug 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
@@ -389,22 +405,6 @@
       <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/webllm.html</guid>
       <description>Runtime per eseguire LLM direttamente nel browser via WebGPU, senza server. Permette inferenza completamente locale e offline di modelli come Llama, Mistral o Phi.</description>
       <category>LLM Infrastructure</category>
-      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Vy by Vercept</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/vy-vercept.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/vy-vercept.html</guid>
-      <description>Collaboratore AI proattivo per macOS che osserva il contesto dell'utente, suggerisce azioni e completa task automaticamente. Si pone a meta strada tra Copilot di sistema e agente personale.</description>
-      <category>Browser Agents</category>
-      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Vizro</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/vizro.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/vizro.html</guid>
-      <description>Toolkit Python di McKinsey per costruire dashboard di data visualization basati su Plotly Dash, con configurazione dichiarativa e supporto a Vizro-AI per la generazione di grafici da prompt. Indicato per analisti e team di BI.</description>
-      <category>Data &amp; AI</category>
       <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>
