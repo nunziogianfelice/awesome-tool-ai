@@ -2112,5 +2112,23 @@
   "pricing": "open-source",
   "type": "tool",
   "added_at": "2026-08-28"
+ },
+ {
+  "id": "sandbase-cli",
+  "name": "SandBase CLI",
+  "description": "CLI open-source e server MCP locale provider-agnostic che collega 25 client AI a oltre 2.000 modelli e API, con OAuth e rollback.",
+  "url": "https://github.com/sandbaseai/cli",
+  "category": "developer-tools",
+  "tags": [
+   "open-source",
+   "cli",
+   "mcp",
+   "typescript",
+   "oauth",
+   "multi-provider"
+  ],
+  "pricing": "open-source",
+  "type": "tool",
+  "added_at": "2026-08-28"
  }
 ]
