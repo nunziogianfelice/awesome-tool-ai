@@ -46,6 +46,7 @@
 
 ## Developer Tools
 
+- [Agent QA](https://github.com/vostride/agent-qa): Strumento source-available per scrivere ed eseguire test di regressione in linguaggio naturale su web, Android e iOS. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/agent-qa.html)
 - [agentskill](https://github.com/airscripts/agentskill): Tool di analisi forense dei repository che genera file AGENTS.md con specifiche comportamentali: naming convention, indentazione, strategie git, grafi di import e mapping dei test. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/agentskill.html)
 - [AI Website Cloner Template](https://github.com/JCodesMore/ai-website-cloner-template): Template Next.js 16 + shadcn/ui con skill /clone-website per agenti di coding (Claude Code e altri): dato un URL, ricostruisce la pagina come codice React pixel-perfect. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/ai-website-cloner-template.html)
 - [cmux](https://github.com/manaflow-ai/cmux): Terminale macOS nativo (Swift + AppKit su motore Ghostty, niente Electron) pensato per orchestrare agenti AI da terminale (Claude Code, Codex, OpenCode): tab verticali con branch git, porte e anelli… (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/cmux.html)

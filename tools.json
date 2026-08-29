@@ -1,5 +1,24 @@
 [
  {
+  "id": "agent-qa",
+  "name": "Agent QA",
+  "description": "Strumento source-available per scrivere ed eseguire test di regressione in linguaggio naturale su web, Android e iOS. Espone CLI, dashboard e MCP e conserva evidenze consultabili delle esecuzioni. Il pacchetto non ha un costo software per gli usi consentiti; i provider configurati possono applicare costi.",
+  "url": "https://github.com/vostride/agent-qa",
+  "category": "developer-tools",
+  "tags": [
+   "testing",
+   "qa",
+   "web",
+   "android",
+   "ios",
+   "mcp",
+   "source-available"
+  ],
+  "pricing": "free",
+  "type": "tool",
+  "added_at": "2026-08-29"
+ },
+ {
   "id": "bento-page",
   "name": "Bento",
   "description": "Suite di produttività locale per presentazioni animate: crea slide con animazioni, video, grafici live e design web-grade in un singolo file HTML autonomo, senza account né cloud. Include viewer, editor e player integrati nello stesso file. Supporta editing AI-nativo, transizioni morph e collaborazione real-time con crittografia E2E.",
