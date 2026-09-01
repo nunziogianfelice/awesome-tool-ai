@@ -5,8 +5,16 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Fri, 28 Aug 2026 10:24:52 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 01 Sep 2026 12:50:24 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>TimesFM</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/timesfm.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/timesfm.html</guid>
+      <description>Modello fondazionale per la previsione di serie temporali di Google Research (paper ICML 2024): un transformer decoder-only preaddestrato che produce previsioni zero-shot, senza addestramento sui dati del caso d'uso. La 2.5 ha 200 milioni di parametri, contesto fino a 16.000 passi e orizzonte fino a 1.000 con quantili continui; la 3.0 aggiunge serie multivariate e covariate passate e future. Si installa con `pip install timesfm[torch]`, i checkpoint stanno su HuggingFace, ed è il motore dietro le previsioni di BigQuery ML, Google Sheets e Vertex Model Garden. Attenzione alla licenza: Apache-2.0 fino alla 2.5, mentre i pesi della 3.0 sono sotto licenza non commerciale e non utilizzabile in produzione.</description>
+      <category>Models</category>
+      <pubDate>Tue, 01 Sep 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Inkbox AI</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/inkbox-ai.html</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/wren-ai.html</guid>
       <description>Agente text-to-SQL open-source di Canner che traduce domande in linguaggio naturale in query SQL su data warehouse, con generazione di chart e insight. Alternativa self-hostable a soluzioni BI proprietarie.</description>
       <category>Data &amp; AI</category>
-      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>WebLLM</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/webllm.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/webllm.html</guid>
-      <description>Runtime per eseguire LLM direttamente nel browser via WebGPU, senza server. Permette inferenza completamente locale e offline di modelli come Llama, Mistral o Phi.</description>
-      <category>LLM Infrastructure</category>
       <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>

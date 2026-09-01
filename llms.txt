@@ -89,6 +89,7 @@
 ## Models
 
 - [Qwen3-Coder](https://github.com/QwenLM/Qwen3-Coder): Famiglia di modelli LLM open-weight di Alibaba specializzati per il coding e l'agentic coding, con varianti fino a 480B parametri MoE e supporto a contesti molto lunghi. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/qwen3-coder.html)
+- [TimesFM](https://github.com/google-research/timesfm): Modello fondazionale per la previsione di serie temporali di Google Research (paper ICML 2024): un transformer decoder-only preaddestrato che produce previsioni zero-shot, senza addestramento sui dat… (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/timesfm.html)
 - [VibeVoice](https://microsoft.github.io/VibeVoice/): Modello TTS open-source di Microsoft Research per la generazione di parlato lungo, espressivo e multi-speaker. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/vibevoice.html)
 
 ## Platform

@@ -2133,5 +2133,25 @@ window.TOOLS_DATA = [
     "pricing": "open-source",
     "type": "tool",
     "added_at": "2026-08-28"
+  },
+  {
+    "id": "timesfm",
+    "name": "TimesFM",
+    "description": "Modello fondazionale per la previsione di serie temporali di Google Research (paper ICML 2024): un transformer decoder-only preaddestrato che produce previsioni zero-shot, senza addestramento sui dati del caso d'uso. La 2.5 ha 200 milioni di parametri, contesto fino a 16.000 passi e orizzonte fino a 1.000 con quantili continui; la 3.0 aggiunge serie multivariate e covariate passate e future. Si installa con `pip install timesfm[torch]`, i checkpoint stanno su HuggingFace, ed è il motore dietro le previsioni di BigQuery ML, Google Sheets e Vertex Model Garden. Attenzione alla licenza: Apache-2.0 fino alla 2.5, mentre i pesi della 3.0 sono sotto licenza non commerciale e non utilizzabile in produzione.",
+    "url": "https://github.com/google-research/timesfm",
+    "category": "model",
+    "tags": [
+      "time-series",
+      "forecasting",
+      "foundation-model",
+      "zero-shot",
+      "google-research",
+      "pytorch",
+      "huggingface",
+      "covariates"
+    ],
+    "pricing": "open-source",
+    "type": "tool",
+    "added_at": "2026-09-01"
   }
 ];

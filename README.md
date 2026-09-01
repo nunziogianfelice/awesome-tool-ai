@@ -154,6 +154,7 @@ python3 scripts/build_all.py
 | Tool | Descrizione | Tag |
 |------|-------------|-----|
 | [Qwen3-Coder](https://github.com/QwenLM/Qwen3-Coder) | Famiglia di modelli LLM open-weight di Alibaba specializzati per il coding e l'agentic coding, con varianti fino a 480B parametri MoE e supporto a contesti molto lunghi. Tra i migliori open per task di programmazione. | `open-source` `alibaba` `coding` `open-weights` |
+| [TimesFM](https://github.com/google-research/timesfm) | Modello fondazionale per la previsione di serie temporali di Google Research (paper ICML 2024): un transformer decoder-only preaddestrato che produce previsioni zero-shot, senza addestramento sui dati del caso d'uso. La 2.5 ha 200 milioni di parametri, contesto fino a 16.000 passi e orizzonte fino a 1.000 con quantili continui; la 3.0 aggiunge serie multivariate e covariate passate e future. Si installa con `pip install timesfm[torch]`, i checkpoint stanno su HuggingFace, ed è il motore dietro le previsioni di BigQuery ML, Google Sheets e Vertex Model Garden. Attenzione alla licenza: Apache-2.0 fino alla 2.5, mentre i pesi della 3.0 sono sotto licenza non commerciale e non utilizzabile in produzione. | `time-series` `forecasting` `foundation-model` `zero-shot` `google-research` `pytorch` `huggingface` `covariates` |
 | [VibeVoice](https://microsoft.github.io/VibeVoice/) | Modello TTS open-source di Microsoft Research per la generazione di parlato lungo, espressivo e multi-speaker. Pensato per audiobook, podcast e dialoghi sintetici di alta qualita. | `open-source` `microsoft` `voice` `tts` |
 
 ### Tools & Utilities
@@ -211,8 +212,8 @@ python3 scripts/build_all.py
 
 ## Statistiche
 
-- **127** item totali
-- **95** tool/prodotti
+- **128** item totali
+- **96** tool/prodotti
 - **32** risorse (articoli, corsi, doc, awesome list)
 - **15** categorie utilizzate
 
