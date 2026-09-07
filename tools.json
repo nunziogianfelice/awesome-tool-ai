@@ -2152,5 +2152,27 @@
   "pricing": "open-source",
   "type": "tool",
   "added_at": "2026-09-01"
+ },
+ {
+  "id": "qaskills",
+  "name": "QASkills",
+  "description": "Directory curata di skill di testing per agenti di coding, mantenuta da The Testing Academy. Si installa una skill con un comando (`npx @qaskills/cli add playwright-e2e`) e l'agente acquisisce conoscenza specialistica su come scrivere e far girare test: end-to-end con Playwright, Selenium e Cypress, generazione automatica di test, bug hunting, performance, audit di accessibilità WCAG, ottimizzazione delle pipeline CI/CD. Compatibile con Claude Code, Cursor, Copilot, Windsurf, Cline, Zed e una trentina di altri agenti. CLI e skill sono open source (MIT, TypeScript, monorepo Turborepo); il sito qaskills.sh offre in più una dashboard a pagamento per pubblicare skill proprie. Nota: il sito dichiara oltre 450 skill, il README del repo ne conta una ventina — il catalogo è in crescita, verificare la copertura prima di contarci.",
+  "url": "https://qaskills.sh",
+  "category": "developer-tools",
+  "tags": [
+   "testing",
+   "qa",
+   "agent-skills",
+   "playwright",
+   "cypress",
+   "e2e",
+   "accessibility",
+   "claude-code",
+   "cursor",
+   "cli"
+  ],
+  "pricing": "freemium",
+  "type": "resource",
+  "added_at": "2026-09-07"
  }
 ]

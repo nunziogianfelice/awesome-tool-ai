@@ -5,8 +5,16 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Tue, 01 Sep 2026 12:50:24 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 07 Sep 2026 12:46:52 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>QASkills</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/qaskills.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/qaskills.html</guid>
+      <description>Directory curata di skill di testing per agenti di coding, mantenuta da The Testing Academy. Si installa una skill con un comando (`npx @qaskills/cli add playwright-e2e`) e l'agente acquisisce conoscenza specialistica su come scrivere e far girare test: end-to-end con Playwright, Selenium e Cypress, generazione automatica di test, bug hunting, performance, audit di accessibilità WCAG, ottimizzazione delle pipeline CI/CD. Compatibile con Claude Code, Cursor, Copilot, Windsurf, Cline, Zed e una trentina di altri agenti. CLI e skill sono open source (MIT, TypeScript, monorepo Turborepo); il sito qaskills.sh offre in più una dashboard a pagamento per pubblicare skill proprie. Nota: il sito dichiara oltre 450 skill, il README del repo ne conta una ventina — il catalogo è in crescita, verificare la copertura prima di contarci.</description>
+      <category>Developer Tools</category>
+      <pubDate>Mon, 07 Sep 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>TimesFM</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/timesfm.html</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/zvec-alibaba.html</guid>
       <description>Engine di vector search ad alte prestazioni open-source di Alibaba, ottimizzato per scalare retrieval semantico su miliardi di vettori. Alternativa enterprise a Faiss/Milvus.</description>
       <category>Vector DB</category>
-      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>WrenAI</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/wren-ai.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/wren-ai.html</guid>
-      <description>Agente text-to-SQL open-source di Canner che traduce domande in linguaggio naturale in query SQL su data warehouse, con generazione di chart e insight. Alternativa self-hostable a soluzioni BI proprietarie.</description>
-      <category>Data &amp; AI</category>
       <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>
