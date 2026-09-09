@@ -5,7 +5,7 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Mon, 07 Sep 2026 12:46:52 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 09 Sep 2026 15:19:11 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>QASkills</title>
@@ -75,7 +75,7 @@
       <title>Graft</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/graft.html</link>
       <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/graft.html</guid>
-      <description>Mappa di contesto del repository per agenti di coding (Claude Code, Cursor): analisi strutturale deterministica con tree-sitter (21 linguaggi) + sintesi concettuale via LLM, persistita come cartella di markdown collegati dentro il repo, con MCP server integrato. Dichiara 46% di tool call in meno, 42% di token risparmiati e 66% su SWE-bench Verified (vs 54% senza). Approccio alternativo a Graphify: markdown portabile invece di grafo con query strutturate. MIT, di NanoNets.</description>
+      <description>Strato di contesto open source per codebase grandi, pensato per gli agenti di coding (Claude Code, Cursor, Codex, Kiro e qualunque agente che legga file). Analisi strutturale deterministica con tree-sitter su oltre 20 linguaggi, più sintesi concettuale via LLM, persistita come cartella di markdown collegati dentro il repo; server MCP e CLI integrati. Analisi d'impatto prima di una modifica (dipendenze e conseguenze), esecuzione interamente locale senza embedding vettoriali, sincronizzazione automatica in background. Si installa con `npm install -g @nanonets/graft` e `graft init`; dichiara fino al 32% di costo in meno per task rispetto a un agente senza grafo. MIT. Nato in Nanonets, dal settembre 2026 il repo vive nell'org trailhq (i vecchi URL NanoNets/Graft e NanoNets/context-graph-engine reindirizzano lì) con sito vetrina su trailhq.com/graft; ultima release npm 0.16.0 del 31/8/2026.</description>
       <category>Developer Tools</category>
       <pubDate>Tue, 18 Aug 2026 12:00:00 +0000</pubDate>
     </item>

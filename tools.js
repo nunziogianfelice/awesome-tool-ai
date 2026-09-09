@@ -1997,8 +1997,8 @@ window.TOOLS_DATA = [
   {
     "id": "graft",
     "name": "Graft",
-    "description": "Mappa di contesto del repository per agenti di coding (Claude Code, Cursor): analisi strutturale deterministica con tree-sitter (21 linguaggi) + sintesi concettuale via LLM, persistita come cartella di markdown collegati dentro il repo, con MCP server integrato. Dichiara 46% di tool call in meno, 42% di token risparmiati e 66% su SWE-bench Verified (vs 54% senza). Approccio alternativo a Graphify: markdown portabile invece di grafo con query strutturate. MIT, di NanoNets.",
-    "url": "https://github.com/NanoNets/Graft",
+    "description": "Strato di contesto open source per codebase grandi, pensato per gli agenti di coding (Claude Code, Cursor, Codex, Kiro e qualunque agente che legga file). Analisi strutturale deterministica con tree-sitter su oltre 20 linguaggi, più sintesi concettuale via LLM, persistita come cartella di markdown collegati dentro il repo; server MCP e CLI integrati. Analisi d'impatto prima di una modifica (dipendenze e conseguenze), esecuzione interamente locale senza embedding vettoriali, sincronizzazione automatica in background. Si installa con `npm install -g @nanonets/graft` e `graft init`; dichiara fino al 32% di costo in meno per task rispetto a un agente senza grafo. MIT. Nato in Nanonets, dal settembre 2026 il repo vive nell'org trailhq (i vecchi URL NanoNets/Graft e NanoNets/context-graph-engine reindirizzano lì) con sito vetrina su trailhq.com/graft; ultima release npm 0.16.0 del 31/8/2026.",
+    "url": "https://github.com/trailhq/Graft",
     "category": "developer-tools",
     "tags": [
       "code-context",
@@ -2008,11 +2008,15 @@ window.TOOLS_DATA = [
       "knowledge-map",
       "repo-analysis",
       "open-source",
-      "markdown"
+      "markdown",
+      "trailhq",
+      "impact-analysis",
+      "local-first"
     ],
     "pricing": "free",
     "type": "tool",
-    "added_at": "2026-08-18"
+    "added_at": "2026-08-18",
+    "updated_at": "2026-09-09"
   },
   {
     "id": "firecrawl",
