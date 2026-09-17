@@ -5,8 +5,16 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Wed, 09 Sep 2026 15:19:11 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 17 Sep 2026 10:18:02 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>TypeSafe AI — Jev</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/typesafe-jev.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/typesafe-jev.html</guid>
+      <description>Modello di TypeSafe AI (San Francisco) per prendere decisioni dentro il software invece di generare testo: riceve uno stato non strutturato e restituisce un valore tipizzato con una probabilità calibrata. Gli autori lo presentano come una nuova classe di modelli, i System One Models, contrapposti ai modelli da conversazione. Non produce token in sequenza: un campionatore parallelo genera tutte le uscite in una sola query, e l'addestramento (che chiamano RLCD, Reinforcement Learning for Calibrated Decisions) ottimizza perché la probabilità dichiarata corrisponda alla frequenza con cui la decisione risulta corretta. Casi d'uso naturali: classificazione, instradamento, scoring, guardrail sulle uscite di un LLM, map-reduce su grandi dataset — tutto ciò che è una scelta ripetuta ad alto volume dentro un insieme di risposte noto in anticipo. Dichiarano 70-500 ms end-to-end e 0,042 $ per milione di token in ingresso, con le uscite gratuite. Da leggere con attenzione il claim di 'zero allucinazioni': significa che non sbaglia il tipo del dato, non che la decisione sia corretta. Limiti dichiarati: niente immagini, schemi da definire in anticipo, cardinalità massima 255 per le scelte. Early access su lista d'attesa dal 16 settembre 2026, versione 0.01, benchmark solo del fornitore e pesi non pubblici.</description>
+      <category>Models</category>
+      <pubDate>Thu, 17 Sep 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>QASkills</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/qaskills.html</link>
@@ -398,14 +406,6 @@
       <description>Tool di analisi forense dei repository che genera file AGENTS.md con specifiche comportamentali: naming convention, indentazione, strategie git, grafi di import e mapping dei test. Supporta 15+ linguaggi con sette analizzatori paralleli, producendo spec machine-readable che permettono agli agenti AI di generare codice indistinguibile da quello esistente.</description>
       <category>Developer Tools</category>
       <pubDate>Mon, 04 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>zvec by Alibaba</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/zvec-alibaba.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/zvec-alibaba.html</guid>
-      <description>Engine di vector search ad alte prestazioni open-source di Alibaba, ottimizzato per scalare retrieval semantico su miliardi di vettori. Alternativa enterprise a Faiss/Milvus.</description>
-      <category>Vector DB</category>
-      <pubDate>Sun, 03 May 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

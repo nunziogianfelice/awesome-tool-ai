@@ -155,6 +155,7 @@ python3 scripts/build_all.py
 |------|-------------|-----|
 | [Qwen3-Coder](https://github.com/QwenLM/Qwen3-Coder) | Famiglia di modelli LLM open-weight di Alibaba specializzati per il coding e l'agentic coding, con varianti fino a 480B parametri MoE e supporto a contesti molto lunghi. Tra i migliori open per task di programmazione. | `open-source` `alibaba` `coding` `open-weights` |
 | [TimesFM](https://github.com/google-research/timesfm) | Modello fondazionale per la previsione di serie temporali di Google Research (paper ICML 2024): un transformer decoder-only preaddestrato che produce previsioni zero-shot, senza addestramento sui dati del caso d'uso. La 2.5 ha 200 milioni di parametri, contesto fino a 16.000 passi e orizzonte fino a 1.000 con quantili continui; la 3.0 aggiunge serie multivariate e covariate passate e future. Si installa con `pip install timesfm[torch]`, i checkpoint stanno su HuggingFace, ed è il motore dietro le previsioni di BigQuery ML, Google Sheets e Vertex Model Garden. Attenzione alla licenza: Apache-2.0 fino alla 2.5, mentre i pesi della 3.0 sono sotto licenza non commerciale e non utilizzabile in produzione. | `time-series` `forecasting` `foundation-model` `zero-shot` `google-research` `pytorch` `huggingface` `covariates` |
+| [TypeSafe AI — Jev](https://typesafe.ai/) | Modello di TypeSafe AI (San Francisco) per prendere decisioni dentro il software invece di generare testo: riceve uno stato non strutturato e restituisce un valore tipizzato con una probabilità calibrata. Gli autori lo presentano come una nuova classe di modelli, i System One Models, contrapposti ai modelli da conversazione. Non produce token in sequenza: un campionatore parallelo genera tutte le uscite in una sola query, e l'addestramento (che chiamano RLCD, Reinforcement Learning for Calibrated Decisions) ottimizza perché la probabilità dichiarata corrisponda alla frequenza con cui la decisione risulta corretta. Casi d'uso naturali: classificazione, instradamento, scoring, guardrail sulle uscite di un LLM, map-reduce su grandi dataset — tutto ciò che è una scelta ripetuta ad alto volume dentro un insieme di risposte noto in anticipo. Dichiarano 70-500 ms end-to-end e 0,042 $ per milione di token in ingresso, con le uscite gratuite. Da leggere con attenzione il claim di 'zero allucinazioni': significa che non sbaglia il tipo del dato, non che la decisione sia corretta. Limiti dichiarati: niente immagini, schemi da definire in anticipo, cardinalità massima 255 per le scelte. Early access su lista d'attesa dal 16 settembre 2026, versione 0.01, benchmark solo del fornitore e pesi non pubblici. | `structured-output` `typed-decisions` `calibrated-probabilities` `classification` `routing` `guardrails` `low-latency` `early-access` |
 | [VibeVoice](https://microsoft.github.io/VibeVoice/) | Modello TTS open-source di Microsoft Research per la generazione di parlato lungo, espressivo e multi-speaker. Pensato per audiobook, podcast e dialoghi sintetici di alta qualita. | `open-source` `microsoft` `voice` `tts` |
 
 ### Tools & Utilities
@@ -212,8 +213,8 @@ python3 scripts/build_all.py
 
 ## Statistiche
 
-- **129** item totali
-- **97** tool/prodotti
+- **130** item totali
+- **98** tool/prodotti
 - **32** risorse (articoli, corsi, doc, awesome list)
 - **15** categorie utilizzate
 

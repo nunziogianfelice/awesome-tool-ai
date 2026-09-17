@@ -2178,5 +2178,25 @@
   "pricing": "freemium",
   "type": "resource",
   "added_at": "2026-09-07"
+ },
+ {
+  "id": "typesafe-jev",
+  "name": "TypeSafe AI — Jev",
+  "description": "Modello di TypeSafe AI (San Francisco) per prendere decisioni dentro il software invece di generare testo: riceve uno stato non strutturato e restituisce un valore tipizzato con una probabilità calibrata. Gli autori lo presentano come una nuova classe di modelli, i System One Models, contrapposti ai modelli da conversazione. Non produce token in sequenza: un campionatore parallelo genera tutte le uscite in una sola query, e l'addestramento (che chiamano RLCD, Reinforcement Learning for Calibrated Decisions) ottimizza perché la probabilità dichiarata corrisponda alla frequenza con cui la decisione risulta corretta. Casi d'uso naturali: classificazione, instradamento, scoring, guardrail sulle uscite di un LLM, map-reduce su grandi dataset — tutto ciò che è una scelta ripetuta ad alto volume dentro un insieme di risposte noto in anticipo. Dichiarano 70-500 ms end-to-end e 0,042 $ per milione di token in ingresso, con le uscite gratuite. Da leggere con attenzione il claim di 'zero allucinazioni': significa che non sbaglia il tipo del dato, non che la decisione sia corretta. Limiti dichiarati: niente immagini, schemi da definire in anticipo, cardinalità massima 255 per le scelte. Early access su lista d'attesa dal 16 settembre 2026, versione 0.01, benchmark solo del fornitore e pesi non pubblici.",
+  "url": "https://typesafe.ai/",
+  "category": "model",
+  "tags": [
+   "structured-output",
+   "typed-decisions",
+   "calibrated-probabilities",
+   "classification",
+   "routing",
+   "guardrails",
+   "low-latency",
+   "early-access"
+  ],
+  "pricing": "paid",
+  "type": "tool",
+  "added_at": "2026-09-17"
  }
 ]
