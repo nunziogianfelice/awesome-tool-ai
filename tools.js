@@ -1683,20 +1683,27 @@ window.TOOLS_DATA = [
   {
     "id": "vercel-eve",
     "name": "Eve by Vercel",
-    "description": "Framework per costruire agenti AI production-ready con approccio directory-based (un agente = una cartella): istruzioni in Markdown, tool in TypeScript, skills come playbook riutilizzabili, channels multi-piattaforma (Slack, Discord, Teams). Include durable execution, subagents, cron schedules, sandboxing su VM on-demand e human-in-the-loop con approval gates. Integrazione nativa con l'infrastruttura Vercel.",
-    "url": "https://vercel.com/eve",
+    "description": "Framework open source di Vercel (Apache-2.0) per agenti backend durevoli, presentato allo Ship di Londra il 17 giugno 2026. L'approccio è filesystem-first: un agente è una cartella di file, non un programma. Dentro ci sono `agent.ts` (modello e runtime), `instructions.md` (il prompt permanente), `tools/` (funzioni tipizzate richiamabili dal modello, con schema Zod), `skills/` (procedure in markdown caricate su richiesta), `channels/` (HTTP, Slack, Discord, Teams) e `schedules/` (job ricorrenti con cron); il framework legge la cartella, valida un manifesto e la esegue. Porta in dotazione ciò che di solito si riscrive a mano: esecuzione durevole con checkpoint a ogni passo (il lavoro riprende dopo crash o riavvio), sandbox su VM on-demand, approvazione umana con gate nel mezzo del flusso, sottoagenti e valutazioni. Gli agenti si fermano quando aspettano e ripartono al messaggio successivo. Stack Node/TypeScript con pnpm; si distribuisce su Vercel o come servizio Node self-hosted. Integrazioni pronte con Slack, GitHub, Linear, Notion, Datadog, Neon e Upstash. Da tenere presente: è dichiarato in beta e soggetto ai termini beta di Vercel, con API e comportamenti che possono cambiare prima della versione stabile, e la documentazione resta vaga su dove viva davvero lo stato della durable execution, che è la domanda centrale per un framework che vende proprio quella. A settembre 2026: 5,3k stelle su GitHub, pacchetto npm `eve`, sito del progetto su eve.dev.",
+    "url": "https://eve.dev/",
     "category": "agent-framework",
     "tags": [
       "typescript",
       "vercel",
       "durable-execution",
+      "filesystem-first",
+      "human-in-the-loop",
+      "subagents",
+      "evals",
       "multi-channel",
-      "production",
-      "developer-tools"
+      "cron",
+      "apache-2.0",
+      "beta",
+      "production"
     ],
-    "pricing": "freemium",
+    "pricing": "open-source",
     "type": "tool",
-    "added_at": "2026-06-18"
+    "added_at": "2026-06-18",
+    "updated_at": "2026-09-18"
   },
   {
     "id": "headroom",

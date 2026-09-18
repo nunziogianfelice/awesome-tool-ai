@@ -5,7 +5,7 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Thu, 17 Sep 2026 10:18:02 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 18 Sep 2026 06:58:25 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>TypeSafe AI — Jev</title>
@@ -227,7 +227,7 @@
       <title>Eve by Vercel</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/vercel-eve.html</link>
       <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/vercel-eve.html</guid>
-      <description>Framework per costruire agenti AI production-ready con approccio directory-based (un agente = una cartella): istruzioni in Markdown, tool in TypeScript, skills come playbook riutilizzabili, channels multi-piattaforma (Slack, Discord, Teams). Include durable execution, subagents, cron schedules, sandboxing su VM on-demand e human-in-the-loop con approval gates. Integrazione nativa con l'infrastruttura Vercel.</description>
+      <description>Framework open source di Vercel (Apache-2.0) per agenti backend durevoli, presentato allo Ship di Londra il 17 giugno 2026. L'approccio è filesystem-first: un agente è una cartella di file, non un programma. Dentro ci sono `agent.ts` (modello e runtime), `instructions.md` (il prompt permanente), `tools/` (funzioni tipizzate richiamabili dal modello, con schema Zod), `skills/` (procedure in markdown caricate su richiesta), `channels/` (HTTP, Slack, Discord, Teams) e `schedules/` (job ricorrenti con cron); il framework legge la cartella, valida un manifesto e la esegue. Porta in dotazione ciò che di solito si riscrive a mano: esecuzione durevole con checkpoint a ogni passo (il lavoro riprende dopo crash o riavvio), sandbox su VM on-demand, approvazione umana con gate nel mezzo del flusso, sottoagenti e valutazioni. Gli agenti si fermano quando aspettano e ripartono al messaggio successivo. Stack Node/TypeScript con pnpm; si distribuisce su Vercel o come servizio Node self-hosted. Integrazioni pronte con Slack, GitHub, Linear, Notion, Datadog, Neon e Upstash. Da tenere presente: è dichiarato in beta e soggetto ai termini beta di Vercel, con API e comportamenti che possono cambiare prima della versione stabile, e la documentazione resta vaga su dove viva davvero lo stato della durable execution, che è la domanda centrale per un framework che vende proprio quella. A settembre 2026: 5,3k stelle su GitHub, pacchetto npm `eve`, sito del progetto su eve.dev.</description>
       <category>Agent Frameworks</category>
       <pubDate>Thu, 18 Jun 2026 12:00:00 +0000</pubDate>
     </item>
