@@ -2205,5 +2205,24 @@
   "pricing": "paid",
   "type": "tool",
   "added_at": "2026-09-17"
+ },
+ {
+  "id": "agent-qa",
+  "name": "Agent QA",
+  "description": "Strumento source-available per scrivere ed eseguire test di regressione in linguaggio naturale su web, Android e iOS. Espone CLI, dashboard e MCP e conserva evidenze consultabili delle esecuzioni. Il pacchetto non ha un costo software per gli usi consentiti; i provider configurati possono applicare costi.",
+  "url": "https://github.com/vostride/agent-qa",
+  "category": "developer-tools",
+  "tags": [
+   "testing",
+   "qa",
+   "web",
+   "android",
+   "ios",
+   "mcp",
+   "source-available"
+  ],
+  "pricing": "free",
+  "type": "tool",
+  "added_at": "2026-09-19"
  }
 ]

@@ -213,8 +213,8 @@ python3 scripts/build_all.py
 
 ## Statistiche
 
-- **130** item totali
-- **98** tool/prodotti
+- **131** item totali
+- **99** tool/prodotti
 - **32** risorse (articoli, corsi, doc, awesome list)
 - **15** categorie utilizzate
 
