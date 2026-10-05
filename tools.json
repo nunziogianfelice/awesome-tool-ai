@@ -2226,5 +2226,25 @@
   "pricing": "open-source",
   "type": "tool",
   "added_at": "2026-10-05"
+ },
+ {
+  "id": "truecourse",
+  "name": "TrueCourse",
+  "description": "Trasforma la documentazione che un team scrive già (PRD, ADR, README, siti di documentazione) in test end-to-end che girano davvero. Estrae dai documenti un corpus di \"claim\", ricava i flussi (flow) che un utente percorre nel prodotto, scrive un test per ogni flusso contro le interfacce reali e lo esegue: un test che fallisce significa che prodotto e documentazione non sono d'accordo, e indica la sezione in conflitto. Gira in locale sul login di Claude Code (Opus di default, modello configurabile con TRUECOURSE_MODEL), con Postgres e una dashboard web su localhost; espone un endpoint MCP /mcp per far leggere a Claude Code documenti, conflitti, flussi, run e copertura. Tramite GitHub App controlla le pull request (conflitti con la doc e test falliti) e riporta i risultati come check. Note: la vecchia CLI npm `truecourse` è deprecata e il progetto sta diventando un \"IDE per Product Owner\"; modello open-core, MIT tranne la cartella `ee/` (connessioni ai documenti, provider di repository aggiuntivi e workspace multipli richiedono un abbonamento in produzione); telemetria PostHog attiva di default (si disattiva con POSTHOG_DISABLED=1). Progetto giovane (TypeScript, marzo 2026); sito truecourse.dev, documentazione su docs.truecourse.dev.",
+  "url": "https://github.com/truecourse-ai/truecourse",
+  "category": "developer-tools",
+  "tags": [
+   "open-source",
+   "testing",
+   "e2e",
+   "documentation",
+   "claude-code",
+   "mcp",
+   "product-management",
+   "typescript"
+  ],
+  "pricing": "freemium",
+  "type": "tool",
+  "added_at": "2026-10-05"
  }
 ]

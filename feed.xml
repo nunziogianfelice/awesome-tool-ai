@@ -5,8 +5,16 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Mon, 05 Oct 2026 09:22:23 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 14:07:12 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>TrueCourse</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/truecourse.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/truecourse.html</guid>
+      <description>Trasforma la documentazione che un team scrive già (PRD, ADR, README, siti di documentazione) in test end-to-end che girano davvero. Estrae dai documenti un corpus di "claim", ricava i flussi (flow) che un utente percorre nel prodotto, scrive un test per ogni flusso contro le interfacce reali e lo esegue: un test che fallisce significa che prodotto e documentazione non sono d'accordo, e indica la sezione in conflitto. Gira in locale sul login di Claude Code (Opus di default, modello configurabile con TRUECOURSE_MODEL), con Postgres e una dashboard web su localhost; espone un endpoint MCP /mcp per far leggere a Claude Code documenti, conflitti, flussi, run e copertura. Tramite GitHub App controlla le pull request (conflitti con la doc e test falliti) e riporta i risultati come check. Note: la vecchia CLI npm `truecourse` è deprecata e il progetto sta diventando un "IDE per Product Owner"; modello open-core, MIT tranne la cartella `ee/` (connessioni ai documenti, provider di repository aggiuntivi e workspace multipli richiedono un abbonamento in produzione); telemetria PostHog attiva di default (si disattiva con POSTHOG_DISABLED=1). Progetto giovane (TypeScript, marzo 2026); sito truecourse.dev, documentazione su docs.truecourse.dev.</description>
+      <category>Developer Tools</category>
+      <pubDate>Mon, 05 Oct 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Apache Beam</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/apache-beam.html</link>
@@ -398,14 +406,6 @@
       <description>Lista curata di librerie e tool open-source per integrare i servizi della Pubblica Amministrazione italiana in applicazioni software. Copre autenticazione SPID, fatturazione elettronica, PEC, firma digitale, sanità e molto altro — centinaia di progetti organizzati per categoria, pensati per sviluppatori italiani che devono interfacciarsi con sistemi governativi.</description>
       <category>Resources</category>
       <pubDate>Tue, 05 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>OpenUI</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/openui.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/openui.html</guid>
-      <description>Standard aperto e framework full-stack per applicazioni di generative UI, con un linguaggio streaming-first che usa fino al 67% meno token rispetto a JSON equivalente. Separa la generazione LLM dall'esecuzione: il modello genera l'interfaccia una volta sola, poi la UI gestisce autonomamente stato, data fetching e interazioni utente. Ideale per app AI che devono rispondere con componenti UI dinamici e interattivi.</description>
-      <category>UI Framework</category>
-      <pubDate>Mon, 04 May 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
