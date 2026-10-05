@@ -2205,5 +2205,26 @@
   "pricing": "paid",
   "type": "tool",
   "added_at": "2026-09-17"
+ },
+ {
+  "id": "apache-beam",
+  "name": "Apache Beam",
+  "description": "Modello di programmazione unificato e open source (Apache 2.0) per pipeline di dati batch e streaming: si scrive la pipeline una volta e la si esegue su runner diversi, come Google Cloud Dataflow, Apache Flink, Apache Spark o il DirectRunner locale per sviluppo e test. SDK in Java, Python, Go e TypeScript, più Beam SQL e Beam YAML per pipeline dichiarative. I concetti chiave sono PCollection (dataset distribuiti, limitati o illimitati) e PTransform (trasformazioni componibili), con windowing e trigger per gestire tempo degli eventi e dati in ritardo. Il gancio verso l'AI è la trasformazione RunInference, che esegue modelli ML e LLM dentro la pipeline (PyTorch, scikit-learn, TensorFlow, Hugging Face, Vertex AI): utile per pipeline di ingestion e generazione di embedding a servizio di un RAG. Pro: portabilità reale e nessun lock-in sul motore di esecuzione. Contro: curva di apprendimento ripida e strumento sovradimensionato per volumi piccoli.",
+  "url": "https://beam.apache.org/",
+  "category": "data-ai",
+  "tags": [
+   "open-source",
+   "data-pipeline",
+   "streaming",
+   "batch",
+   "etl",
+   "ml-inference",
+   "apache",
+   "python",
+   "java"
+  ],
+  "pricing": "open-source",
+  "type": "tool",
+  "added_at": "2026-10-05"
  }
 ]

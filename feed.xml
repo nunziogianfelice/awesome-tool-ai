@@ -5,8 +5,16 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Fri, 18 Sep 2026 06:58:25 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 05 Oct 2026 09:22:23 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Apache Beam</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/apache-beam.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/apache-beam.html</guid>
+      <description>Modello di programmazione unificato e open source (Apache 2.0) per pipeline di dati batch e streaming: si scrive la pipeline una volta e la si esegue su runner diversi, come Google Cloud Dataflow, Apache Flink, Apache Spark o il DirectRunner locale per sviluppo e test. SDK in Java, Python, Go e TypeScript, più Beam SQL e Beam YAML per pipeline dichiarative. I concetti chiave sono PCollection (dataset distribuiti, limitati o illimitati) e PTransform (trasformazioni componibili), con windowing e trigger per gestire tempo degli eventi e dati in ritardo. Il gancio verso l'AI è la trasformazione RunInference, che esegue modelli ML e LLM dentro la pipeline (PyTorch, scikit-learn, TensorFlow, Hugging Face, Vertex AI): utile per pipeline di ingestion e generazione di embedding a servizio di un RAG. Pro: portabilità reale e nessun lock-in sul motore di esecuzione. Contro: curva di apprendimento ripida e strumento sovradimensionato per volumi piccoli.</description>
+      <category>Data &amp; AI</category>
+      <pubDate>Mon, 05 Oct 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>TypeSafe AI — Jev</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/typesafe-jev.html</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/openui.html</guid>
       <description>Standard aperto e framework full-stack per applicazioni di generative UI, con un linguaggio streaming-first che usa fino al 67% meno token rispetto a JSON equivalente. Separa la generazione LLM dall'esecuzione: il modello genera l'interfaccia una volta sola, poi la UI gestisce autonomamente stato, data fetching e interazioni utente. Ideale per app AI che devono rispondere con componenti UI dinamici e interattivi.</description>
       <category>UI Framework</category>
-      <pubDate>Mon, 04 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>agentskill</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/agentskill.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/agentskill.html</guid>
-      <description>Tool di analisi forense dei repository che genera file AGENTS.md con specifiche comportamentali: naming convention, indentazione, strategie git, grafi di import e mapping dei test. Supporta 15+ linguaggi con sette analizzatori paralleli, producendo spec machine-readable che permettono agli agenti AI di generare codice indistinguibile da quello esistente.</description>
-      <category>Developer Tools</category>
       <pubDate>Mon, 04 May 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>

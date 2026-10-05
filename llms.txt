@@ -38,6 +38,7 @@
 ## Data & AI
 
 - [Agno SQL Agent Example](https://github.com/agno-agi/agno/tree/main/cookbook/examples/apps/sql_agent): Esempio di agente SQL costruito con il framework Agno: dato un database, l'agente genera query, le esegue e spiega i risultati in linguaggio naturale. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/agno-sql-agent.html)
+- [Apache Beam](https://beam.apache.org/): Modello di programmazione unificato e open source (Apache 2.0) per pipeline di dati batch e streaming: si scrive la pipeline una volta e la si esegue su runner diversi, come Google Cloud Dataflow, Ap… (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/apache-beam.html)
 - [last30days-skill](https://github.com/mvanhorn/last30days-skill): Skill per agenti AI che, dato un tema, ricostruisce cosa se n'è detto negli ultimi 30 giorni su Reddit, X, YouTube (trascrizioni intere), Hacker News, GitHub, arXiv, Techmeme, Polymarket e altre font… (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/last30days-skill.html)
 - [MindsDB](https://github.com/mindsdb/mindsdb): Piattaforma open-source che porta AI e ML dentro al database, esponendo modelli come tabelle SQL interrogabili. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/mindsdb.html)
 - [Plexe](https://github.com/plexe-ai/plexe): Framework che genera modelli ML custom partendo da una descrizione in linguaggio naturale del problema e dei dati. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/plexe.html)
