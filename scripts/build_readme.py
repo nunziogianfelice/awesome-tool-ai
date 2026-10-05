@@ -12,6 +12,7 @@ CATEGORY_ORDER = [
     ("agent-framework", "Agent Frameworks"),
     ("mcp", "MCP (Model Context Protocol)"),
     ("coding-assistant", "Coding Assistants"),
+    ("developer-tools", "Developer Tools"),
     ("llm-infrastructure", "LLM Infrastructure"),
     ("data-ai", "Data & AI"),
     ("browser-agent", "Browser & GUI Agents"),
@@ -19,6 +20,8 @@ CATEGORY_ORDER = [
     ("scraping", "Scraping"),
     ("platform", "Platforms"),
     ("model", "Models"),
+    ("ui-framework", "UI Frameworks"),
+    ("productivity", "Productivity"),
     ("tool-utility", "Tools & Utilities"),
 ]
 
