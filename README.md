@@ -199,6 +199,7 @@ python3 scripts/build_all.py
 | Tool | Descrizione | Tag |
 |------|-------------|-----|
 | [EasyFunctionCall](https://easyfunctioncall.com/tool) | Tool che semplifica la definizione e l'invocazione di function calling lato LLM, generando schemi JSON pronti all'uso. Pensato per chi vuole prototipare agenti tool-using senza scrivere boilerplate. | `function-calling` `developer-tools` |
+| [LLM Wiki v2 (CROW)](https://github.com/crow-hq/llm-wiki-v2) | Implementazione del pattern "LLM wiki" di Karpathy: invece del RAG classico, un LLM organizza i documenti in un albero di cartelle con note Markdown (formato Open Knowledge Format di Google) che cresce da solo e si legge, modifica e versiona in git come normali file. Risponde alle domande citando le note usate. In modalità CROW (Classifier-Routed Organization) le decisioni di smistamento non le prende l'LLM ma un classificatore tipizzato (di default Jev di TypeSafe AI, via OpenRouter): in quale cartella va una fonte, se aggiorna una nota esistente o ne crea una nuova, quali note leggere per rispondere. L'LLM scrive solo riassunti, nomi di cartelle, note riscritte e risposte. Nel paper degli autori (Zenodo, DOI 10.5281/zenodo.23260209; 525 documenti personali, soprattutto in italiano), CROW costa circa la metà dell'approccio in cui decide l'LLM. Il costo LLM per documento resta costante al crescere della wiki, e la nota giusta viene trovata nell'89% dei casi contro il 62%. Interfaccia web locale con mappa delle note, API HTTP (/ingest, /upload, /ask), Docker; qualsiasi provider (OpenRouter, OpenAI, Gemini, Ollama in locale); senza classificatore funziona in modalità classica. Limiti: valutazione su un solo corpus e un solo classificatore, che è un modello proprietario e recente; non compila pagine di entità o di sintesi e non fa manutenzione periodica. Progetto giovane (settembre 2026), licenza AGPL-3.0. | `open-source` `knowledge-base` `llm-wiki` `rag-alternative` `classifier` `markdown` `local-llm` `python` |
 | [MarkItDown](https://github.com/microsoft/markitdown) | Utility open-source di Microsoft che converte file di vario formato (PDF, DOCX, XLSX, immagini, audio) in Markdown ottimizzato per l'ingestion in LLM. Comodo come pre-processore per pipeline RAG. | `open-source` `python` `microsoft` `rag` `document` |
 | [Meetily](https://github.com/Zackriya-Solutions/meetily) | Assistente AI per riunioni privacy-first, 100% locale e self-hosted: trascrizione live (Parakeet/Whisper, fino a 4x più veloce), diarizzazione degli speaker e sintesi via Ollama. Note-taker open-source per macOS e Windows, senza cloud. | `open-source` `meeting-notes` `transcription` `self-hosted` `privacy` `whisper` `local-ai` `rust` |
 | [MiroFish](https://github.com/666ghj/MiroFish) | Tool open-source che integra Miro con LLM per generare e manipolare board Miro tramite prompt: utile per brainstorming, mappe mentali e diagrammi assistiti da AI. | `open-source` `miro` `collaboration` |
@@ -249,8 +250,8 @@ python3 scripts/build_all.py
 
 ## Statistiche
 
-- **132** item totali
-- **100** tool/prodotti
+- **133** item totali
+- **101** tool/prodotti
 - **32** risorse (articoli, corsi, doc, awesome list)
 - **15** categorie utilizzate
 

@@ -154,6 +154,7 @@
 ## Tool & Utility
 
 - [EasyFunctionCall](https://easyfunctioncall.com/tool): Tool che semplifica la definizione e l'invocazione di function calling lato LLM, generando schemi JSON pronti all'uso. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/easy-function-call.html)
+- [LLM Wiki v2 (CROW)](https://github.com/crow-hq/llm-wiki-v2): Implementazione del pattern "LLM wiki" di Karpathy: invece del RAG classico, un LLM organizza i documenti in un albero di cartelle con note Markdown (formato Open Knowledge Format di Google) che cres… (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/llm-wiki-v2-crow.html)
 - [MarkItDown](https://github.com/microsoft/markitdown): Utility open-source di Microsoft che converte file di vario formato (PDF, DOCX, XLSX, immagini, audio) in Markdown ottimizzato per l'ingestion in LLM. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/markitdown.html)
 - [Meetily](https://github.com/Zackriya-Solutions/meetily): Assistente AI per riunioni privacy-first, 100% locale e self-hosted: trascrizione live (Parakeet/Whisper, fino a 4x più veloce), diarizzazione degli speaker e sintesi via Ollama. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/meetily.html)
 - [MiroFish](https://github.com/666ghj/MiroFish): Tool open-source che integra Miro con LLM per generare e manipolare board Miro tramite prompt: utile per brainstorming, mappe mentali e diagrammi assistiti da AI. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/mirofish.html)
