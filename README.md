@@ -72,6 +72,7 @@ python3 scripts/build_all.py
 | [MCP Toolbox for Databases](https://github.com/googleapis/genai-toolbox) | Server MCP open-source di Google che espone connessioni sicure a database (Postgres, MySQL, BigQuery, Spanner...) con auth, observability e templating delle query. Pensato per agenti enterprise data-aware. | `open-source` `google` `database` `enterprise` `sql` |
 | [mcp-ui](https://github.com/idosal/mcp-ui) | Libreria open-source che permette ai server MCP di esporre componenti UI ricchi (HTML, React) renderizzabili dai client compatibili. Abilita esperienze interattive oltre il testo nei tool MCP. | `open-source` `ui` `typescript` `react` |
 | [Pipedream MCP Chat](https://github.com/PipedreamHQ/mcp-chat) | Chat client open-source di Pipedream che dimostra come usare MCP per orchestrare migliaia di integrazioni Pipedream da un LLM. Buon esempio di reference implementation. | `open-source` `typescript` `pipedream` `integrations` |
+| [REA (Reverse Engineer Anything)](https://github.com/morluto/rea) | Server MCP + CLI che dà a un agente di coding (Claude Code, Codex, Cursor, Gemini CLI e altri) gli strumenti per fare reverse engineering di un'app senza averne il sorgente: «vedo una feature che mi piace, capisco come funziona fino al binario e la rifaccio nel mio progetto». Copre binari nativi (pseudocodice, assembly, simboli e riferimenti tramite Hopper, Ghidra o IDA già installati), app JavaScript/Electron (moduli, source map, IPC, ASAR), assembly .NET, APK Android (JADX, Apktool, adb), app Flutter, binari Go/Rust, WASM, bytecode EVM, database SQLite, firmware, siti web via Chrome, catture di rete (HAR, pcap) e comportamento dei processi. L'analisi gira in locale e ogni conclusione arriva con le prove e i limiti. Setup con `npx rea-agents setup`, che registra il server MCP e installa le istruzioni di workflow per l'agente scelto (con backup della configurazione). Showcase: ricostruzione in C di una funzione di DX-Ball verificata byte per byte, il bridge degli appunti di Notion seguito fino al processo main. Limiti: molte analisi richiedono tool esterni (Ghidra, JADX, tshark…) e alcune sono solo Linux; Node.js 22.19+; rilasci molto frequenti. Va usato su software che si ha diritto di analizzare. Licenza MIT, nato ad aprile 2026. | `open-source` `mcp-server` `reverse-engineering` `ghidra` `binary-analysis` `electron` `android` `cli` `typescript` |
 | Rube.app | Server MCP universale di Composio che da accesso a oltre 500 app SaaS (Gmail, Slack, Notion, GitHub...) tramite un unico endpoint, con OAuth gestito. Pensato per agenti multi-tool senza configurare ogni integrazione. | `saas` `integrations` `composio` |
 | [TokenSave](https://github.com/aovestdipaperino/tokensave) | Server MCP di code intelligence per agenti di coding AI: oltre 40 tool e 30+ linguaggi, con knowledge graph semantici pre-indicizzati per una comprensione istantanea del codice. Riduce token e numero di tool call, funziona 100% in locale e si integra con 9 agenti. | `open-source` `mcp` `code-intelligence` `knowledge-graph` `rust` `token-reduction` `developer-tools` |
 
@@ -250,8 +251,8 @@ python3 scripts/build_all.py
 
 ## Statistiche
 
-- **133** item totali
-- **101** tool/prodotti
+- **134** item totali
+- **102** tool/prodotti
 - **32** risorse (articoli, corsi, doc, awesome list)
 - **15** categorie utilizzate
 

@@ -2267,5 +2267,26 @@ window.TOOLS_DATA = [
     "pricing": "open-source",
     "type": "tool",
     "added_at": "2026-10-11"
+  },
+  {
+    "id": "rea",
+    "name": "REA (Reverse Engineer Anything)",
+    "description": "Server MCP + CLI che dà a un agente di coding (Claude Code, Codex, Cursor, Gemini CLI e altri) gli strumenti per fare reverse engineering di un'app senza averne il sorgente: «vedo una feature che mi piace, capisco come funziona fino al binario e la rifaccio nel mio progetto». Copre binari nativi (pseudocodice, assembly, simboli e riferimenti tramite Hopper, Ghidra o IDA già installati), app JavaScript/Electron (moduli, source map, IPC, ASAR), assembly .NET, APK Android (JADX, Apktool, adb), app Flutter, binari Go/Rust, WASM, bytecode EVM, database SQLite, firmware, siti web via Chrome, catture di rete (HAR, pcap) e comportamento dei processi. L'analisi gira in locale e ogni conclusione arriva con le prove e i limiti. Setup con `npx rea-agents setup`, che registra il server MCP e installa le istruzioni di workflow per l'agente scelto (con backup della configurazione). Showcase: ricostruzione in C di una funzione di DX-Ball verificata byte per byte, il bridge degli appunti di Notion seguito fino al processo main. Limiti: molte analisi richiedono tool esterni (Ghidra, JADX, tshark…) e alcune sono solo Linux; Node.js 22.19+; rilasci molto frequenti. Va usato su software che si ha diritto di analizzare. Licenza MIT, nato ad aprile 2026.",
+    "url": "https://github.com/morluto/rea",
+    "category": "mcp",
+    "tags": [
+      "open-source",
+      "mcp-server",
+      "reverse-engineering",
+      "ghidra",
+      "binary-analysis",
+      "electron",
+      "android",
+      "cli",
+      "typescript"
+    ],
+    "pricing": "open-source",
+    "type": "tool",
+    "added_at": "2026-10-14"
   }
 ];

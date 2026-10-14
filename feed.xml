@@ -5,8 +5,16 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Sun, 11 Oct 2026 10:16:37 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 14 Oct 2026 14:36:32 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>REA (Reverse Engineer Anything)</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/rea.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/rea.html</guid>
+      <description>Server MCP + CLI che dà a un agente di coding (Claude Code, Codex, Cursor, Gemini CLI e altri) gli strumenti per fare reverse engineering di un'app senza averne il sorgente: «vedo una feature che mi piace, capisco come funziona fino al binario e la rifaccio nel mio progetto». Copre binari nativi (pseudocodice, assembly, simboli e riferimenti tramite Hopper, Ghidra o IDA già installati), app JavaScript/Electron (moduli, source map, IPC, ASAR), assembly .NET, APK Android (JADX, Apktool, adb), app Flutter, binari Go/Rust, WASM, bytecode EVM, database SQLite, firmware, siti web via Chrome, catture di rete (HAR, pcap) e comportamento dei processi. L'analisi gira in locale e ogni conclusione arriva con le prove e i limiti. Setup con `npx rea-agents setup`, che registra il server MCP e installa le istruzioni di workflow per l'agente scelto (con backup della configurazione). Showcase: ricostruzione in C di una funzione di DX-Ball verificata byte per byte, il bridge degli appunti di Notion seguito fino al processo main. Limiti: molte analisi richiedono tool esterni (Ghidra, JADX, tshark…) e alcune sono solo Linux; Node.js 22.19+; rilasci molto frequenti. Va usato su software che si ha diritto di analizzare. Licenza MIT, nato ad aprile 2026.</description>
+      <category>MCP</category>
+      <pubDate>Wed, 14 Oct 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>LLM Wiki v2 (CROW)</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/llm-wiki-v2-crow.html</link>
@@ -398,14 +406,6 @@
       <description>Piattaforma open-source che integra agenti AI come membri del team: si assegnano task agli agenti come a un collega su Linear o Jira, e loro eseguono autonomamente, aggiornano lo stato e segnalano i blocchi. Un daemon locale rileva automaticamente gli agenti installati (Claude Code, Copilot CLI, Codex, ecc.) e li connette al server centrale via WebSocket. Supporta workspace multi-utente e riuso delle skill tra agenti diversi.</description>
       <category>Agent Frameworks</category>
       <pubDate>Mon, 11 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Symphony</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/symphony.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/symphony.html</guid>
-      <description>Tool di orchestrazione di OpenAI che automatizza il lavoro di sviluppo spawning agenti di coding autonomi che gestiscono i task in modo indipendente. Permette ai team di operare a un livello più alto senza supervisionare ogni agente: i task vengono assegnati e gli agenti restituiscono proof of work al completamento. Disponibile come spec aperta con implementazione di riferimento in Elixir.</description>
-      <category>Agent Frameworks</category>
-      <pubDate>Wed, 06 May 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>
