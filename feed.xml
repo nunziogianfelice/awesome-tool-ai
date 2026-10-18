@@ -5,8 +5,16 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Wed, 14 Oct 2026 14:36:32 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 18 Oct 2026 12:21:20 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Harness² (Google Research)</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/harness2.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/harness2.html</guid>
+      <description>Framework di ricerca di Google Research per il «recursive agent harnessing»: migliora non il modello (pesi fissi) ma l'harness che lo circonda, cioè otto componenti modificabili — system prompt, guardrail, memoria, guida ai tool, subagenti, skill, script e plugin. Due livelli di ricorsione: a livello di task, un passo Propose–Probe–Compose propone modifiche all'harness, le prova rieseguendo lo stesso task e compone una versione raffinata dal confronto dei comportamenti, senza bisogno della risposta corretta; a livello di harnessing, un «improvement harness» persistente accumula gli harness adottati e le lezioni supportate da evidenze per guidare i task successivi. Ricorsione parallela (più candidati in larghezza) o sequenziale (raffinamento in profondità), esecutori OpenCode o Codex. Su JobBench, LAB (legale) e WorkBuddy-Bench un solo passo migliora GLM-5 e Gemini 3.5 Flash fino a +11,5 punti. Utile soprattutto come metodo da copiare per far migliorare un proprio agente sui task reali. Limiti: è codice da paper orientato ai benchmark; costa k esecuzioni di prova per task; Linux, Python 3.12, uv e Vertex AI; gli esecutori girano con rete aperta e Codex senza sandbox, quindi non va usato su dati sensibili senza isolamento. Apache-2.0, pubblicato a ottobre 2026 (paper arXiv 2610.14224).</description>
+      <category>Agent Frameworks</category>
+      <pubDate>Sun, 18 Oct 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>REA (Reverse Engineer Anything)</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/rea.html</link>
@@ -398,14 +406,6 @@
       <description>Tool macOS che combina screen capture e analisi AI per abilitare automazione intelligente della GUI. Permette agli agenti AI di catturare screenshot di applicazioni o dell'intero schermo con visual question answering integrato, e di automatizzare click, digitazione e interazioni tramite comandi in linguaggio naturale. Risolve il problema di automatizzare workflow macOS complessi dando agli agenti la capacità di vedere lo schermo e agire su di esso.</description>
       <category>Developer Tools</category>
       <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Multica</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/multica.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/multica.html</guid>
-      <description>Piattaforma open-source che integra agenti AI come membri del team: si assegnano task agli agenti come a un collega su Linear o Jira, e loro eseguono autonomamente, aggiornano lo stato e segnalano i blocchi. Un daemon locale rileva automaticamente gli agenti installati (Claude Code, Copilot CLI, Codex, ecc.) e li connette al server centrale via WebSocket. Supporta workspace multi-utente e riuso delle skill tra agenti diversi.</description>
-      <category>Agent Frameworks</category>
-      <pubDate>Mon, 11 May 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

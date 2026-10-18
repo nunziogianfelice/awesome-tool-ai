@@ -2287,5 +2287,27 @@
   "pricing": "open-source",
   "type": "tool",
   "added_at": "2026-10-14"
+ },
+ {
+  "id": "harness2",
+  "name": "Harness² (Google Research)",
+  "description": "Framework di ricerca di Google Research per il «recursive agent harnessing»: migliora non il modello (pesi fissi) ma l'harness che lo circonda, cioè otto componenti modificabili — system prompt, guardrail, memoria, guida ai tool, subagenti, skill, script e plugin. Due livelli di ricorsione: a livello di task, un passo Propose–Probe–Compose propone modifiche all'harness, le prova rieseguendo lo stesso task e compone una versione raffinata dal confronto dei comportamenti, senza bisogno della risposta corretta; a livello di harnessing, un «improvement harness» persistente accumula gli harness adottati e le lezioni supportate da evidenze per guidare i task successivi. Ricorsione parallela (più candidati in larghezza) o sequenziale (raffinamento in profondità), esecutori OpenCode o Codex. Su JobBench, LAB (legale) e WorkBuddy-Bench un solo passo migliora GLM-5 e Gemini 3.5 Flash fino a +11,5 punti. Utile soprattutto come metodo da copiare per far migliorare un proprio agente sui task reali. Limiti: è codice da paper orientato ai benchmark; costa k esecuzioni di prova per task; Linux, Python 3.12, uv e Vertex AI; gli esecutori girano con rete aperta e Codex senza sandbox, quindi non va usato su dati sensibili senza isolamento. Apache-2.0, pubblicato a ottobre 2026 (paper arXiv 2610.14224).",
+  "url": "https://github.com/google-research/harness2",
+  "category": "agent-framework",
+  "tags": [
+   "open-source",
+   "google-research",
+   "harness-engineering",
+   "self-improving",
+   "agent-optimization",
+   "codex",
+   "opencode",
+   "benchmark",
+   "python",
+   "paper"
+  ],
+  "pricing": "open-source",
+  "type": "tool",
+  "added_at": "2026-10-18"
  }
 ]
