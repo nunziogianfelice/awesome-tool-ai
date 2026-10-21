@@ -91,6 +91,7 @@ python3 scripts/build_all.py
 
 | Tool | Descrizione | Tag |
 |------|-------------|-----|
+| [Agent Beacon (Asymptote Labs)](https://github.com/Asymptote-Labs/agent-beacon) | Livello di memoria condiviso fra harness di coding agent diversi (Claude Code, Codex, Cursor, OpenCode, Cline e altri 20+). Cattura la cronologia completa delle sessioni — prompt, risposte, tool, comandi, modifiche, approvazioni, attività MCP e token — in JSONL locale durevole, con replay esatto di ogni sessione. Da queste tracce estrae conoscenza riusabile (workflow, correzioni, pattern di debug, convenzioni di repo) che, dopo revisione, gli agenti successivi recuperano via MCP o Agent Skills: quello che un agente ha imparato non va reimparato da un altro. CLI in Go installabile via Homebrew, pacchetti Linux e MSI Windows, dashboard su beacon.sh. Attenzione alla privacy: il setup interattivo preseleziona Beacon Cloud (sessioni intere sui loro server); per dati sensibili usare solo la modalità Local. La conoscenza estratta automaticamente va rivista per non consolidare errori. MIT, progetto giovane (maggio 2026). | `open-source` `memory` `agent-memory` `cross-harness` `claude-code` `codex` `session-replay` `mcp` `agent-skills` `go` `local-first` |
 | [agentskill](https://github.com/airscripts/agentskill) | Tool di analisi forense dei repository che genera file AGENTS.md con specifiche comportamentali: naming convention, indentazione, strategie git, grafi di import e mapping dei test. Supporta 15+ linguaggi con sette analizzatori paralleli, producendo spec machine-readable che permettono agli agenti AI di generare codice indistinguibile da quello esistente. | `agent` `code` `tools` `open-source` |
 | [AI Website Cloner Template](https://github.com/JCodesMore/ai-website-cloner-template) | Template Next.js 16 + shadcn/ui con skill /clone-website per agenti di coding (Claude Code e altri): dato un URL, ricostruisce la pagina come codice React pixel-perfect. Pipeline multi-agente: ricognizione via browser, estrazione CSS esatta (getComputedStyle) in spec per componente, builder paralleli in git worktree, QA con visual diff. Solo frontend (dati mock, niente backend/auth). | `open-source` `nextjs` `react` `website-clone` `ai-agent` `claude-code` `tailwindcss` `shadcn-ui` `typescript` |
 | [cmux](https://github.com/manaflow-ai/cmux) | Terminale macOS nativo (Swift + AppKit su motore Ghostty, niente Electron) pensato per orchestrare agenti AI da terminale (Claude Code, Codex, OpenCode): tab verticali con branch git, porte e anelli di notifica quando un agente chiede attenzione, split panel, browser integrato scriptabile, API CLI/Unix socket per l'automazione e companion app iOS sincronizzata. | `open-source` `terminal` `macos` `ai-agent` `claude-code` `multiplexer` `swift` `ghostty` |
@@ -252,8 +253,8 @@ python3 scripts/build_all.py
 
 ## Statistiche
 
-- **135** item totali
-- **103** tool/prodotti
+- **136** item totali
+- **104** tool/prodotti
 - **32** risorse (articoli, corsi, doc, awesome list)
 - **15** categorie utilizzate
 

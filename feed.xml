@@ -5,8 +5,16 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Sun, 18 Oct 2026 12:21:20 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 21 Oct 2026 06:12:17 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Agent Beacon (Asymptote Labs)</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/agent-beacon.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/agent-beacon.html</guid>
+      <description>Livello di memoria condiviso fra harness di coding agent diversi (Claude Code, Codex, Cursor, OpenCode, Cline e altri 20+). Cattura la cronologia completa delle sessioni — prompt, risposte, tool, comandi, modifiche, approvazioni, attività MCP e token — in JSONL locale durevole, con replay esatto di ogni sessione. Da queste tracce estrae conoscenza riusabile (workflow, correzioni, pattern di debug, convenzioni di repo) che, dopo revisione, gli agenti successivi recuperano via MCP o Agent Skills: quello che un agente ha imparato non va reimparato da un altro. CLI in Go installabile via Homebrew, pacchetti Linux e MSI Windows, dashboard su beacon.sh. Attenzione alla privacy: il setup interattivo preseleziona Beacon Cloud (sessioni intere sui loro server); per dati sensibili usare solo la modalità Local. La conoscenza estratta automaticamente va rivista per non consolidare errori. MIT, progetto giovane (maggio 2026).</description>
+      <category>Developer Tools</category>
+      <pubDate>Wed, 21 Oct 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Harness² (Google Research)</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/harness2.html</link>
@@ -396,14 +404,6 @@
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/superpowers.html</link>
       <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/superpowers.html</guid>
       <description>Plugin per Claude Code con 640.000+ installazioni che introduce metodologie strutturate di sviluppo software: TDD guidato (ciclo red-green-refactor), debugging sistematico in quattro fasi, brainstorming socratico pre-codice e code review automatica con checkpoint. Trasforma Claude da assistente reattivo a collaboratore che segue gate di qualità predefiniti. Disponibile tramite slash commands (/brainstorming, /execute-plan).</description>
-      <category>Developer Tools</category>
-      <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Peekaboo</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/peekaboo.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/peekaboo.html</guid>
-      <description>Tool macOS che combina screen capture e analisi AI per abilitare automazione intelligente della GUI. Permette agli agenti AI di catturare screenshot di applicazioni o dell'intero schermo con visual question answering integrato, e di automatizzare click, digitazione e interazioni tramite comandi in linguaggio naturale. Risolve il problema di automatizzare workflow macOS complessi dando agli agenti la capacità di vedere lo schermo e agire su di esso.</description>
       <category>Developer Tools</category>
       <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
     </item>

@@ -2310,5 +2310,28 @@ window.TOOLS_DATA = [
     "pricing": "open-source",
     "type": "tool",
     "added_at": "2026-10-18"
+  },
+  {
+    "id": "agent-beacon",
+    "name": "Agent Beacon (Asymptote Labs)",
+    "description": "Livello di memoria condiviso fra harness di coding agent diversi (Claude Code, Codex, Cursor, OpenCode, Cline e altri 20+). Cattura la cronologia completa delle sessioni — prompt, risposte, tool, comandi, modifiche, approvazioni, attività MCP e token — in JSONL locale durevole, con replay esatto di ogni sessione. Da queste tracce estrae conoscenza riusabile (workflow, correzioni, pattern di debug, convenzioni di repo) che, dopo revisione, gli agenti successivi recuperano via MCP o Agent Skills: quello che un agente ha imparato non va reimparato da un altro. CLI in Go installabile via Homebrew, pacchetti Linux e MSI Windows, dashboard su beacon.sh. Attenzione alla privacy: il setup interattivo preseleziona Beacon Cloud (sessioni intere sui loro server); per dati sensibili usare solo la modalità Local. La conoscenza estratta automaticamente va rivista per non consolidare errori. MIT, progetto giovane (maggio 2026).",
+    "url": "https://github.com/Asymptote-Labs/agent-beacon",
+    "category": "developer-tools",
+    "tags": [
+      "open-source",
+      "memory",
+      "agent-memory",
+      "cross-harness",
+      "claude-code",
+      "codex",
+      "session-replay",
+      "mcp",
+      "agent-skills",
+      "go",
+      "local-first"
+    ],
+    "pricing": "freemium",
+    "type": "tool",
+    "added_at": "2026-10-21"
   }
 ];
