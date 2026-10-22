@@ -5,8 +5,16 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Wed, 21 Oct 2026 06:12:17 +0000</lastBuildDate>
+    <lastBuildDate>Thu, 22 Oct 2026 15:52:59 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>show-me (Claude Code mod)</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/claude-code-show-me.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/claude-code-show-me.html</guid>
+      <description>Mod per Claude Code che fa spiegare Claude con immagini dentro la conversazione: quando un'immagine dice la cosa prima di un paragrafo, Claude la compone in HTML o SVG, Chrome headless la rende in PNG in locale e il terminale la disegna inline con una didascalia. Una skill insegna otto forme con template (quote, compare, zoom, sequence, diagram, proposal overlay, contact sheet, chart) e regole fisse: un punto per immagine, un solo colore d'accento, e Claude rilegge ogni PNG prima di parlarne. Niente viene inviato fuori; i file restano nella cartella temporanea. Richiede Chrome/Chromium e un terminale con grafica (kitty, Ghostty, iTerm2 ≥ 3.5; tmux blocca le immagini); su desktop app e VS Code mostra diagrammi e grafici come SVG nativi. Usa la mod API di Claude Code, ancora in early access. Di Nicolò Pignatelli, MIT, ottobre 2026.</description>
+      <category>Developer Tools</category>
+      <pubDate>Thu, 22 Oct 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Agent Beacon (Asymptote Labs)</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/agent-beacon.html</link>
@@ -398,14 +406,6 @@
       <description>CLI che comprime l'output del terminale per agenti AI, riducendo l'uso di token del 76-99%. Si usa come prefisso ai comandi (es. `trs npm install`) e integra hook per 9 agenti AI (Claude Code, Cursor, Gemini, ecc.). Include parser dedicati per 50+ tipi di comandi, uno strumento di digestione del repository per creare riassunti context-aware, e una dashboard con le statistiche di risparmio cumulativo.</description>
       <category>Developer Tools</category>
       <pubDate>Fri, 15 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Superpowers</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/superpowers.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/superpowers.html</guid>
-      <description>Plugin per Claude Code con 640.000+ installazioni che introduce metodologie strutturate di sviluppo software: TDD guidato (ciclo red-green-refactor), debugging sistematico in quattro fasi, brainstorming socratico pre-codice e code review automatica con checkpoint. Trasforma Claude da assistente reattivo a collaboratore che segue gate di qualità predefiniti. Disponibile tramite slash commands (/brainstorming, /execute-plan).</description>
-      <category>Developer Tools</category>
-      <pubDate>Tue, 12 May 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

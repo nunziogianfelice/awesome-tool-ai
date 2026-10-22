@@ -2332,5 +2332,26 @@
   "pricing": "freemium",
   "type": "tool",
   "added_at": "2026-10-21"
+ },
+ {
+  "id": "claude-code-show-me",
+  "name": "show-me (Claude Code mod)",
+  "description": "Mod per Claude Code che fa spiegare Claude con immagini dentro la conversazione: quando un'immagine dice la cosa prima di un paragrafo, Claude la compone in HTML o SVG, Chrome headless la rende in PNG in locale e il terminale la disegna inline con una didascalia. Una skill insegna otto forme con template (quote, compare, zoom, sequence, diagram, proposal overlay, contact sheet, chart) e regole fisse: un punto per immagine, un solo colore d'accento, e Claude rilegge ogni PNG prima di parlarne. Niente viene inviato fuori; i file restano nella cartella temporanea. Richiede Chrome/Chromium e un terminale con grafica (kitty, Ghostty, iTerm2 ≥ 3.5; tmux blocca le immagini); su desktop app e VS Code mostra diagrammi e grafici come SVG nativi. Usa la mod API di Claude Code, ancora in early access. Di Nicolò Pignatelli, MIT, ottobre 2026.",
+  "url": "https://github.com/nicolopignatelli/claude-code-show-me",
+  "category": "developer-tools",
+  "tags": [
+   "open-source",
+   "claude-code",
+   "claude-code-plugin",
+   "mod",
+   "skill",
+   "visualization",
+   "diagram",
+   "terminal",
+   "javascript"
+  ],
+  "pricing": "free",
+  "type": "tool",
+  "added_at": "2026-10-22"
  }
 ]
