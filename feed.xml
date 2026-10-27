@@ -5,8 +5,16 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Thu, 22 Oct 2026 15:52:59 +0000</lastBuildDate>
+    <lastBuildDate>Tue, 27 Oct 2026 16:57:27 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>eta (Claude Code mod)</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/claude-code-eta.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/claude-code-eta.html</guid>
+      <description>Mod per Claude Code che mostra a che punto sono i processi lunghi che Claude lancia in background (eval, build, batch di chiamate al modello, crawl) e quando finiranno: una fascia sopra il prompt riporta per ogni run le fasi con barra di avanzamento, ritmo per unità e ETA come orario. Non indovina l'avanzamento: all'avvio Claude chiama il tool track_progress e gli passa una probe, un breve comando shell scritto per quel run che conta le tracce lasciate (righe in un file, voci di log) e stampa un JSON con il conteggio per fase, più l'elenco delle fasi con unità, totale e se girano in parallelo o in sequenza. Da lì la mod lavora da sola, senza chiamate al modello né token: esegue la probe ogni 10 secondi, calcola il ritmo sugli ultimi tre minuti e chiude la riga con l'esito quando il task termina. Una skill inclusa dice quali run vale la pena tracciare (non server, watcher o run sotto il minuto). Nota: le probe girano a timer senza un prompt di permesso per ogni esecuzione; usa la mod API di Claude Code, ancora in early access. Di Nicolò Pignatelli, MIT, ottobre 2026.</description>
+      <category>Developer Tools</category>
+      <pubDate>Tue, 27 Oct 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>show-me (Claude Code mod)</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/claude-code-show-me.html</link>
@@ -398,14 +406,6 @@
       <description>Marketplace di skill AI con revisione di sicurezza obbligatoria prima dell'approvazione, suddivise per categoria d'uso. Include skill gratuite e a pagamento, utile quando l'agente deve accedere a file o account sensibili.</description>
       <category>Resources</category>
       <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>trs (Token-Reducing Shell)</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/trs.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/trs.html</guid>
-      <description>CLI che comprime l'output del terminale per agenti AI, riducendo l'uso di token del 76-99%. Si usa come prefisso ai comandi (es. `trs npm install`) e integra hook per 9 agenti AI (Claude Code, Cursor, Gemini, ecc.). Include parser dedicati per 50+ tipi di comandi, uno strumento di digestione del repository per creare riassunti context-aware, e una dashboard con le statistiche di risparmio cumulativo.</description>
-      <category>Developer Tools</category>
-      <pubDate>Fri, 15 May 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>
 </rss>

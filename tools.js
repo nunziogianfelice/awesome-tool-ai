@@ -2354,5 +2354,26 @@ window.TOOLS_DATA = [
     "pricing": "free",
     "type": "tool",
     "added_at": "2026-10-22"
+  },
+  {
+    "id": "claude-code-eta",
+    "name": "eta (Claude Code mod)",
+    "description": "Mod per Claude Code che mostra a che punto sono i processi lunghi che Claude lancia in background (eval, build, batch di chiamate al modello, crawl) e quando finiranno: una fascia sopra il prompt riporta per ogni run le fasi con barra di avanzamento, ritmo per unità e ETA come orario. Non indovina l'avanzamento: all'avvio Claude chiama il tool track_progress e gli passa una probe, un breve comando shell scritto per quel run che conta le tracce lasciate (righe in un file, voci di log) e stampa un JSON con il conteggio per fase, più l'elenco delle fasi con unità, totale e se girano in parallelo o in sequenza. Da lì la mod lavora da sola, senza chiamate al modello né token: esegue la probe ogni 10 secondi, calcola il ritmo sugli ultimi tre minuti e chiude la riga con l'esito quando il task termina. Una skill inclusa dice quali run vale la pena tracciare (non server, watcher o run sotto il minuto). Nota: le probe girano a timer senza un prompt di permesso per ogni esecuzione; usa la mod API di Claude Code, ancora in early access. Di Nicolò Pignatelli, MIT, ottobre 2026.",
+    "url": "https://github.com/nicolopignatelli/claude-code-eta",
+    "category": "developer-tools",
+    "tags": [
+      "open-source",
+      "claude-code",
+      "claude-code-plugin",
+      "mod",
+      "skill",
+      "progress",
+      "background-tasks",
+      "terminal",
+      "typescript"
+    ],
+    "pricing": "free",
+    "type": "tool",
+    "added_at": "2026-10-27"
   }
 ];
