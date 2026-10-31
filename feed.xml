@@ -5,7 +5,7 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Tue, 27 Oct 2026 16:57:27 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 31 Oct 2026 10:29:43 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
     <item>
       <title>eta (Claude Code mod)</title>
@@ -70,6 +70,14 @@
       <description>Modello di programmazione unificato e open source (Apache 2.0) per pipeline di dati batch e streaming: si scrive la pipeline una volta e la si esegue su runner diversi, come Google Cloud Dataflow, Apache Flink, Apache Spark o il DirectRunner locale per sviluppo e test. SDK in Java, Python, Go e TypeScript, più Beam SQL e Beam YAML per pipeline dichiarative. I concetti chiave sono PCollection (dataset distribuiti, limitati o illimitati) e PTransform (trasformazioni componibili), con windowing e trigger per gestire tempo degli eventi e dati in ritardo. Il gancio verso l'AI è la trasformazione RunInference, che esegue modelli ML e LLM dentro la pipeline (PyTorch, scikit-learn, TensorFlow, Hugging Face, Vertex AI): utile per pipeline di ingestion e generazione di embedding a servizio di un RAG. Pro: portabilità reale e nessun lock-in sul motore di esecuzione. Contro: curva di apprendimento ripida e strumento sovradimensionato per volumi piccoli.</description>
       <category>Data &amp; AI</category>
       <pubDate>Mon, 05 Oct 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>agent-qa</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/agent-qa.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/agent-qa.html</guid>
+      <description>Agente QA con memoria memidex e auto-miglioramento per test in linguaggio naturale su web, Android e iOS, con CLI, dashboard, MCP e Agent Skills. FSL-1.1-ALv2: nessun costo software per gli usi consentiti; i provider configurati possono essere a pagamento.</description>
+      <category>Developer Tools</category>
+      <pubDate>Sat, 19 Sep 2026 12:00:00 +0000</pubDate>
     </item>
     <item>
       <title>TypeSafe AI — Jev</title>
@@ -396,14 +404,6 @@
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/agentskill-sh.html</link>
       <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/agentskill-sh.html</guid>
       <description>Marketplace di skill per Claude Code che assegna un security score a ogni skill, fondamentale quando l'AI deve accedere a file o account. Buon filtro qualitativo rispetto alle liste non moderate.</description>
-      <category>Resources</category>
-      <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Agensi.io</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/agensi-io.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/agensi-io.html</guid>
-      <description>Marketplace di skill AI con revisione di sicurezza obbligatoria prima dell'approvazione, suddivise per categoria d'uso. Include skill gratuite e a pagamento, utile quando l'agente deve accedere a file o account sensibili.</description>
       <category>Resources</category>
       <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
     </item>
