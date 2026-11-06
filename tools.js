@@ -2394,5 +2394,24 @@ window.TOOLS_DATA = [
     "pricing": "free",
     "type": "tool",
     "added_at": "2026-11-01"
+  },
+  {
+    "id": "agent-qa",
+    "name": "agent-qa",
+    "description": "Agente QA con memoria memidex e auto-miglioramento per test in linguaggio naturale su web, Android e iOS, con CLI, dashboard, MCP e Agent Skills. FSL-1.1-ALv2: nessun costo software per gli usi consentiti; i provider configurati possono essere a pagamento.",
+    "url": "https://github.com/vostride/agent-qa",
+    "category": "developer-tools",
+    "tags": [
+      "testing",
+      "qa",
+      "web",
+      "android",
+      "ios",
+      "mcp",
+      "memory"
+    ],
+    "pricing": "free",
+    "type": "tool",
+    "added_at": "2026-09-19"
   }
 ];
