@@ -5,8 +5,24 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Sun, 01 Nov 2026 10:39:02 +0000</lastBuildDate>
+    <lastBuildDate>Sat, 14 Nov 2026 12:37:59 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>QVAC BotPsy-0.8B</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/qvac-botpsy-0-8b.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/qvac-botpsy-0-8b.html</guid>
+      <description>Small language model da 0.8B parametri di Tether (piattaforma QVAC), ottimizzato per fare da agente on-device su telefono: chiamate di tool, compiti quotidiani multi-step, thinking attivabile per richiesta. Base Qwen3.5-0.8B, licenza Apache-2.0 (uso commerciale ammesso), pesi GGUF su Hugging Face per llama.cpp. Tether dichiara che batte modelli 2,5 volte più grandi sui task da telefono. Nostro test locale (14/11/2026, Mac M1 16 GB, Q8_0 via llama-server): ~1,2 GB di RAM, ~48 token/s, 25/36 su un eval in italiano con tool reali (Composio e voice agent) contro 23/36 di Gemma 4 e2b; affidabile su chiamate semplici, debole su argomenti precisi e richieste ambigue. Adatto come router locale leggero con conferma sulle azioni, non come agente autonomo. Novembre 2026.</description>
+      <category>Models</category>
+      <pubDate>Sat, 14 Nov 2026 12:00:00 +0000</pubDate>
+    </item>
+    <item>
+      <title>OpenViking</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/openviking.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/openviking.html</guid>
+      <description>«Context database» open source per agenti AI di Volcengine (ByteDance): conoscenza, memoria e skill vivono in un unico filesystem virtuale viking:// che l'agente esplora con comandi tipo ls, tree, read, write e grep, e che l'utente può ispezionare e correggere. Contesto a tre livelli (L0 abstract di una riga, L1 panoramica, L2 contenuto completo) per valutare la rilevanza prima di caricare i file; riassunti di cartella generati in automatico per un retrieval top-down; ricerca diretta (find) o pianificata dal contesto di sessione (search), limitabile a un sottoalbero. Al commit di una sessione archivia la conversazione ed estrae le memorie in Markdown. Server Python self-hosted (uv tool install openviking), CLI Rust «ov», SDK Python/Go/TypeScript, API HTTP, Studio web e app desktop beta; servono un VLM e un modello di embedding (Volcengine, OpenAI, Kimi, GLM o Ollama in locale). Integrazioni: plugin di memoria per Claude Code (hook + MCP), Codex, Cursor, OpenCode, OpenClaw, Hermes, LangChain/LangGraph e qualsiasi client MCP. Benchmark dichiarati dal produttore: memoria LoCoMo ~80-83% contro 24-57% della memoria nativa. Licenza AGPL-3.0 (CLI ed esempi Apache-2.0); esiste anche un servizio gestito Volcengine con tier gratuito. Novembre 2026.</description>
+      <category>LLM Infrastructure</category>
+      <pubDate>Sat, 14 Nov 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>ub-mode</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/ub-mode.html</link>
@@ -388,22 +404,6 @@
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/awesome-claude-code.html</link>
       <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/awesome-claude-code.html</guid>
       <description>Lista curata dalla community con le migliori risorse per Claude Code: skill, plugin, configurazioni, articoli e workflow. Riferimento principale per chi vuole massimizzare Claude come coding agent.</description>
-      <category>Resources</category>
-      <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Anthropic Skills Repository</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/anthropic-skills-repo.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/anthropic-skills-repo.html</guid>
-      <description>Repository ufficiale di Anthropic con skill pronte all'uso per Claude Code: workflow strutturati, integrazioni e utility che estendono le capacita dell'agente. Punto di partenza canonico per esplorare o creare skill.</description>
-      <category>Resources</category>
-      <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>AgentSkill.sh</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/agentskill-sh.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/agentskill-sh.html</guid>
-      <description>Marketplace di skill per Claude Code che assegna un security score a ogni skill, fondamentale quando l'AI deve accedere a file o account. Buon filtro qualitativo rispetto alle liste non moderate.</description>
       <category>Resources</category>
       <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
     </item>

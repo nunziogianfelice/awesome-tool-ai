@@ -79,6 +79,7 @@
 - [Latitude](https://github.com/latitude-dev/latitude-llm): Piattaforma open-source di osservabilità e monitoring per applicazioni LLM e agenti AI: tracing degli errori, logging dei prompt, valutazioni e metriche in produzione. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/latitude-llm.html)
 - [LiteLLM](https://www.litellm.ai/): Proxy e SDK Python open-source che unifica le API di oltre 100 provider LLM in un'unica interfaccia OpenAI-compatible, con retry, fallback, budget e logging. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/litellm.html)
 - [OpenRouter](https://openrouter.ai/): Aggregatore di LLM che espone via un'unica API OpenAI-compatible centinaia di modelli (GPT, Claude, Gemini, Llama, ecc.) con routing automatico, fallback e prezzi competitivi. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/openrouter.html)
+- [OpenViking](https://github.com/volcengine/OpenViking): «Context database» open source per agenti AI di Volcengine (ByteDance): conoscenza, memoria e skill vivono in un unico filesystem virtuale viking:// che l'agente esplora con comandi tipo ls, tree, re… (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/openviking.html)
 - [SibillaOS](https://github.com/engineering87/sibillaos): Distribuzione Linux con LLM integrato: al primo avvio rileva l'hardware, sceglie vLLM o Ollama, scarica un modello adatto alle risorse disponibili e espone un'API OpenAI-compatible. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/sibillaos.html)
 - [WebLLM](https://webllm.mlc.ai/): Runtime per eseguire LLM direttamente nel browser via WebGPU, senza server. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/webllm.html)
 
@@ -97,6 +98,7 @@
 
 ## Models
 
+- [QVAC BotPsy-0.8B](https://huggingface.co/qvac/BotPsy-0.8B-GGUFs): Small language model da 0.8B parametri di Tether (piattaforma QVAC), ottimizzato per fare da agente on-device su telefono: chiamate di tool, compiti quotidiani multi-step, thinking attivabile per ric… (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/qvac-botpsy-0-8b.html)
 - [Qwen3-Coder](https://github.com/QwenLM/Qwen3-Coder): Famiglia di modelli LLM open-weight di Alibaba specializzati per il coding e l'agentic coding, con varianti fino a 480B parametri MoE e supporto a contesti molto lunghi. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/qwen3-coder.html)
 - [TimesFM](https://github.com/google-research/timesfm): Modello fondazionale per la previsione di serie temporali di Google Research (paper ICML 2024): un transformer decoder-only preaddestrato che produce previsioni zero-shot, senza addestramento sui dat… (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/timesfm.html)
 - [TypeSafe AI — Jev](https://typesafe.ai/): Modello di TypeSafe AI (San Francisco) per prendere decisioni dentro il software invece di generare testo: riceve uno stato non strutturato e restituisce un valore tipizzato con una probabilità calib… (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/typesafe-jev.html)

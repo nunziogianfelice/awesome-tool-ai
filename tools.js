@@ -2394,5 +2394,43 @@ window.TOOLS_DATA = [
     "pricing": "free",
     "type": "tool",
     "added_at": "2026-11-01"
+  },
+  {
+    "id": "openviking",
+    "name": "OpenViking",
+    "description": "«Context database» open source per agenti AI di Volcengine (ByteDance): conoscenza, memoria e skill vivono in un unico filesystem virtuale viking:// che l'agente esplora con comandi tipo ls, tree, read, write e grep, e che l'utente può ispezionare e correggere. Contesto a tre livelli (L0 abstract di una riga, L1 panoramica, L2 contenuto completo) per valutare la rilevanza prima di caricare i file; riassunti di cartella generati in automatico per un retrieval top-down; ricerca diretta (find) o pianificata dal contesto di sessione (search), limitabile a un sottoalbero. Al commit di una sessione archivia la conversazione ed estrae le memorie in Markdown. Server Python self-hosted (uv tool install openviking), CLI Rust «ov», SDK Python/Go/TypeScript, API HTTP, Studio web e app desktop beta; servono un VLM e un modello di embedding (Volcengine, OpenAI, Kimi, GLM o Ollama in locale). Integrazioni: plugin di memoria per Claude Code (hook + MCP), Codex, Cursor, OpenCode, OpenClaw, Hermes, LangChain/LangGraph e qualsiasi client MCP. Benchmark dichiarati dal produttore: memoria LoCoMo ~80-83% contro 24-57% della memoria nativa. Licenza AGPL-3.0 (CLI ed esempi Apache-2.0); esiste anche un servizio gestito Volcengine con tier gratuito. Novembre 2026.",
+    "url": "https://github.com/volcengine/OpenViking",
+    "category": "llm-infrastructure",
+    "tags": [
+      "memory",
+      "context-engineering",
+      "agent-memory",
+      "mcp",
+      "claude-code",
+      "rag",
+      "self-hosted"
+    ],
+    "pricing": "freemium",
+    "type": "tool",
+    "added_at": "2026-11-14"
+  },
+  {
+    "id": "qvac-botpsy-0-8b",
+    "name": "QVAC BotPsy-0.8B",
+    "description": "Small language model da 0.8B parametri di Tether (piattaforma QVAC), ottimizzato per fare da agente on-device su telefono: chiamate di tool, compiti quotidiani multi-step, thinking attivabile per richiesta. Base Qwen3.5-0.8B, licenza Apache-2.0 (uso commerciale ammesso), pesi GGUF su Hugging Face per llama.cpp. Tether dichiara che batte modelli 2,5 volte più grandi sui task da telefono. Nostro test locale (14/11/2026, Mac M1 16 GB, Q8_0 via llama-server): ~1,2 GB di RAM, ~48 token/s, 25/36 su un eval in italiano con tool reali (Composio e voice agent) contro 23/36 di Gemma 4 e2b; affidabile su chiamate semplici, debole su argomenti precisi e richieste ambigue. Adatto come router locale leggero con conferma sulle azioni, non come agente autonomo. Novembre 2026.",
+    "url": "https://huggingface.co/qvac/BotPsy-0.8B-GGUFs",
+    "category": "model",
+    "tags": [
+      "slm",
+      "on-device",
+      "tool-calling",
+      "gguf",
+      "llama-cpp",
+      "open-weights",
+      "edge-ai"
+    ],
+    "pricing": "free",
+    "type": "tool",
+    "added_at": "2026-11-14"
   }
 ];
