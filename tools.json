@@ -2431,5 +2431,25 @@
   "pricing": "free",
   "type": "tool",
   "added_at": "2026-11-14"
+ },
+ {
+  "id": "modern-web-guidance",
+  "name": "Modern Web Guidance",
+  "description": "Skill per agenti di coding (Claude Code, Codex, Copilot CLI, Gemini/Antigravity e altri) che porta nel contesto le best practice del web moderno mentre l'agente scrive HTML, CSS e JS lato client: dialog e popover nativi, anchor positioning, container queries, view transitions, scroll-driven animations, form e validazione, accessibilità, Core Web Vitals (LCP, INP, CLS), API di AI integrate nel browser. Copre 250 funzionalità con i dati di compatibilità dei browser; le guide sono potate con eval per non spendere token su ciò che i modelli sanno già. La CLI (npx modern-web-guidance) fa search/retrieve delle guide e ha un legacy-scan che trova i pattern vecchi da modernizzare in un progetto. Mantenuta da Google Chrome, Microsoft Edge, Mozilla Firefox e MDN, licenza Apache-2.0. Il repo -src contiene authoring ed eval dashboard. Novembre 2026.",
+  "url": "https://github.com/GoogleChrome/modern-web-guidance",
+  "category": "developer-tools",
+  "tags": [
+   "agent-skills",
+   "claude-code",
+   "web-platform",
+   "css",
+   "accessibility",
+   "performance",
+   "frontend",
+   "best-practices"
+  ],
+  "pricing": "free",
+  "type": "tool",
+  "added_at": "2026-11-15"
  }
 ]

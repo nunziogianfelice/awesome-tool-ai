@@ -5,8 +5,16 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Sat, 14 Nov 2026 12:37:59 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 15 Nov 2026 16:44:58 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Modern Web Guidance</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/modern-web-guidance.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/modern-web-guidance.html</guid>
+      <description>Skill per agenti di coding (Claude Code, Codex, Copilot CLI, Gemini/Antigravity e altri) che porta nel contesto le best practice del web moderno mentre l'agente scrive HTML, CSS e JS lato client: dialog e popover nativi, anchor positioning, container queries, view transitions, scroll-driven animations, form e validazione, accessibilità, Core Web Vitals (LCP, INP, CLS), API di AI integrate nel browser. Copre 250 funzionalità con i dati di compatibilità dei browser; le guide sono potate con eval per non spendere token su ciò che i modelli sanno già. La CLI (npx modern-web-guidance) fa search/retrieve delle guide e ha un legacy-scan che trova i pattern vecchi da modernizzare in un progetto. Mantenuta da Google Chrome, Microsoft Edge, Mozilla Firefox e MDN, licenza Apache-2.0. Il repo -src contiene authoring ed eval dashboard. Novembre 2026.</description>
+      <category>Developer Tools</category>
+      <pubDate>Sun, 15 Nov 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>QVAC BotPsy-0.8B</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/qvac-botpsy-0-8b.html</link>
@@ -396,14 +404,6 @@
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/awesome-claude-code-subagents.html</link>
       <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/awesome-claude-code-subagents.html</guid>
       <description>Raccolta curata di subagenti specializzati per Claude Code, organizzati per dominio d'uso. Ogni subagente ha profilo, tool set e CLAUDE.md che ne definisce il comportamento. Ottimo per estendere Claude con agenti verticali pronti all'uso.</description>
-      <category>Resources</category>
-      <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Awesome Claude Code</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/awesome-claude-code.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/awesome-claude-code.html</guid>
-      <description>Lista curata dalla community con le migliori risorse per Claude Code: skill, plugin, configurazioni, articoli e workflow. Riferimento principale per chi vuole massimizzare Claude come coding agent.</description>
       <category>Resources</category>
       <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
     </item>
