@@ -2451,5 +2451,25 @@
   "pricing": "free",
   "type": "tool",
   "added_at": "2026-11-15"
+ },
+ {
+  "id": "openmausbot",
+  "name": "OpenMausBot",
+  "description": "App desktop open source (Electron, macOS/Windows/Ubuntu) in stile chat di messaggistica dove ogni contatto è un agente AI vero: sotto girano le CLI claude, codex o grok già installate sul computer, con i login e gli abbonamenti esistenti. Ogni bot ha personalità, modello, un computer suo (desktop Linux in cloud, VM locale isolata o, su richiesta esplicita, il Mac stesso) e 500+ app collegate via Composio. Le azioni rischiose (comandi shell, modifiche ai file, domande) arrivano come card in chat con Consenti/Nega. Local-first: un piccolo server su 127.0.0.1 gestisce i processi, trascrizioni e chiavi restano in ~/.openmausbot. Alternativa aperta a Grok Bot, Meta Muse, OpenAI dots e Cue di Manus. Licenza Apache-2.0, nato ad agosto 2026, ~23K stelle. Progetto giovane: il controllo del computer host è ancora da maneggiare con cautela. Novembre 2026.",
+  "url": "https://github.com/milind-soni/OpenMausBot",
+  "category": "agent-framework",
+  "tags": [
+   "multi-agent",
+   "claude-code",
+   "codex",
+   "local-first",
+   "computer-use",
+   "composio",
+   "electron",
+   "human-in-the-loop"
+  ],
+  "pricing": "free",
+  "type": "tool",
+  "added_at": "2026-11-15"
  }
 ]
