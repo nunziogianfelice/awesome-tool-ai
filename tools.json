@@ -2471,5 +2471,26 @@
   "pricing": "free",
   "type": "tool",
   "added_at": "2026-11-15"
+ },
+ {
+  "id": "nvidia-auto-ontology",
+  "name": "NVIDIA Auto Ontology",
+  "description": "Framework Python di NVIDIA che costruisce un livello semantico (ontologia + knowledge graph) sopra i database aziendali: genera l'ontologia dai metadati, collega i modelli semantici già esistenti e riconcilia definizioni in conflitto tra sistemi (es. cosa vuol dire «ricavo»). Gli agenti lo usano via MCP, CLI e API per un text-to-SQL affidabile: ogni risposta torna con SQL, passaggi e provenienza del dato, e le correzioni certificate rientrano nell'ontologia. Stack pesante: Next.js, FastAPI con LangChain, Postgres con pgvector, Vault opzionale; Docker Compose o Helm. Modelli di default NVIDIA NIM (Nemotron), endpoint configurabili. Benchmark BIRD nel repo auto-ontology-eval. Ha senso solo su database relazionali grandi con metriche condivise, non su documenti. Apache-2.0, ~13K stelle, nessun contributo esterno accettato. Novembre 2026.",
+  "url": "https://github.com/NVIDIA/auto-ontology",
+  "category": "data-ai",
+  "tags": [
+   "ontology",
+   "knowledge-graph",
+   "text-to-sql",
+   "semantic-layer",
+   "mcp",
+   "nvidia",
+   "nim",
+   "postgres",
+   "pgvector"
+  ],
+  "pricing": "free",
+  "type": "tool",
+  "added_at": "2026-11-16"
  }
 ]
