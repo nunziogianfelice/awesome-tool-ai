@@ -5,8 +5,16 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Sun, 15 Nov 2026 17:43:43 +0000</lastBuildDate>
+    <lastBuildDate>Mon, 16 Nov 2026 08:51:53 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>NVIDIA Auto Ontology</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/nvidia-auto-ontology.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/nvidia-auto-ontology.html</guid>
+      <description>Framework Python di NVIDIA che costruisce un livello semantico (ontologia + knowledge graph) sopra i database aziendali: genera l'ontologia dai metadati, collega i modelli semantici già esistenti e riconcilia definizioni in conflitto tra sistemi (es. cosa vuol dire «ricavo»). Gli agenti lo usano via MCP, CLI e API per un text-to-SQL affidabile: ogni risposta torna con SQL, passaggi e provenienza del dato, e le correzioni certificate rientrano nell'ontologia. Stack pesante: Next.js, FastAPI con LangChain, Postgres con pgvector, Vault opzionale; Docker Compose o Helm. Modelli di default NVIDIA NIM (Nemotron), endpoint configurabili. Benchmark BIRD nel repo auto-ontology-eval. Ha senso solo su database relazionali grandi con metriche condivise, non su documenti. Apache-2.0, ~13K stelle, nessun contributo esterno accettato. Novembre 2026.</description>
+      <category>Data &amp; AI</category>
+      <pubDate>Mon, 16 Nov 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>OpenMausBot</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/openmausbot.html</link>
@@ -396,14 +404,6 @@
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/mcp-market.html</link>
       <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/mcp-market.html</guid>
       <description>Portale che aggrega oltre 30.000 MCP tool per connettere LLM a database, Google Drive, Slack e altri SaaS. Utile per trovare server MCP pronti all'uso senza sviluppo custom.</description>
-      <category>Resources</category>
-      <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>ClaudeMarketPlaces</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/claude-marketplaces.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/claude-marketplaces.html</guid>
-      <description>Marketplace community con centinaia di skill per Claude Code, navigabili per categoria con sistema di votazione. Piattaforma principale per scoprire e condividere skill Claude pronte all'uso.</description>
       <category>Resources</category>
       <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
     </item>
