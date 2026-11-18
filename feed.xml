@@ -5,8 +5,16 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Mon, 16 Nov 2026 08:51:53 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 18 Nov 2026 14:06:22 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Unslop</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/unslop.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/unslop.html</guid>
+      <description>Skill per agenti di coding (Claude Code, Codex e simili) che trasforma un'interfaccia «vibecoded», dall'aspetto generato con l'AI, in una UI progettata con un carattere suo. Prima fa un audit dei segni tipici di slop (gradienti viola, glow, testo sfumato, emoji nelle etichette, badge «New ✨», etichette maiuscole spaziate, spaziature incoerenti), poi ricava dal prodotto una direzione in cinque righe (prodotto, carattere, mondo, momenti, firma) e si ferma per farla approvare. Corregge quindi in nove passate ordinate: spaziatura su griglia di 4px, colore (rampa neutra + un solo accento), icone, testi, tipografia, layout, dettagli, visual e animazioni; se trova poco slop lavora in modalità polish, se non ne trova lo dice e non tocca nulla. Include token di riferimento, regole RTL, esempi finiti e script Node per salvare una pagina live e per generare un video della trasformazione. Funziona su React, Tailwind e HTML/CSS. Di Damir Sokolovsky (@heydamir), licenza CC BY 4.0. Novembre 2026: circa 18k stelle su GitHub.</description>
+      <category>Developer Tools</category>
+      <pubDate>Wed, 18 Nov 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>NVIDIA Auto Ontology</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/nvidia-auto-ontology.html</link>
@@ -396,14 +404,6 @@
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/prompt-engineering-guide.html</link>
       <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/prompt-engineering-guide.html</guid>
       <description>Guida completa al prompt engineering di DAIR.AI: tecniche (zero-shot, few-shot, CoT, RAG, agents), best practice e paper di riferimento. La risorsa educativa piu citata sull'argomento, aggiornata continuamente.</description>
-      <category>Resources</category>
-      <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>MCP Market</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/mcp-market.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/mcp-market.html</guid>
-      <description>Portale che aggrega oltre 30.000 MCP tool per connettere LLM a database, Google Drive, Slack e altri SaaS. Utile per trovare server MCP pronti all'uso senza sviluppo custom.</description>
       <category>Resources</category>
       <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
     </item>

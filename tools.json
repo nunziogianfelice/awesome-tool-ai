@@ -2492,5 +2492,25 @@
   "pricing": "free",
   "type": "tool",
   "added_at": "2026-11-16"
+ },
+ {
+  "id": "unslop",
+  "name": "Unslop",
+  "description": "Skill per agenti di coding (Claude Code, Codex e simili) che trasforma un'interfaccia «vibecoded», dall'aspetto generato con l'AI, in una UI progettata con un carattere suo. Prima fa un audit dei segni tipici di slop (gradienti viola, glow, testo sfumato, emoji nelle etichette, badge «New ✨», etichette maiuscole spaziate, spaziature incoerenti), poi ricava dal prodotto una direzione in cinque righe (prodotto, carattere, mondo, momenti, firma) e si ferma per farla approvare. Corregge quindi in nove passate ordinate: spaziatura su griglia di 4px, colore (rampa neutra + un solo accento), icone, testi, tipografia, layout, dettagli, visual e animazioni; se trova poco slop lavora in modalità polish, se non ne trova lo dice e non tocca nulla. Include token di riferimento, regole RTL, esempi finiti e script Node per salvare una pagina live e per generare un video della trasformazione. Funziona su React, Tailwind e HTML/CSS. Di Damir Sokolovsky (@heydamir), licenza CC BY 4.0. Novembre 2026: circa 18k stelle su GitHub.",
+  "url": "https://github.com/heydamir/unslop",
+  "category": "developer-tools",
+  "tags": [
+   "agent-skills",
+   "claude-code",
+   "ui-design",
+   "frontend",
+   "design-review",
+   "css",
+   "tailwind",
+   "cc-by-4.0"
+  ],
+  "pricing": "free",
+  "type": "tool",
+  "added_at": "2026-11-18"
  }
 ]

@@ -70,6 +70,7 @@
 - [trs (Token-Reducing Shell)](https://github.com/dPeluChe/trs): CLI che comprime l'output del terminale per agenti AI, riducendo l'uso di token del 76-99%. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/trs.html)
 - [TrueCourse](https://github.com/truecourse-ai/truecourse): Trasforma la documentazione che un team scrive già (PRD, ADR, README, siti di documentazione) in test end-to-end che girano davvero. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/truecourse.html)
 - [ub-mode](https://github.com/unclebob/ub-mode): Skill per coding agent (Claude Code, Cursor, Grok) di Robert C. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/ub-mode.html)
+- [Unslop](https://github.com/heydamir/unslop): Skill per agenti di coding (Claude Code, Codex e simili) che trasforma un'interfaccia «vibecoded», dall'aspetto generato con l'AI, in una UI progettata con un carattere suo. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/unslop.html)
 - [Zoetrope](https://github.com/furkankly/zoetrope): Visualizzatore di sessioni Claude Code come grafo interattivo: legge i transcript JSONL e mostra un nodo per agente (main e subagent) con stato, tool in esecuzione, conteggio chiamate e token in outp… (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/zoetrope.html)
 
 ## LLM Infrastructure
