@@ -119,6 +119,7 @@ python3 scripts/build_all.py
 
 | Tool | Descrizione | Tag |
 |------|-------------|-----|
+| [Agent Substrate](https://github.com/agent-substrate/substrate) | Runtime open source di Google e Solo.io per far girare su Kubernetes moltissimi agenti AI che restano per lo più inattivi. Invece di un pod per agente, usa un piccolo pool di worker già avviati: quando un agente aspetta il modello, un tool o una persona, ne salva memoria e filesystem in uno snapshot e libera il worker, poi lo ripristina su un worker libero alla richiesta successiva (in meno di un secondo secondo i produttori, fino a 500 ms). Ogni agente gira in una sandbox gVisor o microVM con un'identità di breve durata, senza mai vedere le chiavi API: le aggiunge un gateway fuori dalla sandbox, così un agente vittima di prompt injection non ha credenziali da rubare. Funziona con ADK, LangChain, Claude Code, Codex, Antigravity e server MCP senza modifiche agli SDK, poggia su Agent Sandbox e su Kubernetes standard. Nella demo circa 250 agenti con stato condividono 8 pod; i produttori dichiarano densità 10 volte maggiore dei container classici, ma i benchmark non sono verificati in modo indipendente. Versione 1.0 (novembre 2026), licenza Apache 2.0. | `kubernetes` `agent-runtime` `sandbox` `gvisor` `snapshot` `multi-agent` `security` `apache-2.0` |
 | [AgentMail](https://agentmail.to/) | Infrastruttura email pensata per agenti AI: API per creare caselle al volo, ricevere e inviare email programmaticamente con webhook strutturati. Risolve il problema di dare un indirizzo email a ogni agente. | `api` `email` `agent` |
 | [Apple Foundation Models](https://developer.apple.com/documentation/foundationmodels) | Framework Swift di Apple per usare i modelli on-device di Apple Intelligence direttamente nelle app iOS/macOS. Espone API per generazione testo, tool calling e guided generation con privacy locale. | `apple` `on-device` `ios` `macos` `swift` `privacy` |
 | [exo](https://github.com/exo-explore/exo) | Framework open source che unisce i dispositivi di tutti i giorni (Mac, laptop, in prospettiva Linux/GPU) in un cluster AI per far girare LLM troppo grandi per una singola macchina. Partiziona il modello automaticamente tra i nodi (pipeline e tensor parallelism, fino a 3.2x di speedup su 4 dispositivi), con scoperta automatica dei device sulla rete e supporto RDMA over Thunderbolt. Backend MLX; 46k+ stelle, Apache 2.0. | `distributed-inference` `cluster` `local-llm` `mlx` `pipeline-parallelism` `tensor-parallelism` `open-source` `edge` |
@@ -262,8 +263,8 @@ python3 scripts/build_all.py
 
 ## Statistiche
 
-- **145** item totali
-- **113** tool/prodotti
+- **146** item totali
+- **114** tool/prodotti
 - **32** risorse (articoli, corsi, doc, awesome list)
 - **15** categorie utilizzate
 

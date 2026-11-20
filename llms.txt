@@ -75,6 +75,7 @@
 
 ## LLM Infrastructure
 
+- [Agent Substrate](https://github.com/agent-substrate/substrate): Runtime open source di Google e Solo.io per far girare su Kubernetes moltissimi agenti AI che restano per lo più inattivi. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/agent-substrate.html)
 - [AgentMail](https://agentmail.to/): Infrastruttura email pensata per agenti AI: API per creare caselle al volo, ricevere e inviare email programmaticamente con webhook strutturati. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/agentmail.html)
 - [Apple Foundation Models](https://developer.apple.com/documentation/foundationmodels): Framework Swift di Apple per usare i modelli on-device di Apple Intelligence direttamente nelle app iOS/macOS. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/apple-foundation-models.html)
 - [exo](https://github.com/exo-explore/exo): Framework open source che unisce i dispositivi di tutti i giorni (Mac, laptop, in prospettiva Linux/GPU) in un cluster AI per far girare LLM troppo grandi per una singola macchina. (dettagli: https://nunziogianfelice.github.io/awesome-tool-ai/tools/exo.html)

@@ -5,8 +5,16 @@
     <link>https://nunziogianfelice.github.io/awesome-tool-ai/</link>
     <description>Knowledge base ricercabile di tool, framework e risorse per il mondo AI agentico.</description>
     <language>it</language>
-    <lastBuildDate>Wed, 18 Nov 2026 14:06:22 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 20 Nov 2026 06:44:08 +0000</lastBuildDate>
     <atom:link href="https://nunziogianfelice.github.io/awesome-tool-ai/feed.xml" rel="self" type="application/rss+xml"/>
+    <item>
+      <title>Agent Substrate</title>
+      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/agent-substrate.html</link>
+      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/agent-substrate.html</guid>
+      <description>Runtime open source di Google e Solo.io per far girare su Kubernetes moltissimi agenti AI che restano per lo più inattivi. Invece di un pod per agente, usa un piccolo pool di worker già avviati: quando un agente aspetta il modello, un tool o una persona, ne salva memoria e filesystem in uno snapshot e libera il worker, poi lo ripristina su un worker libero alla richiesta successiva (in meno di un secondo secondo i produttori, fino a 500 ms). Ogni agente gira in una sandbox gVisor o microVM con un'identità di breve durata, senza mai vedere le chiavi API: le aggiunge un gateway fuori dalla sandbox, così un agente vittima di prompt injection non ha credenziali da rubare. Funziona con ADK, LangChain, Claude Code, Codex, Antigravity e server MCP senza modifiche agli SDK, poggia su Agent Sandbox e su Kubernetes standard. Nella demo circa 250 agenti con stato condividono 8 pod; i produttori dichiarano densità 10 volte maggiore dei container classici, ma i benchmark non sono verificati in modo indipendente. Versione 1.0 (novembre 2026), licenza Apache 2.0.</description>
+      <category>LLM Infrastructure</category>
+      <pubDate>Fri, 20 Nov 2026 12:00:00 +0000</pubDate>
+    </item>
     <item>
       <title>Unslop</title>
       <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/unslop.html</link>
@@ -397,14 +405,6 @@
       <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/repomix.html</guid>
       <description>Tool open-source che impacchetta l'intero repository in un unico file ottimizzato per LLM, con output XML, Markdown o testo, esclusione via .gitignore e conteggio token. Standard di fatto per preparare codebase come contesto per agenti AI.</description>
       <category>Tool &amp; Utility</category>
-      <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
-    </item>
-    <item>
-      <title>Prompt Engineering Guide (DAIR.AI)</title>
-      <link>https://nunziogianfelice.github.io/awesome-tool-ai/tools/prompt-engineering-guide.html</link>
-      <guid isPermaLink="true">https://nunziogianfelice.github.io/awesome-tool-ai/tools/prompt-engineering-guide.html</guid>
-      <description>Guida completa al prompt engineering di DAIR.AI: tecniche (zero-shot, few-shot, CoT, RAG, agents), best practice e paper di riferimento. La risorsa educativa piu citata sull'argomento, aggiornata continuamente.</description>
-      <category>Resources</category>
       <pubDate>Sun, 17 May 2026 12:00:00 +0000</pubDate>
     </item>
   </channel>

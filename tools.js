@@ -2513,5 +2513,25 @@ window.TOOLS_DATA = [
     "pricing": "free",
     "type": "tool",
     "added_at": "2026-11-18"
+  },
+  {
+    "id": "agent-substrate",
+    "name": "Agent Substrate",
+    "description": "Runtime open source di Google e Solo.io per far girare su Kubernetes moltissimi agenti AI che restano per lo più inattivi. Invece di un pod per agente, usa un piccolo pool di worker già avviati: quando un agente aspetta il modello, un tool o una persona, ne salva memoria e filesystem in uno snapshot e libera il worker, poi lo ripristina su un worker libero alla richiesta successiva (in meno di un secondo secondo i produttori, fino a 500 ms). Ogni agente gira in una sandbox gVisor o microVM con un'identità di breve durata, senza mai vedere le chiavi API: le aggiunge un gateway fuori dalla sandbox, così un agente vittima di prompt injection non ha credenziali da rubare. Funziona con ADK, LangChain, Claude Code, Codex, Antigravity e server MCP senza modifiche agli SDK, poggia su Agent Sandbox e su Kubernetes standard. Nella demo circa 250 agenti con stato condividono 8 pod; i produttori dichiarano densità 10 volte maggiore dei container classici, ma i benchmark non sono verificati in modo indipendente. Versione 1.0 (novembre 2026), licenza Apache 2.0.",
+    "url": "https://github.com/agent-substrate/substrate",
+    "category": "llm-infrastructure",
+    "tags": [
+      "kubernetes",
+      "agent-runtime",
+      "sandbox",
+      "gvisor",
+      "snapshot",
+      "multi-agent",
+      "security",
+      "apache-2.0"
+    ],
+    "pricing": "free",
+    "type": "tool",
+    "added_at": "2026-11-20"
   }
 ];
